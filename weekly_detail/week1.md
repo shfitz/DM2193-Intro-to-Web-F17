@@ -20,7 +20,7 @@
  <li>Sign up for <a href="https://github.com">GitHub and send me the link for the repo for this class</a> on Slack</li>
  <li>Read this <a href="http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners">beginners intro to git</a>.  Feel  free  to  use  a  GUI.</li>
  <li>Download a text editor of your choice. <a href="http://www.sublimetext.com/">Sublime Text</a> and <a href="http://brackets.io/">Brackets</a> are two great choices. Atom is cool too.</li>
- <li>Bring in a recipe to class, it doesn;t need to be overly complicated, but it should have a couple of ingredients, and a list of instructions on what to do.</li>
+ <li>Bring in a recipe to class (post it to your github acccount!), it doesn't need to be overly complicated, but it should have a couple of ingredients, and a list of instructions on what to do.</li>
 
 <!--
 <li>Pick a website. What is the goal of this site? How does the design reflect that goal? How is the website "<a href="https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/">responsive</a>"? 
