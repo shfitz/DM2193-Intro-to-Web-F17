@@ -69,7 +69,7 @@
     <tr>
         <td valign="top">2</td>
         <td valign="top">
-        <a href="weekly_detail/week2.html"><b>Sept 12</b><b><br/>Semantic HTML & CSS</b>
+        <<b>Sept 12</b><b><br/>Semantic HTML & CSS</b>
             <ul>
                 <li>Homework Presentations</li>
                 <li>Semantic HTML</li>
@@ -83,10 +83,10 @@
             HW: <ul>
                 <li>Read "How We <em>Really</em> Use the Web"</li>
                 <li>Prepare a draft project plan to present on Wednesday. Use <a href="http://www.webmonkey.com/2010/02/information_architecture_tutorial">Information Architecture Tutorial<a/> as a guide</li>
-                </a>
+
         </td>
         <td valign="top">
-        <a href="weekly_detail/week2.html">
+
         <b>Sept 14<br/>Information Architecture, UX/UI</b>
             <ul>
                 <li>Definitions: UX, UI, IxD, IA</li>
@@ -94,14 +94,13 @@
                 <li>Wireframes</li>
                 <li>Site Maps</li>
             </ul>
-            DUE: Midterm Proposals<br/>
+            Midterm Proposals<br/>
             HW:
             <ul>
             <li>Site Map</li>
             <li>Wireframe</li>
             <li>Revise Project Plan</li>
             <li>Read "Billboard Design 101"</li>
-            </a>
         </td>
     </tr>
     <tr>
