@@ -1,12 +1,12 @@
-## Intro to Web Development <small>DM-UY 2193/B</small>
+## Intro to Web Development <small>DM-UY 2193</small>
 
 ![NYU](http://engineering.nyu.edu/files/tandon_long_color.png)
 #### Integrated Digital Media • Technology, Culture & Society Department
 
 
-    Jason Sigal <jason.sigal@gmail.com>
-    Spring 2016 • Mondays & Wednesdays • 2:30-4:20PM • Magnet Rm 817 • 3 credit hrs
-    Office hours by appointment or directly after class
+    Scott Fitzgerald shf220@nyu.edu
+    Fall 2017 • Tu & Th • 12:30-2:20PM • Magnet Rm 817 • 3 credit hrs
+    Office hours TBD
 
 ---
 
@@ -22,8 +22,8 @@
 <table>
     <thead>
         <th width="2%">wk</th>
-        <th width="49%">Mondays</th>
-        <th width="49%">Wednesdays</th>
+        <th width="49%">Tuesday</th>
+        <th width="49%">Thursday</th>
     </thead>
     <tr>
         <td valign="top">1</td>
@@ -40,9 +40,9 @@
                 <li>How Web Dev Works</li>
                 <li>Overview of Tools</li>
             </ul>
-            HW: 
+            HW:
            SEE WEEKLY DETAIL
-            
+
             </a>
         </td>
         <td valign="top" width="49%">
@@ -61,7 +61,7 @@
                 <li>Discuss HW assignments</li>
             </ul>
             HW: See weekly detail
-            </ul> 
+            </ul>
         </a>
 
         </td>
@@ -95,7 +95,7 @@
                 <li>User Flow / User Stories</li>
                 <li>Wireframes</li>
                 <li>Site Maps</li>
-            </ul> 
+            </ul>
             DUE: Midterm Proposals<br/>
             HW:
             <ul>
@@ -110,7 +110,7 @@
         <td valign="top">3</td>
         <td valign="top"><b>Feb 8<br/>Midterm Proposals, CSS pt.2</b>
             <ul>
-                <li>Show & Tells: James T, Jamie, Nicole</li> 
+                <li>Show & Tells: James T, Jamie, Nicole</li>
                 <li>Present Midterm Proposals, Site Maps & Wireframes</li>
                 <li>CSS Continued</li>
                 <li>Images</li>
@@ -141,7 +141,7 @@
                 <li>
                 <a href="http://slides.com/jasonsigal/css/">Slides</a></li>
             </ul>
-            HW: 
+            HW:
             <ul>
             <li>Review: <a href="http://learnlayout.com/">Learn CSS Layout</a></li>
             <li>HTML/CSS prototype based on your wireframe
@@ -166,10 +166,10 @@
                 <li>Colorspace</li>
                 <li>Font</li>
                 <li><a href="http://slides.com/jasonsigal/deck-7/">Slides</a></li>
-            </ul> 
+            </ul>
             Due: HTML/CSS Prototype
             <br/>
-            HW: 
+            HW:
             <ul>
             <li>Create a Style Guide for your website using a program of your choice (it could be Photoshop, or HTML/CSS). Use <a href="http://www.yelp.com/styleguide">Yelp</a> as inspiration. Post to Slack with hashtag #wk4a. Include sections for:</li>
             <ul>
@@ -199,13 +199,13 @@
                     <li>Filter</li>
                     <li>Transform</li>
                     <li>Animation</li>
-                </ul> 
+                </ul>
                 <li>Show & Tells: Polina and Echo</li>
             </ul>
             HW:
             <ul>
                 <li>Redo prototypes, make them responsive, prepare for user testing on Feb 29th (due 2/29)</li>
-                <li>Read <a href="https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns/?hl=en">Responsive Patterns</a> and <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Guide to Flexbox</a></li> 
+                <li>Read <a href="https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns/?hl=en">Responsive Patterns</a> and <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Guide to Flexbox</a></li>
                 <li>Read <a href="http://css3.bradshawenterprises.com/">CSS3 Transform, Transition, Animation Tutorial</a></li>
             </ul>
             DUE: Style Guide<br/></a>
@@ -213,11 +213,11 @@
                 --> <a href="https://slides.com/jasonsigal/responsive">Slides</a></li>
         </td>
         <td valign="top"><b>
-        
-        
+
+
         <a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/weekly_detail/week_5.html"> Feb 24
             <br/>
-            
+
             Review CSS and HTML, User-Centered Design</b>
             </a>
             <ul>
@@ -243,7 +243,7 @@
                 <li>Review Topics</li>
                 <li>Non-Quiz?</li>
             </ul>
-            HW: 
+            HW:
             <ul>
               <li>Put your project on GitHub.</li>
               <li>Keep working on midterms</li>
@@ -327,20 +327,20 @@
             </ul>   </a>         
         </td>
         <td valign="top">
-        
+
         <a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/weekly_detail/week_8.html"><b>Mar 30</b><br>
             <b>CSS Frameworks</b>
             <ul>
                 <li>Intro to Bootstrap</li>
                 <li>Intro to Foundation</li>
-                
+
             </ul></a>
         </td>
     </tr>
     <tr>
         <td valign="top">10</td>
         <td valign="top">
-        
+
         <a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/weekly_detail/week_9.html"><s><b>Apr 4</b></s> <em>Professor @ Web Audio Conference</em>
             <h4>This week, class meets on<br/>
             <b>FRIDAY April 8th, 2:30-4:20pm</b></h4><br/>
@@ -351,7 +351,7 @@
 <s><b>Apr 6</b></s> <em>Professor @ Web Audio Conference</em>
                         <h4>This week, class meets on<br/>
             <b>FRIDAY April 8th, 2:30-4:20pm</b></h4><br/>
-            HW: 
+            HW:
             <ul>
                 <li>Framework Tutorials</li>
                 <li>Prepare Final Project Proposals</li>

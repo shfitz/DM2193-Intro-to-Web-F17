@@ -1,11 +1,11 @@
-## Intro to Web Development <small>DM-UY 2193/B</small>
+## Intro to Web Development <small>DM-UY 2193</small>
 ![NYU](http://engineering.nyu.edu/files/tandon_long_color.png)
 #### Integrated Digital Media • Technology, Culture & Society Department
 
 
-    Jason Sigal <jason.sigal@gmail.com>
-    Spring 2016 • Mondays & Wednesdays • 2:30-4:20PM • Magnet Rm 817 • 3 credit hrs
-    Office hours by appointment or directly after class
+Scott Fitzgerald shf220@nyu.edu
+Fall 2017 • Tu & Th • 12:30-2:20PM • Magnet Rm 817 • 3 credit hrs
+Office hours TBD
 
 ---
 
@@ -50,7 +50,7 @@
 * [Compiling SASS in Sublime Text ](http://www.hongkiat.com/blog/sublime-text-compiling-sass/)
 
 ## JavaScript
-* Book: [JavaScript and JQuery: Interactive Front-End Web Development](http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647) by Jon Ducket 
+* Book: [JavaScript and JQuery: Interactive Front-End Web Development](http://www.amazon.com/JavaScript-JQuery-Interactive-Front-End-Development/dp/1118531647) by Jon Ducket
 * [Eloquent JavaScript](http://eloquentjavascript.net/)
 * [Re-Introduction to JavaScript @ Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 * Advanced: [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript) by Addy Osmani
@@ -103,14 +103,14 @@
 * [ColorZilla](http://www.colorzilla.com)
 * [ColorZilla’s Gradient Editor](http://www.colorzilla.com/gradient-editor)
 * http://0to255.com
-* https://kuler.adobe.com/explore 
+* https://kuler.adobe.com/explore
 
 #### Images
 * [Murally for Mood Boards](http://mural.ly)
 * [The Comprehensive Guide to Saving Images for the Web](http://sixrevisions.com/web_design/comprehensive-guide-saving-images-for-web)
 
 #### Grid Systems
-* http://www.thegridsystem.org 
+* http://www.thegridsystem.org
 * [Unsemantic](http://unsemantic.com/)
 
 #### Wireframes / Schematics
@@ -192,7 +192,7 @@
 * [GitHub for Mac] (https://mac.github.com)
 * [GitHub for Windows] (https://windows.github.com)
 * [Free private repositories for students](https://education.github.com)
-* [Understanding Github a Journey for Beginners Part 1](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1) 
+* [Understanding Github a Journey for Beginners Part 1](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
 * [Github glossary](https://help.github.com/articles/github-glossary)
 * [Github guides](https://guides.github.com)*
 * [Github help](https://help.github.com)
@@ -201,7 +201,7 @@
 * [Github Training & Guides on Youtube](https://www.youtube.com/user/GitHubGuides)
 * [Introduction to GitHub & Git Foundations](https://www.youtube.com/watch?v=FyfwLX4HAxM)
 * [Other resources](https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github)
-* [Keeping forks in sync](https://help.github.com/articles/syncing-a-fork) 
+* [Keeping forks in sync](https://help.github.com/articles/syncing-a-fork)
 * [codeschool.com: Git Basics](https://www.codeschool.com/courses/try-git)
 
 ## Additional Articles

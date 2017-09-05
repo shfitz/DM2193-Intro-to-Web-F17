@@ -1,11 +1,11 @@
-## Intro to Web Development <small>DM-UY 2193/B</small>
+## Intro to Web Development <small>DM-UY 2193</small>
 ![NYU](http://engineering.nyu.edu/files/tandon_long_color.png)
 #### Integrated Digital Media • Technology, Culture & Society Department
 
 
-    Jason Sigal <jason.sigal@gmail.com>
-    Spring 2016 • Mondays & Wednesdays • 2:30-4:20PM • Magnet Rm 817 • 3 credit hrs
-    Office hours by appointment or directly after class
+Scott Fitzgerald shf220@nyu.edu
+Fall 2017 • Tu & Th • 12:30-2:20PM • Magnet Rm 817 • 3 credit hrs
+Office hours TBD
 
 ---
 

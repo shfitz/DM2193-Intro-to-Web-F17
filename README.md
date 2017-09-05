@@ -1,24 +1,24 @@
-## Intro to Web Development <small>DM-UY 2193/B</small>
+## Intro to Web Development <small>DM-UY 2193</small>
 
 ![NYU](http://engineering.nyu.edu/files/tandon_long_color.png)
 #### Integrated Digital Media • Technology, Culture & Society Department
 
 
-    Jason Sigal <jason.sigal@gmail.com>
-    Spring 2016 • Mondays & Wednesdays • 2:30-4:20PM • Magnet Rm 817 • 3 credit hrs
-    Office hours by appointment or directly after class
+Scott Fitzgerald shf220@nyu.edu
+Fall 2017 • Tu & Th • 12:30-2:20PM • Magnet Rm 817 • 3 credit hrs
+Office hours TBD
 
 
-##### Slack: https://webdev2193.slack.com
-##### GitBook: https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b
-##### GitHub: http://github.com/therewasaguy/dm2193b-webdev-SP16
+##### Slack:
+##### GitBook:
+##### GitHub:
 
 ---
 
 ## Syllabus
 
 ### PROGRAM GOALS
-The following IDM program goals are introduced and reinforced within this course. 
+The following IDM program goals are introduced and reinforced within this course.
 
 Students will:
 * develop **conceptual thinking skills** to generate ideas and content in order to solve problems or create opportunities.
@@ -72,7 +72,7 @@ Weekly reading assignments will utilize free online resources and tutorials. The
 * Attendance is required for the midterm and final presentations.
 
 ### Participation
-One of the course goals is to foster an internal community. You are expected to participate in discussions and give feedback to other students both in class and outside of class (via Slack). Ask questions, help each other find answers, and share interesting discoveries. 
+One of the course goals is to foster an internal community. You are expected to participate in discussions and give feedback to other students both in class and outside of class (via Slack). Ask questions, help each other find answers, and share interesting discoveries.
 
 
 ####Your final grade will be based on a synthesis of quantitative & qualitative rubrics
@@ -141,4 +141,3 @@ If you are student with a disability who is requesting accommodations, please co
 
 ### [COURSE SCHEDULE](https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/schedule_overview_grid.html)
 See Appendix
-
