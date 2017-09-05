@@ -1,4 +1,4 @@
-## <b>Jan 25<br/> Setup & Intros</b>
+## <b>September 5<br/> Setup & Intros</b>
 
 #### In Class: 
  <ul>
@@ -12,12 +12,11 @@
  </ul>
 
 
-#### <b>[Slides](https://docs.google.com/presentation/d/1MxdtwiWIkk_1lUmC-JlwrOvTIl8H2SEbVuR_jbWgW0I/edit?usp=sharing)</b>
+#### <b>[Slides](https://docs.google.com/presentation/d/1nlC73TSVtKVrorM0PIXpM2LAISi-pP2gBa9dYsQQ_Sg/edit?usp=sharing)</b>
 
 ####<b>HW</b> <small>*due next class unless otherwise specified
  <ul>
  <li>Join our <a href="https://webdev2193.slack.com" target="_blank">Slack channel</a></li>
- <li><a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/assignments/ticket_to_leave.html">TTL</a> (at the end of every class)</li>
  <li>Sign up for <a href="https://education.github.com/pack">GitHub (Student Developer Pack)</a></li>
  <li>Download a text editor of your choice. <a href="http://www.sublimetext.com/">Sublime Text</a> and <a href="http://brackets.io/">Brackets</a> are two great choices we will discuss in class.
  <li>Pick a website. What is the goal of this site? How does the design reflect that goal? How is the website "<a href="https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/">responsive</a>"? <ul><li>Post a link and a short paragraph about it to the HW channel on Slack with hashtag #wk1a. </li><li>Tip: Use <a href="https://developers.google.com/web/tools/chrome-devtools/">Chrome Developer Tools</a> or <a href="http://quirktools.com/screenfly">Quirktools Screenfly</a> to see what the website looks like on different size screens</li><li>Bonus: Use <a href="https://archive.org/web/" target="_blank">Internet Archive's Wayback Machine</a> to show how the design has changed over time. </li></ul>
@@ -26,7 +25,7 @@
  </ul> 
  </ul>
  
- ## <b>Jan 27<br/> HTML, FTP</b>
+ ## <b>September 7<br/> HTML, FTP</b>
 
 #### In Class: 
 <ul>
@@ -59,8 +58,7 @@
  <li>Review assignment for next week</li>
 </ul>
 
-#### Code from class (updated)
-https://d157rqmxrxj6ey.cloudfront.net/jasonsigal/28310/
+#### Code from class
 
 #### HW (DUE MONDAY):
 <ul>
