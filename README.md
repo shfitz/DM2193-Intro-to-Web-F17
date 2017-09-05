@@ -8,13 +8,11 @@ Fall 2017 • Tu & Th • 12:30-2:20PM • Magnet Rm 811 • 3 credit hrs
 Office hours TBD
 
 
-##### Slack:
-##### GitBook:
+##### Slack: https://introtowebfall2017.slack.com
+##### GitBook: https://shfitz.gitbooks.io/intro-to-web/content/
 ##### GitHub: https://github.com/shfitz/DM2193-Intro-to-Web-F17
 
 ---
-
-## Syllabus
 
 ### PROGRAM GOALS
 The following IDM program goals are introduced and reinforced within this course.
@@ -46,7 +44,7 @@ By the end of this course, student will be able to
 
 
 ### COURSE STRUCTURE
-**Class time** will include lectures, homework review, discussions, student presentations, critiques and in-class exercises.  We may also have guest speakers as schedule permits.
+**Class time** will include lectures, homework review, discussions, student presentations, critiques and in-class exercises.  We may also have guest speakers.
 
 **Weekly homework** will consist of readings and online tutorials, blog posts, and projects that students will present to the class.
 
@@ -56,7 +54,7 @@ By the end of this course, student will be able to
 
 **Participation:** Please come prepared to class prepared to share your work along with any questions or discoveries you made along the way. Outside of class time, students should ask questions and participate in discussions on Slack.
 
-All dates and assignments are **subject to change** at the discretion of the professor, depending on the interests and pace of the class. Any changes will be announced in class, updated on the GitBook (Syllabus), and posted to Slack (discussion forum).
+All dates and assignments are subject to change at the discretion of the professor, depending on the interests and pace of the class. Any changes will be announced in class, updated on the GitBook (Syllabus), and posted to Slack (discussion forum).
 
 ### [READINGS](readings_resources.html)
 Weekly reading assignments will utilize free online resources and tutorials. There is no required textbook. However, recommendations can be found in the [Readings & Resources](readings_resources.html) section, and students are encouraged to pursue self-guided learning and document / share resources via Learning Logs.
@@ -64,34 +62,23 @@ Weekly reading assignments will utilize free online resources and tutorials. The
 ### EVALUATION & GRADING
 
 ### Attendance
-* Attendance is mandatory and will be taken at the beginning of every class. Since there is so much technical, conceptual, and design information to absorb, regular attendance is essential.
-* Unexcused absences will affect your grade. Contact the professor IN ADVANCE if you will not be in class (in person or by email is preferred). More than two unexcused absences will result in your grade dropping 5% for each absence.
-* Be on time. Tardiness can affect your grade up to 15% (e.g. from an A to a B-).
-* If you miss an individual class, you are still responsible for the material and will need to cover it on your own.
-* Attendance is required for the midterm and final presentations.
+Needless to say, attendance is mandatory. So it being in class on time. You can get away with 2 unexcused absences, but after that, every missed class will cause your grade to fall by a third of a letter (A- becomes B+, B becomes B-, etc). more than 5 unexcused absences and you fail the course. If you are more than 5 minutes late, you will be marked as tardy. Showing up late twice will count as an unexcused absence.
 
 ### Participation
-One of the course goals is to foster an internal community. You are expected to participate in discussions and give feedback to other students both in class and outside of class (via Slack). Ask questions, help each other find answers, and share interesting discoveries.
+Showing up on time, engaging in the class discussion, and offering advice and input in the class is a major part of your grade. participating in class discussions is helpful for me to get to know you as an individual and keep track of your progress, but most ￼importantly, it provides you and your classmates with the opportunity to share failures, successes, and insights on the work you are doing.
 
+You are expected to show work in class. This includes working prototypes, failed assignments, things that don’t work the way you expect, and so forth. Expect to be called on and show something. Don’t be afraid to volunteer to show what you did, particularly if it failed to work as expected.
 
-####Your final grade will be based on a synthesis of quantitative & qualitative rubrics
+If you do not ask questions, I can only assume you understand the material completely. Asking questions about concepts you do not understand and showing work that did not function as expected is not a sign of failure, it is an opportunity to learn.
 
 #####Quanitative Grading Overview:
 * Regular Assignments 20%
 * Show & Tell (two) 5%
 * Learning Logs (at least ten) 5%
-* Ticket to Leave 5%
-* Midterm Project 17.5%
+* Midterm Project 20%
 * Final Project 25%
 * Self Assessment & Rubric 5%
-* Participation 17.5%
-
-
-#### Midterm and Final Grading Overview:
-* 20% Participation in the **mandatory** class critique
-* 20% Information Design
-* 20% Visual Design
-* 40% Code
+* Participation 20%
 
 #### Qualitative Grading Overview:
 
@@ -107,12 +94,14 @@ Each student will be judged on the quality, experimentation, iteration and impro
 * **F Unacceptable** (The performance and/or attendance of the student has failed course requirements.)
 
 ### TECHNOLOGY USE IN THE CLASSROOM
-There will be time to use laptops during class, and there will be time to close them because it has been scientifically proven that ["laptop multitasking hinders classroom learning for both users and nearby peers"](http://www.sciencedirect.com/science/article/pii/S0360131512002254?np=y). When in class, you may use your laptops for any activities pertaining to the course: taking notes, researching material relevant to our readings and discussions, making class presentations, etc. However, the following uses are unacceptable: checking email, instant messaging, texting, using social networking sites such as facebook, twitter etc. **When your fellow students are presenting, please close your laptops and silence your cell phones.**
+Laptop computers and other mobile devices are invaluable tools for artists, designers, and students when used responsibly. However, this technology can also be incredibly distracting, especially in the classroom. When in class, you may use your laptops and other devices for any activities pertaining to the course: taking notes, researching material relevant to our readings and discussions, doing VFS homework, making class presentations, etc. However, the following uses are unacceptable: checking email, instant messaging, texting, using social networking sites such as facebook, etc. Also, during class screenings, your laptops should not be used.
+
+Special note on phones. Cellphone use in the classroom is not acceptable. Turn you phone off, or put it airplane mode. Think of the battery life you'll be saving. If you are using a phone in class, it will count as an unexcused absence and negatively affect your grade.
 
 ### ACADEMIC HONESTY
 Please review [NYU's School of Engineering's academic dishonesty policy](http://engineering.nyu.edu/academics/code-of-conduct/academic-dishonesty) in its entirety.
 
-In this course, students will utilize open source code  libraries, learn by reading other people's code, and draw inspiration from independent web design research. These are essential skills, but it is equally essential to give credit where credit is due.
+You will use open source code libraries, learn by reading other people's code, and draw inspiration from independent research. These are essential skills, but it is equally essential to give credit where credit is due.
 
 You MUST have complete rights of use for materials that appear in your projects. This includes but is not limited to text content, source code, images, illustrations and audio. The source of any materials NOT created by you MUST be documented. Please remember that you can collaborate with other students to create your own media or contact rightsholders for permission. If you need to use stock material, you will need to provide documentation that you have the right to use it whether it is a negotiation with the rightsholder or proper use of open source / Creative Commons material.
 
@@ -127,7 +116,6 @@ If you are student with a disability who is requesting accommodations, please co
 * A web browser with developer tools.
     * [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/) --> [Tutorial](http://discover-devtools.codeschool.com/)
     * [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
-        * Additional extensions include [Firebug](https://www.getfirebug.com/)
 * Digital image editing software. Adobe Photoshop is the industry standard.
 * Github Account: [github.com/join](http://github.com/join)
 * HTML Text Editor (Sublime Text, Brackets.io, Coda, Textmate, BBEdit/TextWrangler, etc)
@@ -138,5 +126,4 @@ If you are student with a disability who is requesting accommodations, please co
         * [Siteground](https://www.siteground.com/)
         * [Dreamhost](https://www.dreamhost.com/promo/edunyu/)
 
-### [COURSE SCHEDULE](https://shfitz.gitbooks.io/intro-to-web/content/schedule_overview_grid.html)
-See Appendix
+### [COURSE SCHEDULE](schedule_overview_grid.md)
