@@ -78,11 +78,9 @@
             </ul>
             DUE:
             <ul>
-                <li>Learning Log<br/></li>
                 <li>Choose Your Own Adventure</li>
             </ul>
             HW: <ul>
-                <li>Start a CSS Tutorial of your choice</li>
                 <li>Read "How We <em>Really</em> Use the Web"</li>
                 <li>Prepare a draft project plan to present on Wednesday. Use <a href="http://www.webmonkey.com/2010/02/information_architecture_tutorial">Information Architecture Tutorial<a/> as a guide</li>
                 </a>
@@ -391,7 +389,7 @@
         <td valign="top">13</td>
         <td valign="top"><b>Dec 5</b><br>
 <li>Review HW</li>
-<li>HW: Prepare to present something that you learned (i.e. through a Learning Log) for the class on Wednesday
+<li>HW: Prepare to present something that you learned for the class on Wednesday
 </td>
         <td valign="top"><b>Dec 7</b><br>
 <!--<b>Mobile</b>
