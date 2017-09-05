@@ -1,6 +1,6 @@
-## <b>September 5<br/> Setup & Intros</b>
+## <b>Sept 5<br/> Setup & Intros</b>
 
-#### In Class: 
+#### In Class:
  <ul>
      <li>Introductions</li>
      <li>Goals of the course</li>
@@ -12,22 +12,23 @@
  </ul>
 
 
-#### <b>[Slides](https://docs.google.com/presentation/d/1nlC73TSVtKVrorM0PIXpM2LAISi-pP2gBa9dYsQQ_Sg/edit?usp=sharing)</b>
+#### <b>[Slides](https://docs.google.com/a/nyu.edu/presentation/d/1nlC73TSVtKVrorM0PIXpM2LAISi-pP2gBa9dYsQQ_Sg/edit?usp=sharing)</b>
 
 ####<b>HW</b> <small>*due next class unless otherwise specified
  <ul>
- <li>Join our <a href="https://webdev2193.slack.com" target="_blank">Slack channel</a></li>
- <li>Sign up for <a href="https://education.github.com/pack">GitHub (Student Developer Pack)</a></li>
- <li>Download a text editor of your choice. <a href="http://www.sublimetext.com/">Sublime Text</a> and <a href="http://brackets.io/">Brackets</a> are two great choices we will discuss in class.
- <li>Pick a website. What is the goal of this site? How does the design reflect that goal? How is the website "<a href="https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/">responsive</a>"? <ul><li>Post a link and a short paragraph about it to the HW channel on Slack with hashtag #wk1a. </li><li>Tip: Use <a href="https://developers.google.com/web/tools/chrome-devtools/">Chrome Developer Tools</a> or <a href="http://quirktools.com/screenfly">Quirktools Screenfly</a> to see what the website looks like on different size screens</li><li>Bonus: Use <a href="https://archive.org/web/" target="_blank">Internet Archive's Wayback Machine</a> to show how the design has changed over time. </li></ul>
- <li><a href="mailto:jason.sigal@gmail.com"  title="jason.sigal@gmail.com">Email</a> link to your course website (due Feb 1)</li>
- <ul><li>I highly recommend that you get your own web server space from an internet service provider. I recommend <a href="http://www.siteground.com">siteground.com</a> or <a href="https://www.dreamhost.com/promo/edunyu/">dreamhost.com</a>.</li><li>Alternatively, you can receive web server space from IDM's Technology Manager, Elton Kwok, MAGNET 883. Email eltonkwok@nyu.edu to set up your web server space</li><li>IDM's FTP server info: http://sites.bxmc.poly.edu (Use active mode to connect)
- </ul> 
+ <li>Join our <a href="https://introtowebfall2017.slack.com" target="external">Slack channel</a></li>
+ <li>Sign up for <a href="https://education.github.com/pack">GitHub and send me the link for the repo for this class</a></li>
+ <li>Download a text editor of your choice. <a href="http://www.sublimetext.com/">Sublime Text</a> and <a href="http://brackets.io/">Brackets</a> are two great choices. Atom is cool too.
+ <li>Pick a website. What is the goal of this site? How does the design reflect that goal? How is the website "<a href="https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/">responsive</a>"? <ul><li>Post a link and a short paragraph about it to the HW channel on Slack with hashtag #wk1a. </li><li>Tip: Use <a href="https://developers.google.com/web/tools/chrome-devtools/">Chrome Developer Tools</a> or <a href="http://quirktools.com/screenfly">Quirktools Screenfly</a> to see what the website looks like on different size screens</li><li>Bonus: Use <a href="https://archive.org/web/" target="external">Internet Archive's Wayback Machine</a> to show how the design has changed over time. </li></ul>
+ <li>On Slack, DM Scott a link to your class site.</li>
+ <li>You can get your own web server space for more control of your domain. I can recommend <a href="http://www.siteground.com">siteground.com</a> or <a href="https://www.dreamhost.com/promo/edunyu/">dreamhost.com</a>.</li><ul><li>Alternatively, you can receive web server space from IDM's Technology Manager, Elton Kwok, MAGNET 883. Email eltonkwok@nyu.edu to set up your web server space</li><li>IDM's FTP server info: http://sites.bxmc.poly.edu (Use active mode to connect)
  </ul>
- 
- ## <b>September 7<br/> HTML, FTP</b>
+ </ul>
 
-#### In Class: 
+
+ ## <b>Sept 7<br/> HTML, FTP</b>
+
+#### In Class:
 <ul>
  <li>Vocab</li>
         <ul>
@@ -49,7 +50,7 @@
         <li><a href="Links</a>: <pre> <a href="path">Links</a></pre></li>
         <li><a href="http://www.w3schools.com/html/html_images.asp">Images</a>: <pre> &ltimg src="path" alt="description of image"&gt
         &lt!--comment: images have no closing tag --&gt </pre></li>  
-        <li><a href="http://www.w3schools.com/html/html_lists.asp">Lists</a></li> 
+        <li><a href="http://www.w3schools.com/html/html_lists.asp">Lists</a></li>
     <li> absolute url (with http://) vs relative url</li>
     </ul>
  <li>How to set up your Domain, Hosting</li>
@@ -60,7 +61,7 @@
 
 #### Code from class
 
-#### HW (DUE MONDAY):
+#### HW (DUE BEFORE MONDAY 5PM):
 <ul>
  <li>Set up your Server and FTP Client like <a href="https://cyberduck.io">Cyberduck</a> (recommended) or <a href="https://filezilla-project.org/">Filezilla</a>.</li>
  ~~Options~~
