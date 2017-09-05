@@ -11,7 +11,7 @@ Office hours TBD
 
 ##### Slack:
 ##### GitBook:
-##### GitHub:
+##### GitHub: https://github.com/shfitz/DM2193-Intro-to-Web-F17
 
 ---
 
@@ -139,5 +139,5 @@ If you are student with a disability who is requesting accommodations, please co
         * [Siteground](https://www.siteground.com/)
         * [Dreamhost](https://www.dreamhost.com/promo/edunyu/)
 
-### [COURSE SCHEDULE](https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/schedule_overview_grid.html)
+### [COURSE SCHEDULE](https://shfitz.gitbooks.io/intro-to-web/content/schedule_overview_grid.html)
 See Appendix
