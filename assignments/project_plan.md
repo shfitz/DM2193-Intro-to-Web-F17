@@ -1,4 +1,4 @@
-## Intro to Web Development <small>DM-UY 2193/B</small>
+## Intro to Web Development <small>DM-UY 2193</small>
 
 # PROJECT PLAN
 
