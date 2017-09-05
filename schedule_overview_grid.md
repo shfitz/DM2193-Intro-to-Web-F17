@@ -9,6 +9,8 @@
     Office hours TBD
 
 ---
+###### NB: This schedule is subject to change!!!
+
 
 
 ## SCHEDULE OVERVIEW
