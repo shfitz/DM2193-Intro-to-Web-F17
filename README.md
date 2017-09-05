@@ -57,7 +57,7 @@ By the end of this course, student will be able to
 All dates and assignments are subject to change at the discretion of the professor, depending on the interests and pace of the class. Any changes will be announced in class, updated on the GitBook (Syllabus), and posted to Slack (discussion forum).
 
 ### [READINGS](readings_resources.html)
-Weekly reading assignments will utilize free online resources and tutorials. There is no required textbook. However, recommendations can be found in the [Readings & Resources](readings_resources.html) section, and students are encouraged to pursue self-guided learning and document / share resources via Learning Logs.
+Weekly reading assignments will utilize free online resources and tutorials. There is no required textbook. However, recommendations can be found in the [Readings & Resources](readings_resources.html) section, and students are encouraged to pursue self-guided learning and document / share resources.
 
 ### EVALUATION & GRADING
 
@@ -73,8 +73,7 @@ If you do not ask questions, I can only assume you understand the material compl
 
 #####Quanitative Grading Overview:
 * Regular Assignments 20%
-* Show & Tell (two) 5%
-* Learning Logs (at least ten) 5%
+* Show & Tell 10%
 * Midterm Project 20%
 * Final Project 25%
 * Self Assessment & Rubric 5%

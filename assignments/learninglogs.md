@@ -1,6 +1,6 @@
 ## Intro to Web Development <small>DM-UY 2193/B</small>
 
-# LEARNING LOGS
+# Weekly reflection
 <table>
 <tr>
 <td><p><b>Post to slack. Begin message with "LL: descriptive name" (where descriptive name is a title that describes your learning log).</b></p>
@@ -9,8 +9,7 @@ Learning Logs for the following, but not limited to:
 <li>HTML/CSS</li>
 <li>Javascript/JQuery</li>
 <li>The Reponsive Web (Media Queries)</li>
-<li>Frameworks (Bootstrap and Foundation)</li>
-<li>CSS Preprocessor: SASS</li>
+<li>Frameworks</li>
 <li>Other Web Technologies (as applicable to your project)</li>
 </ul>
 
