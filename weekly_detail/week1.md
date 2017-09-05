@@ -17,12 +17,19 @@
 ####<b>HW</b> <small>*due next class unless otherwise specified
  <ul>
  <li>Join our <a href="https://introtowebfall2017.slack.com" target="external">Slack channel</a></li>
- <li>Sign up for <a href="https://education.github.com/pack">GitHub and send me the link for the repo for this class</a></li>
+ <li>Sign up for <a href="https://education.github.com/pack">GitHub and send me the link for the repo for this class</a> on Slack</li>
  <li>Read this <a href="https://rogerdudler.github.io/git-guide/">intro to git</a>.</li>
- <li>Download a text editor of your choice. <a href="http://www.sublimetext.com/">Sublime Text</a> and <a href="http://brackets.io/">Brackets</a> are two great choices. Atom is cool too.
- <li>Pick a website. What is the goal of this site? How does the design reflect that goal? How is the website "<a href="https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/">responsive</a>"? <ul><li>Post a link and a short paragraph about it to the HW channel on Slack with hashtag #wk1a. </li><li>Tip: Use <a href="https://developers.google.com/web/tools/chrome-devtools/">Chrome Developer Tools</a> or <a href="http://quirktools.com/screenfly">Quirktools Screenfly</a> to see what the website looks like on different size screens</li><li>Bonus: Use <a href="https://archive.org/web/" target="external">Internet Archive's Wayback Machine</a> to show how the design has changed over time. </li></ul>
- <li>On Slack, DM Scott a link to your class site.</li>
- <li>You can get your own web server space for more control of your domain. I can recommend <a href="http://www.siteground.com">siteground.com</a> or <a href="https://www.dreamhost.com/promo/edunyu/">dreamhost.com</a>.</li><ul><li>Alternatively, you can receive web server space from IDM's Technology Manager, Elton Kwok, MAGNET 883. Email eltonkwok@nyu.edu to set up your web server space</li><li>IDM's FTP server info: http://sites.bxmc.poly.edu (Use active mode to connect)
+ <li>Download a text editor of your choice. <a href="http://www.sublimetext.com/">Sublime Text</a> and <a href="http://brackets.io/">Brackets</a> are two great choices. Atom is cool too.</li>
+ <li>Bring in a recipe to class, it doesn;t need to be overly complicated, but it should have a couple of ingredients, and a list of instructions on what to do.</li>
+
+<!--
+<li>Pick a website. What is the goal of this site? How does the design reflect that goal? How is the website "<a href="https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/">responsive</a>"? 
+ <ul><li>Post a link and a short paragraph about it to the HW channel on Slack with hashtag #wk1a. </li><li>Tip: Use <a href="https://developers.google.com/web/tools/chrome-devtools/">Chrome Developer Tools</a> or <a href="http://quirktools.com/screenfly">Quirktools Screenfly</a> to see what the website looks like on different size screens</li><li>Bonus: Use <a href="https://archive.org/web/" target="external">Internet Archive's Wayback Machine</a> to show how the design has changed over time. </li></ul>
+-->
+
+
+<li>Get some webspace!</li>
+ <ul><li>You can get your own web server space for more control of your domain. I can recommend <a href="http://www.siteground.com">siteground.com</a> or <a href="https://www.dreamhost.com/promo/edunyu/">dreamhost.com</a>.</li><li>Alternatively, you can receive web server space from IDM's Technology Manager, Elton Kwok, MAGNET 883. Email eltonkwok@nyu.edu to set up your web server space</li><li>IDM's FTP server info: http://sites.bxmc.poly.edu (Use active mode to connect)
  </ul>
  </ul>
 
