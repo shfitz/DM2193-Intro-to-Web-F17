@@ -390,9 +390,7 @@
     <tr>
         <td valign="top">13</td>
         <td valign="top"><b>Dec 5</b><br>
-<li>Guest <a href="http://www.stefankaltenegger.com/">Stefan Kaltneggar</a> on Interaction Design for web and mobile </li>
 <li>Review HW</li>
-<li>Cool JavaScript Libraries</li>
 <li>HW: Prepare to present something that you learned (i.e. through a Learning Log) for the class on Wednesday
 </td>
         <td valign="top"><b>Dec 7</b><br>
