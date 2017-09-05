@@ -17,8 +17,8 @@
 ####<b>HW</b> <small>*due next class unless otherwise specified
  <ul>
  <li>Join our <a href="https://introtowebfall2017.slack.com" target="external">Slack channel</a></li>
- <li>Sign up for <a href="https://education.github.com/pack">GitHub and send me the link for the repo for this class</a> on Slack</li>
- <li>Read this <a href="https://rogerdudler.github.io/git-guide/">intro to git</a>.</li>
+ <li>Sign up for <a href="https://github.com">GitHub and send me the link for the repo for this class</a> on Slack</li>
+ <li>Read this <a href="http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners">beginners intro to git</a>.  Feel  free  to  use  a  GUI.</li>
  <li>Download a text editor of your choice. <a href="http://www.sublimetext.com/">Sublime Text</a> and <a href="http://brackets.io/">Brackets</a> are two great choices. Atom is cool too.</li>
  <li>Bring in a recipe to class, it doesn;t need to be overly complicated, but it should have a couple of ingredients, and a list of instructions on what to do.</li>
 
