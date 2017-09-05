@@ -1,10 +1,11 @@
 ## Intro to Web Development <small>DM-UY 2193</small>
 
+![NYU](http://engineering.nyu.edu/files/tandon_long_color.png)
 #### Integrated Digital Media • Technology, Culture & Society Department
 
 
     Scott Fitzgerald shf220@nyu.edu
-    Fall 2017 • Tu & Th • 12:30-2:20PM • Magnet Rm 811 • 3 credit hrs
+    Fall 2017 • Tu & Th • 12:30-2:20PM • Magnet Rm 817 • 3 credit hrs
     Office hours TBD
 
 ---
@@ -28,7 +29,7 @@
         <td valign="top">1</td>
         <td valign="top">
              <a href="weekly_detail/week1.html">
-        <b>Jan 25<br/> Setup & Intros</b>
+        <b>Sept 5<br/> Setup & Intros</b>
 
             <ul>
                 <li>Introductions</li>
@@ -46,7 +47,7 @@
         </td>
         <td valign="top" width="49%">
         <a href="weekly_detail/week1.html">
-            <b>Jan 27<br/> Intro to HTML</b>
+            <b>Sept 7<br/> Intro to HTML</b>
             <ul>
                 <li>Text Editors</li>
                 <li>Browser Environment</li>
@@ -68,7 +69,7 @@
     <tr>
         <td valign="top">2</td>
         <td valign="top">
-        <a href="weekly_detail/week2.html"><b>Feb 1</b><b><br/>Semantic HTML & CSS</b>
+        <a href="weekly_detail/week2.html"><b>Sept 12</b><b><br/>Semantic HTML & CSS</b>
             <ul>
                 <li>Homework Presentations</li>
                 <li>Semantic HTML</li>
@@ -88,7 +89,7 @@
         </td>
         <td valign="top">
         <a href="weekly_detail/week2.html">
-        <b>Feb 3<br/>Information Architecture, UX/UI</b>
+        <b>Sept 14<br/>Information Architecture, UX/UI</b>
             <ul>
                 <li>Definitions: UX, UI, IxD, IA</li>
                 <li>User Flow / User Stories</li>
@@ -107,7 +108,7 @@
     </tr>
     <tr>
         <td valign="top">3</td>
-        <td valign="top"><b>Feb 8<br/>Midterm Proposals, CSS pt.2</b>
+        <td valign="top"><b>Sept 19<br/>Midterm Proposals, CSS pt.2</b>
             <ul>
                 <li>Show & Tells: James T, Jamie, Nicole</li>
                 <li>Present Midterm Proposals, Site Maps & Wireframes</li>
@@ -117,7 +118,7 @@
                     <li>Creative Commons image resources</li>
                     <li>Preparing Images for the Web</li>
                     <li>Styling Images</li>
-                    <li><a  href="http://slides.com/jasonsigal/slides">Slides</a></li>
+                <!--    <li><a  href="http://slides.com/jasonsigal/slides">Slides</a></li> -->
                 </ui>
                 <br/>
             </ul>
@@ -127,7 +128,7 @@
                 <li>Read <a href="http://www.lukew.com/ff/entry.asp?981">Visual Hierarchy</a></li>
             </ul>
         </td>
-        <td valign="top"><b>Feb 10<br/>
+        <td valign="top"><b>Sept 21<br/>
         CSS Positioning</b>
             <ul>
                 <li>Show & Tells: Susie, Tyler</li>
@@ -137,8 +138,8 @@
                 <li>Grid System in CSS</li>
                 <li>Display, Clear</li>
                 <li>Units, Margins, Padding</li>
-                <li>
-                <a href="http://slides.com/jasonsigal/css/">Slides</a></li>
+            <!--    <li>
+                <a href="http://slides.com/jasonsigal/css/">Slides</a></li> -->
             </ul>
             HW:
             <ul>
@@ -152,19 +153,18 @@
     </tr>
     <tr>
         <td valign="top">4</td>
-        <td valign="top"><b>Feb 15</b>
-            President's Day<br/>
-            <b><em>NO CLASS</em></b>
+        <td valign="top"><b>Sept 26</b>
+             <br/>
+            <b><em> </em></b>
         </td>
-        <td valign="top"><b>Feb 17<br/>
+        <td valign="top"><b>Sept 28<br/>
         Design for the Web</b>
             <ul>
-                <li>Show & Tell: Eric & Grace</li>
                 <li>Review HW</li>
                 <li>Design Guidelines & Brand Books </li>
                 <li>Colorspace</li>
                 <li>Font</li>
-                <li><a href="http://slides.com/jasonsigal/deck-7/">Slides</a></li>
+              <!--  <li><a href="http://slides.com/jasonsigal/deck-7/">Slides</a></li>-->
             </ul>
             Due: HTML/CSS Prototype
             <br/>
@@ -186,7 +186,7 @@
     </tr>
     <tr>
         <td valign="top">5</td>
-        <td valign="top"><a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/weekly_detail/week_5.html"><b>Feb 22<br/>
+        <td valign="top"><a href="week_5.md"><b>Oct 3 <br/>
                     Responsive & CSS Transitions</b>
             <ul>
                 <li>Responsive vs Mobile First</li>
@@ -199,48 +199,42 @@
                     <li>Transform</li>
                     <li>Animation</li>
                 </ul>
-                <li>Show & Tells: Polina and Echo</li>
             </ul>
             HW:
             <ul>
-                <li>Redo prototypes, make them responsive, prepare for user testing on Feb 29th (due 2/29)</li>
+                <li>Redo prototypes, make them responsive, prepare for user testing</li>
                 <li>Read <a href="https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns/?hl=en">Responsive Patterns</a> and <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Guide to Flexbox</a></li>
                 <li>Read <a href="http://css3.bradshawenterprises.com/">CSS3 Transform, Transition, Animation Tutorial</a></li>
             </ul>
-            DUE: Style Guide<br/></a>
+          <!--  DUE: Style Guide<br/></a>
 
-                --> <a href="https://slides.com/jasonsigal/responsive">Slides</a></li>
+                <a href="https://slides.com/jasonsigal/responsive">Slides</a></li> -->
         </td>
         <td valign="top"><b>
 
 
-        <a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/weekly_detail/week_5.html"> Feb 24
+     Oct 5
             <br/>
 
             Review CSS and HTML, User-Centered Design</b>
-            </a>
+
             <ul>
-<a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/weekly_detail/week_5.html">
                 <li>Review Prototypes</li>
                 <li>User Testing</li>
                 <li>Web Standards</li>
                 <li>Accessibility w/ Claire Kearny-Volpe from NYU Ability Lab</li>
                 <li>CSS Advanced Selectors</li>
             </ul>
-    </a>
-            S&T: Cindy
-            </a>
             </td>
     </tr>
     <tr>
         <td valign="top">6</td>
-        <td valign="top"><a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/weekly_detail/week_6.html"><b>Feb 29<br>User Test, Git/Github, Audio/Video, Review</b>
+        <td valign="top"><b>Oct 10<br>User Test, Git/Github, Audio/Video, Review</b>
             <ul>
                 <li>User Test Responsive Prototypes</li>
                 <li>Intro to Git & GitHub</li>
                 <li>HTML5 Audio/Video</li>
-                <li>Review Topics</li>
-                <li>Non-Quiz?</li>
+                <li>Review </li>
             </ul>
             HW:
             <ul>
@@ -249,11 +243,8 @@
               <li>Review the Non-Quiz and come to next class with questions</li>
              </ul>
 
-            Due: Responsive Prototypes<br/>
-            S&T: George, Camille, James C
-            </a>
         </td>
-        <td valign="top"><b>Mar 2<br></b>
+        <td valign="top"><b>Oct 12<br></b>
             <b>HTML Forms & JavaScript Intro:</b>
             <ul>
                 <li>History</li>
@@ -263,16 +254,15 @@
                 <li>Debugging</li>
                 <li>DOM</li>
             </ul>            
-            S&T: Joon Hee, Stephen, Zhijian
         </td>
     </tr>
 
     <tr>
         <td valign="top">7</td>
-        <td valign="top"><b>Mar 7</b><br>
+        <td valign="top"><b>Oct 17</b><br>
             <h4>Midterm Presentations</h4>
         </td>
-        <td valign="top"><b>Mar 9</b><br>
+        <td valign="top"><b>Oct 19</b><br>
             <h4>Midterm Presentations</h4>
         </td>
     </tr>
@@ -280,11 +270,12 @@
 
     <tr>
         <td valign="top">--</td>
-        <td valign="top"><b>Mar 14</b><br>
-            Spring Break (NO CLASS)        
+        <td valign="top"><b>oct 24</b><br>
+          Post-midterm coma
         </td>
-        <td valign="top"><b>Mar 16</b><br>
-            Spring Break (NO CLASS)        
+        <td valign="top"><b>oct 26</b><br>
+        Post-midterm coma
+
         </td>
     </tr>
 
@@ -292,8 +283,7 @@
     <tr>
         <td valign="top">8</td>
         <td valign="top">
-          <a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/weekly_detail/week_7.html">
-            <b>Mar 21</b><br>
+            <b>Oct 31</b><br>
             <b>JavaScript + DOM</b>
             <ul>
                 <li>create/getElement</li>
@@ -302,81 +292,76 @@
             </ul></a>
         </td>
         <td valign="top">
-                  <a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/weekly_detail/week_7.html">
 
-        <b>Mar 23</b><br>
+
+        <b>Nov 1</b><br>
 <b>JavaScript Continued</b>
             <ul>
                 <li>Arrays</li>
                 <li>Loops</li>
                 <li>Objects</li>
             </ul>  
-                        HW: Calculator (click for more details)</a>  
 
         </td>
     </tr>
 
     <tr>
         <td valign="top">9</td>
-        <td valign="top"><a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/weekly_detail/week_8.html"><b>Mar 28</b><br>
+        <td valign="top"><b>Nov 7</b><br>
             <b>JavaScript Continued</b>
             <ul>
                 <li>JS Objects</li>
                 <li>jQuery</li>
-            </ul>   </a>         
+            </ul>          
         </td>
         <td valign="top">
+<b>Nov 9</b><br>
+<em>Scott's out of town</em>
+    we'll figure it out.
 
-        <a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/weekly_detail/week_8.html"><b>Mar 30</b><br>
-            <b>CSS Frameworks</b>
-            <ul>
-                <li>Intro to Bootstrap</li>
-                <li>Intro to Foundation</li>
-
-            </ul></a>
         </td>
     </tr>
     <tr>
         <td valign="top">10</td>
         <td valign="top">
 
-        <a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/weekly_detail/week_9.html"><s><b>Apr 4</b></s> <em>Professor @ Web Audio Conference</em>
-            <h4>This week, class meets on<br/>
-            <b>FRIDAY April 8th, 2:30-4:20pm</b></h4><br/>
-</a>
+      <s><b>Nov 14</b></s>
+      <b>CSS Frameworks</b>
+      <ul>
+          <li>Intro to Bootstrap</li>
+          <li>Intro to Foundation</li>
+
+      </ul>
         </td>
         <td valign="top">
-<a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/weekly_detail/week_9.html">
-<s><b>Apr 6</b></s> <em>Professor @ Web Audio Conference</em>
-                        <h4>This week, class meets on<br/>
-            <b>FRIDAY April 8th, 2:30-4:20pm</b></h4><br/>
-            HW:
+<s><b>Nov 16</b></s>
+
             <ul>
                 <li>Framework Tutorials</li>
                 <li>Prepare Final Project Proposals</li>
 
-            </ul></a>
+            </ul>
             </td>
     </tr>
     <tr>
         <td valign="top">11</td>
-        <td valign="top"><b>Apr 11</b><br>
+        <td valign="top"><b>Nov 21</b><br>
         <h4>Final Project Proposals</h4>
         </td>
-        <td valign="top"><a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/weekly_detail/week_10.html"><b>Apr 13</b><br>
-            <b>JSON & API's</b>
-            <ul>
-                <li>JSON & API's</li>
-                <li>HTML5 Forms</li>
-                <li>Running a local server</li>
-</ul></a>
+        <td valign="top"><b>Nov 23</b><br>
+          <b> No Class, Thanksgiving</b>
         </td>
     </tr>
 
     <tr>
         <td valign="top">12</td>
-        <td valign="top"><a href="https://therewasaguy.gitbooks.io/nyu-dm-webdev-spring2016-b/content/weekly_detail/week_11.html"><b>Apr 18</b><br>
-        API's Continued</a>
+        <td valign="top"><b>Nov 28</b><br>
+        <b>JSON & API's</b>
+        <ul>
+            <li>JSON & API's</li>
+            <li>HTML5 Forms</li>
+            <li>Running a local server</li>
+</ul>
 <!--<b>More Framework Components</b>
             <ul>
             <li>Customizing Components</li>
@@ -392,7 +377,7 @@
                 <li>NPM</li> -->
             </ul>
         </td>
-        <td valign="top"><b>Apr 20</b><br>
+        <td valign="top"><b>Nov 30</b><br>
             <b>Customizing Frameworks,
             CSS Preprocessors</b>
             <ul>
@@ -404,14 +389,13 @@
 
     <tr>
         <td valign="top">13</td>
-        <td valign="top"><b>Apr 25</b><br>
+        <td valign="top"><b>Dec 5</b><br>
 <li>Guest <a href="http://www.stefankaltenegger.com/">Stefan Kaltneggar</a> on Interaction Design for web and mobile </li>
 <li>Review HW</li>
 <li>Cool JavaScript Libraries</li>
 <li>HW: Prepare to present something that you learned (i.e. through a Learning Log) for the class on Wednesday
 </td>
-        <td valign="top"><b>Apr 27</b><br>
-          <b>Learning Log Presentations</b>
+        <td valign="top"><b>Dec 7</b><br>
 <!--<b>Mobile</b>
             <ul>
                 <li>Handlebars</li>
@@ -423,19 +407,19 @@
 
     <tr>
         <td valign="top">14</td>
-        <td valign="top"><b>May 2</b><br>
+        <td valign="top"><b>Dec 12</b><br>
             <b>TBA</b>
             <br/>
             Topics based on final project proposals
         </td>
-        <td valign="top"><b>May 4</b><br>
+        <td valign="top"><b>Dec 14</b><br>
             <b>TBA</b>
             <br/>
             Topics based on final project proposals
         </td>
     </tr>
 
-    <tr>
+<!--    <tr>
         <td valign="top">Final</td>
         <td valign="top"><b>May 9</b><br>
             <h4>Final Presentations</h4>
@@ -444,4 +428,5 @@
             <h4>Final Presentations</h4>
         </td>
     </tr>
+    -->
 </table>
