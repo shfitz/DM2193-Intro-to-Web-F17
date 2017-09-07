@@ -45,6 +45,14 @@
         </ul>
     </ul>
  <li>Text Editors</li>
+  <ul>
+  <li><a href="http://www.sublimetext.com/">Sublime Text</a></li>
+  <li><a href="http://brackets.io/">Brackets</a></li>
+  <li><a href="https://www.panic.com/coda/">Coda</a> (Mac Only)</li>
+  <li><a href="https://atom.io/">Atom</a></li>
+  <li><a href="https://www.textpad.com/">TextPad</a> (Windows Only)</li>
+    <li><a href="https://www.textpad.com/">TextPad</a> (Windows Only)</li>
+  </ul>
  <li>Intro to HTML</li>
     <ul>
     <li>HTML - creates structure for the web, describes the structure of a page</li>
