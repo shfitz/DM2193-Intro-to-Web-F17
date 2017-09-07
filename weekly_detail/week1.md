@@ -51,7 +51,7 @@
   <li><a href="https://www.panic.com/coda/">Coda</a> (Mac Only)</li>
   <li><a href="https://atom.io/">Atom</a></li>
   <li><a href="https://www.textpad.com/">TextPad</a> (Windows Only)</li>
-    <li><a href="https://www.textpad.com/">TextPad</a> (Windows Only)</li>
+    <li><a href="https://notepad-plus-plus.org/">Notepad ++</a> (Windows Only)</li>
   </ul>
  <li>Intro to HTML</li>
     <ul>
