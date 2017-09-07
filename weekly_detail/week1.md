@@ -1,4 +1,5 @@
-# # <b>Sept 5<br/> Setup & Intros</b> #### In Class:
+##<b>Sept 5<br/> Setup & Intros</b> 
+#### In Class:
 <ul>
     <li>Introductions</li>
     <li>Goals of the course</li>
@@ -9,7 +10,9 @@
     <li>Overview of Tools</li>
 </ul> 
 
-#### <b>[Slides](https://docs.google.com/a/nyu.edu/presentation/d/1nlC73TSVtKVrorM0PIXpM2LAISi-pP2gBa9dYsQQ_Sg/edit?usp=sharing)</b> ####<b>HW</b> <small>*due next class unless otherwise specified
+#### <b>[Slides](https://docs.google.com/a/nyu.edu/presentation/d/1nlC73TSVtKVrorM0PIXpM2LAISi-pP2gBa9dYsQQ_Sg/edit?usp=sharing)</b> 
+
+####<b>HW</b> 
 <ul>
 <li>Join our <a href="https://introtowebfall2017.slack.com" target="external">Slack channel</a></li>
 <li>Sign up for <a href="https://github.com">GitHub and send me the link for the repo for this class</a> on Slack</li>
@@ -23,7 +26,7 @@
 </ul>
 
 
-## <b>Sept 7<br/> HTML, FTP</b>
+##<b>Sept 7<br/> HTML, FTP</b>
 
 #### In Class:
 <li>Text Editors</li>
