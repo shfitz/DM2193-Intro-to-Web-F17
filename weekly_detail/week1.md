@@ -59,7 +59,7 @@
     <li>HTML is a <i>markup</i> language. It's a way of annotating documents that seperates the content from the structure.</li>
     <li>HTML structure is defined by <i>tags</i>, keywords that are surrounded by angled brackets like these : <code>< ></code>. These tags lay out the page.</li>
     <li> Tags are also called elements, and generally come in pairs; and opening tag, and a closing tag that indicates when a particular kind of formatting has ended. Your content will go between the tags:<br />
-<code>`<tagname>` content `</tagname>`</code>
+<pre>`<tagname>` content `</tagname>`
 Opening tag: `<tagname>`
 Closing tag: `</tagname>`   
     </li>
