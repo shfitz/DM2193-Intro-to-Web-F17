@@ -79,32 +79,20 @@
 
 #### HW (DUE BEFORE MONDAY 5PM):
 <ul>
- <li>Set up your Server and FTP Client like <a href="https://cyberduck.io">Cyberduck</a> (recommended) or <a href="https://filezilla-project.org/">Filezilla</a>.</li>
- ~~Options~~
- <ol>
-    <li>NYU provides free server space. Email Elton <code>eltonkwok@nyu.edu</code> to set up an appointment and mention a few times you are available to meet with him in Magnet 883. <small>IDM’s FTP server info: http://sites.bxmc.poly.edu (Use active mode)</small></li>
-    <li>Purchase your own domain name + server space through <a href="https://www.dreamhost.com/promo/edunyu/">Dreamhost</a> (<a href="https://docs.google.com/presentation/d/1IQMfbvyx_ElgKfaPp1MrWdtSNr_56dnn8LErAbBkmoI/edit?usp=sharing">instructions</a>). Other options include <a href="https://www.siteground.com/">Siteground</a> (<a href="https://docs.google.com/presentation/d/1CFON25fsVAXqxLyAWRMcI5ofKijmtzMwbMMDBKhhACs/edit?usp=sharing">instructions</a>).</li>
- </ol>
- <li><b>Choose Your Own Adventure:</b> Create a website that tells an interactive story using a few HTML pages.</li>
+ <li>Set up your Server and FTP Client like <a href="https://cyberduck.io">Cyberduck</a>, <a href="https://filezilla-project.org/">Filezilla</a>, or <a href="https://fetchsoftworks.com/">Fetch</a> (available for <a href="http://www.nyu.edu/life/information-technology/getting-started/software/nyu-it-licensed-software.html">free through NYU's IT services</a>, Mac only).</li>
+ <li><b>Tour of your apartment </b> Create a website that allows us to navigate your home with HTML pages.</li>
  <ul>
-    <li> Start by imagining the story—what is a story you can tell with just a few pages? It could be an original story, an interactive folk tale, a game, or a draft of any website you want to build that "tells a story" in a more abstract sense, like a fan page or a personal portfolio.</li>
- <li>Use paper to write/sketch your ideas <em>before</em> you start coding. What content will be shared across all the pages? What elements will be shared across each page, but with different content? How does a user advance from one page to the next? Is there a beginning, end, or home page?</li>
- <li>Create a template.html file that has elements that will be shared across all the pages. Pick elements that describe the type of content that will go on each page using empty placeholder html elements. You can add more details with <a href="http://www.w3schools.com/tags/tag_comment.asp">comments</a>. </li>
- <li>Use some of the elements we discussed in class, like: <code>a</code> (required), <code>h1</code>, <code>p</code>, <code>img</code>, and/or lists (<code>ul/ol</code> + <code>li</code>).</li>
+    <li>It's best to think of this as a narrative with a few different paths. You may find it helpfu to paper to write/sketch your ideas <em>before</em> you start coding. What content will be shared across all the pages? What elements will be shared across each page, but with different content? How does a user advance from one page to the next? Is there a beginning, end, or home page?</li>
+ <li>Create a template.html file that has elements that will be shared across all the pages. Pick elements that describe the type of content that will go on each page using empty placeholder html elements. </li>
+ <li>Use some of the elements we discussed in class, such as: <code>a</code> to link pages, <code>h1</code> to indicate what room you;re showing us, <code>p</code> to , <code>img</code>, or lists (<code>ul/ol</code> + <code>li</code>).Don't feel bound to these tags  only.</li> 
  <li>Don't worry about how it looks just yet, we'll cover style next week.</li>
- <li>Upload your project to a server using (S)FTP.</li>
- <li>To submit the assignment, post a link to Slack HW channel with #wk1b. Bonus points if you include a photo of your initial paper sketches and a template.html file.</li>
+ <li>If your server space is ready, upload your project to a server using (S)FTP.</li>
  </ul>
- <li>Do an HTML5 tutorial of your choice to refresh concepts from class and learn more about HTML. Some suggestions:<ul>
-    <li>HTML & CSS Jon Duckett ch1-6 <small>*ebook available thru <a href="http://poly.libguides.com/ebooks">NYU’s Library website</small></a>
+ <li>Suggested Reading:<ul>
+    <li>HTML & CSS Jon Duckett ch1-6 ( ebook available thru <a href="http://poly.libguides.com/ebooks">NYU’s Library website</small></a> )
     </li>
-    <li><a href="http://diveintohtml5.info/table-of-contents.html">Dive Into HTML5</a></li>
-    <li><a href="http://www.w3schools.com/html/">W3 Schools</a></li>
-    <li><a href="http://learn.shayhowe.com/">Learn to code HTML5 at learn.shayhowe</a></li>
     </ul>
-    <li>
-    Complete your first learning log based on the html tutorial(s) you chose.
-    </li>
+   
  </ul>
  </li>
 
