@@ -59,9 +59,9 @@
     <li>HTML is a <i>markup</i> language. It's a way of annotating documents that seperates the content from the structure.</li>
     <li>HTML structure is defined by <i>tags</i>, keywords that are surrounded by angled brackets like these : <code>< ></code>. These tags lay out the page.</li>
     <li> Tags are also called elements, and generally come in pairs; and opening tag, and a closing tag that indicates when a particular kind of formatting has ended. Your content will go between the tags:<br />
-&lt;tagname &rt; content &lt;/tagname &rt;<br />
-Opening tag: &lt;tagname &rt;<br />
-Closing tag: &lt;/tagname &rt;</li>
+&lt;tagname &gt; content &lt;/tagname &gt;<br />
+Opening tag: &lt;tagname &gt;<br />
+Closing tag: &lt;/tagname &gt;</li>
     
     <li><b><a href="http://www.w3schools.com/html/html_attributes.asp">Attributes</a></b> - Elements have atributes like <code>attribute="value"</code></li>
     <li>All HTML pages have the following elements: <code>html</code>, <code>head</code>, <code>title</code>, and <code>body</code></li>
