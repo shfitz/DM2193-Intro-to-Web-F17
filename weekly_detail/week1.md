@@ -72,6 +72,9 @@ Closing tag: &lt;/tagname &gt;</li>
     
     <ul>
         You can think of tags as being like parentheses: whenever you open one, you should close it. Tags also nest, so you should close them in the right order.
+        </ul>
+        </ul>
+        
 ```html
 <p>This is a paragraph<a href=“https://www.google.com/”>With a link to google</a></p>
 ```
