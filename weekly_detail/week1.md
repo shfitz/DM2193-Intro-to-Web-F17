@@ -61,19 +61,18 @@
     <li> Tags are also called elements, and generally come in pairs; and opening tag, and a closing tag that indicates when a particular kind of formatting has ended. Your content will go between the tags:<br />
 &lt;tagname &gt; content &lt;/tagname &gt;<br />
 Opening tag: &lt;tagname &gt;<br />
-Closing tag: &lt;/tagname &gt;</li>
+Closing tag: &lt;/tagname &gt;
+</li>
     
-    <li><b><a href="http://www.w3schools.com/html/html_attributes.asp">Attributes</a></b> - Some elements can contain attributes. They go inside the tag like this: <code>attribute="value"</code></li>
-    <li>All HTML pages have the following structural elements: <code>html</code>, <code>head</code>, and <code>body</code></li>
-    <li>The <code><head></code> tag contains inforation about your page, like the title. There's other stuff to do in there that we'll touch on soon enough.</li>
-    <li> The body is where you'll put the content that you see on a webpage. After closing the <code></head></code> tag, you'll place the <code><body></code> tag.</li>
-    <li>Tags can go inside each other, it's called nesting, and you'll be doing a lot of it</li> 
+ <li><b><a href="http://www.w3schools.com/html/html_attributes.asp">Attributes</a></b> - Some elements can contain attributes. They go inside the tag like this: <code>attribute="value"</code></li>
+   <li>All HTML pages have the following structural elements: <code>html</code>, <code>head</code>, and <code>body</code></li>
+   <li>The <code><head></code> tag contains inforation about your page, like the title. There's other stuff to do in there that we'll touch on soon enough.</li>
+   <li> The body is where you'll put the content that you see on a webpage. After closing the <code></head></code> tag, you'll place the <code><body></code> tag.</li>
+   <li>Tags can go inside each other, it's called nesting, and you'll be doing a lot of it</li> 
     
-    
-    <ul>
+  
         You can think of tags as being like parentheses: whenever you open one, you should close it. Tags also nest, so you should close them in the right order.
-        </ul>
-        </ul>
+   
         
 ```html
 <p>This is a paragraph<a href=“https://www.google.com/”>With a link to google</a></p>
