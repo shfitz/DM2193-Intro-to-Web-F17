@@ -80,13 +80,14 @@
 #### HW (DUE BEFORE MONDAY 5PM):
 <ul>
  <li>Set up your Server and FTP Client like <a href="https://cyberduck.io">Cyberduck</a>, <a href="https://filezilla-project.org/">Filezilla</a>, or <a href="https://fetchsoftworks.com/">Fetch</a> (available for <a href="http://www.nyu.edu/life/information-technology/getting-started/software/nyu-it-licensed-software.html">free through NYU's IT services</a>, Mac only).</li>
- <li><b>Tour of your apartment </b> Create a website that allows us to navigate your home with HTML pages.</li>
+ <li><b>Tour of your apartment </b> <br />Create a website that allows us to navigate your home with HTML pages.</li>
  <ul>
     <li>It's best to think of this as a narrative with a few different paths. You may find it helpfu to paper to write/sketch your ideas <em>before</em> you start coding. What content will be shared across all the pages? What elements will be shared across each page, but with different content? How does a user advance from one page to the next? Is there a beginning, end, or home page?</li>
- <li>Create a template.html file that has elements that will be shared across all the pages. Pick elements that describe the type of content that will go on each page using empty placeholder html elements. </li>
+ <li>Create a base HTML file that has elements that will be shared across all the pages. Pick elements that describe the type of content that will go on each page using empty placeholder html elements. </li>
  <li>Use some of the elements we discussed in class, such as: <code>a</code> to link pages, <code>h1</code> to indicate what room you;re showing us, <code>p</code> to , <code>img</code>, or lists (<code>ul/ol</code> + <code>li</code>).Don't feel bound to these tags  only.</li> 
  <li>Don't worry about how it looks just yet, we'll cover style next week.</li>
- <li>If your server space is ready, upload your project to a server using (S)FTP.</li>
+ <li>If your server space is ready, upload your project to a server using (S)FTP.  If  it's not  ready,  upload  to  github.</li>
+ <li>Send me the link to your homework BEFORE MONDAY AT 5PM</li>.
  </ul>
  <li>Suggested Reading:<ul>
     <li>HTML & CSS Jon Duckett ch1-6 ( ebook available thru <a href="http://poly.libguides.com/ebooks">NYU’s Library website</small></a> )
