@@ -26,19 +26,12 @@
 </ul>
 
 
-##<b>Sept 7<br/> HTML, FTP</b>
+###Sept 7 : HTML, FTP
 
-#### In Class:
-<li>Text Editors</li>
-<ul>
-<li><a href="http://www.sublimetext.com/">Sublime Text</a></li>
-<li><a href="http://brackets.io/">Brackets</a></li>
-<li><a href="https://www.panic.com/coda/">Coda</a> (Mac Only)</li>
-<li><a href="https://atom.io/">Atom</a></li>
-<li><a href="https://www.textpad.com/">TextPad</a> (Windows Only)</li>
-<li><a href="https://notepad-plus-plus.org/">Notepad ++</a> (Windows Only)</li>
-</ul>
-<li>Intro to HTML</li>
+####In Class:
+
+#####Intro to HTML
+
 <ul>
 <li>HTML, Hypertext Markup language. It's a written language that contains links to other text elements. HTML alos provides the structure of a webpage. It's the skeleton.</li>
 <li>HTML is a <i>markup</i> language. It's a way of annotating documents that seperates the content from the structure.</li>
@@ -48,18 +41,18 @@
 Opening tag: &lt;tagname &gt;<br />
 Closing tag: &lt;/tagname &gt;
 </li>
-<li>
-    <b><a href="http://www.w3schools.com/html/html_attributes.asp">Attributes</a></b> - Some elements can contain attributes. They go inside the tag like this: <code>attribute="value"</code></li>
+<li><b>Attributes</b> - Some elements can contain attributes. They go inside the tag like this: <code>attribute="value"</code></li>
 <li>All HTML pages have the following structural elements: <code>html</code>, <code>head</code>, and <code>body</code></li>
 <li>The <code><head></code> tag contains inforation about your page, like the title. There's other stuff to do in there that we'll touch on soon enough.</li>
 <li> The body is where you'll put the content that you see on a webpage. After closing the <code></head></code> tag, you'll place the <code><body></code> tag.</li>
 <li>Tags can go inside each other, it's called nesting, and you'll be doing a lot of it</li>
 You can think of tags as being like parentheses: whenever you open one, you should close it. Tags also nest, so you should close them in the right order.
-```html
-<p>This is a paragraph<a href=“https://www.google.com/”>With a link to google</a></p>
-```
+<pre>
+<code><p>This is a paragraph<a href=“https://www.google.com/”>With a link to google</a></p>
+    </pre>
+    </code>
 
-```html
+<code>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -71,7 +64,7 @@ You can think of tags as being like parentheses: whenever you open one, you shou
 <p>This is my first paragraph tag!</p>
 </body>
 </html>
-```
+    </code>
 Let’s take a look at the code above. There are a few tags (elements) to review.
 
 ####The title tag:
@@ -218,10 +211,11 @@ You will notice the the `<ol></ol>` and the `<ul></ul>` tags just wrap the `<li>
 * Using the HTML Tags we just covered. Mark Up the plain text recipe so that it renders as valid HTML.
 * Bonus - Find some images on the internet of the recipe you are marking up. Link to them with an image tag.
 <li> absolute url (with http://) vs relative url</li>
-
+</ul>
 <li>(S)FTP - transfer files to your server</li>
 </ul>
 
+#### Code from class
 #### Code from class
 
 #### HW (DUE BEFORE MONDAY 5PM):
@@ -237,8 +231,6 @@ You will notice the the `<ol></ol>` and the `<ul></ul>` tags just wrap the `<li>
 <li>Send me the link to your homework BEFORE MONDAY AT 5PM</li>.
 </ul>
 <li>Suggested Reading:<ul>
-<li>HTML & CSS Jon Duckett ch1-6 ( ebook available thru <a href="http://poly.libguides.com/ebooks">NYU’s Library website</small></a> ) </li>
-</ul>
-</ul>
+<li>HTML & CSS Jon Duckett ch1-6 ( ebook available thru <a href="http://poly.libguides.com/ebooks">NYU’s Library website</a> )
 </li>
 </ul>
