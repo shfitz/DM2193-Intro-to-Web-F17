@@ -104,19 +104,30 @@ The majority of the content on webpages are probably paragraphs. In fact this pa
 
 Sometimes we need to emphasize or strengthen some of the words in a paragraph.
 
-For italic text, we wrap the word, words, or sentence with the <em></em> (short of emphasis) tag:
-```html
+For italic text, we wrap the word, words, or sentence with the ```
+<em></em> (short for emphasis) tag:
+```
 <p>Sometimes you need to <em>emphasize text</em> to your paragraph to make a point!</p>
-For bold text, we wrap the word words or sentence with the <strong></strong> tag.
+You can also use the old school
+```
+<i></i>
+```
+ 
+For bold text, we wrap the word words or sentence with the ```
+<strong></strong>```
+ tag or ```
+<bold></bold>
+```
+pair.
 
 <p>Other times, you need to <strong>bolden text</strong> to your paragraph to make a point!</p>
-```
+
 #### Headings and Hierarchy:
 
 Think of headings to help organize content and call out the “titles” of sections of our webpage. The size/number of the heading tag you use helps describe how important the topic (usually paragraphs and images and content related to the heading text) is.
 
 There are 6 heading sizes:
-```html
+```
 <h1>This is heading 1</h1>
 <h2>This is heading 2</h2>
 <h3>This is heading 3</h3>
@@ -134,7 +145,7 @@ There are 6 heading sizes:
 #### Links and Anchors:
 
 What if you want to send a user to another part of your site or an external site? You use hyperlinks/links:
-```html
+```
 <a href="http://https://www.google.com/">Google It!</a>
 ```
 You’ll there is some extra text in our opening anchor tag:
@@ -150,7 +161,7 @@ An **attribute** is a special code that can enhance or modify a tag. They are us
 #### Adding images to a page:
 
 What about images? We add them like this:
-```html
+```
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Female_pair.jpg/800px-Female_pair.jpg"/>
 ```
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Female_pair.jpg/800px-Female_pair.jpg"/>
@@ -160,18 +171,18 @@ Whoa, there’s another one of those attributes! You’ll notice the src attribu
 Every image on the web has its own image URL. Simply right-click on an image and choose “Copy image URL.” Paste that URL in quotes after src= to insert with your <img> tag.
 
 But let’s just talk about a little more about the image tag.
-```html
+```
 <img src="imagesource.jpg" / >
 ```
 Let’s take another look at this image tag. Remember paragraphs and headings and anchor tags all had opening and closing tags:
 
-```html
+```
 <p></p>
 <h1></h1>
 <a href="#"></a>
 ```
 The image source does not have a closing tag but it has an extra / to close it.
-```html
+```
 <img />
 ```
 These are called self closing tags. We will se a few of them as we move forward.
@@ -179,7 +190,7 @@ These are called self closing tags. We will se a few of them as we move forward.
 ##### A note about indentation:
 
 You’ll notice that when we nest tags , we indent them more. This helps us keep track of the hierarchy of the site and makes the code way more readable.
-```html
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -206,7 +217,7 @@ There are 2 kinds of lists. Ordered lists and unordered lists. You guessed it. O
 Lists have list items nested within them. Each list item is another “bullet point”:
 
 Ordered list:
-```html
+```
 <ol>
 <li>Item 1</li>
 <li>Item 2</li>
@@ -214,7 +225,7 @@ Ordered list:
 </ol>
 ```
 Unordered list:
-```html
+```
 <ul>
 <li>Item 1</li>
 <li>Item 2</li>
@@ -222,7 +233,6 @@ Unordered list:
 </ul>
 ```
 You will notice the the `<ol></ol>` and the `<ul></ul>` tags just wrap the `<li></li>`list items within them. They help separate this list item content from surrounding paragraphs and heading tags and will be very useful when we start styling these elements with CSS.
-
 
 #### Code from class
 
