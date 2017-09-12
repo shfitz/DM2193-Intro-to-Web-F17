@@ -38,8 +38,6 @@
 * identifying names in folders
 * linking throughout a site shorthand 
 
-### Example in class :
-
 ### HW:
 
 * Read "[How We Really Use the Web](http://www.sensible.com/chapter.html)" from Steve Krug's book <i>Don't Make Me Think</i>.
