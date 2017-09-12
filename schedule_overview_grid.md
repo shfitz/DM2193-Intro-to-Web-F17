@@ -68,36 +68,35 @@ HW: See weekly detail
 <td valign="top">2</td>
 <td valign="top">
 <a href="weekly_detail/week2.html">
-<b>Sept 12</b><b><br/>Semantic HTML & CSS</b></a>
+<b>Sept 12</b><b><br/>UX & IA</b></a>
 <ul>
-<li>Homework Presentations</li>
+
+<li>Review Homework </li>
+<li>Definitions: UX, UI, IxD, IA</li>
+
+<li>Wireframes</li>
 <li>Semantic HTML</li>
-<li>Intro to Style / CSS</li>
+
+<li>Site Maps</li>
+
+
 
 </ul>
 DUE:
 <ul>
 <li>Choose Your Own Adventure</li>
 </ul>
-HW: <ul>
-<li>Read "How We <em>Really</em> Use the Web"</li>
 
 </td>
 <td valign="top">
 
 <b>Sept 14<br/>Information Architecture, UX/UI</b>
 <ul>
-<li>Definitions: UX, UI, IxD, IA</li>
-<li>User Flow / User Stories</li>
-<li>Wireframes</li>
-<li>Site Maps</li>
+<li>Intro to Style / CSS</li>
+
 </ul>
 
-HW:
-<ul>
-<li>Start your midterm engines</li>
-<li>Wireframe</li>
-<li>Prepare a draft project plan to present on Monday. Use <a href="http://www.webmonkey.com/2010/02/information_architecture_tutorial">Information Architecture Tutorial<a/> as a guide</li>
+
 
 
 </td>
