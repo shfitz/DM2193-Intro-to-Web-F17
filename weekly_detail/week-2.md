@@ -5,7 +5,7 @@
 ### UX intro
 * wireframes
 
-### Divs ans spans
+### Divs and spans
 * ```span``` - display "inline"
 * ```div``` - display "block"
 * Introducing the ``class="class-name"`` and ``id="id-name"`` attributes.
