@@ -10,7 +10,6 @@ Office hours TBD
 
 ##### Slack: https://introtowebfall2017.slack.com
 ##### GitBook: https://shfitz.gitbooks.io/intro-to-web/content/
-##### GitHub: https://github.com/shfitz/DM2193-Intro-to-Web-F17
 
 ###### NB: This syllabus is subject to change!!!
 
