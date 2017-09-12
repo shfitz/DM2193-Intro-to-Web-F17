@@ -1,13 +1,15 @@
 ## <b>September 12<br/> Semantic HTML & CSS</b>
 
-### HTML Recap
+### UX intro
+* wireframes
+
+### Divs ans spans
 * ```span``` - display "inline"
 * ```div``` - display "block"
 * Introducing the ``class="class-name"`` and ``id="id-name"`` attributes.
 * [Google's HTML/CSS Style guide for class/id naming](https://google.github.io/styleguide/htmlcssguide.xml#ID_and_Class_Naming)
 
 ### Semantic HTML
-###### New Semantic Elements in HTML5 are supported by all modern browsers (except for Internet Explorer 8), according to http://caniuse.com/#feat=html5semantic
 * ```<header>``` - introduction for a section, or for the body. Read more at [w3c html spec](https://www.w3.org/html/wg/drafts/html/master/semantics.html#the-body-element)
 * ```<article>``` -  "a self-contained item that is, in principle, independently distributable or reusable, e.g. in syndication. Examples: A forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content." (via [w3c html spec](https://www.w3.org/html/wg/drafts/html/master/semantics.html#the-article-element))
 * ```<section>``` - "thematic grouping of content." "Examples of sections would be chapters, the various tabbed pages in a tabbed dialog box, or the numbered sections of a thesis. A Web site's home page could be split into sections for an introduction, news items, and contact information." (via [w3c html spec](https://www.w3.org/html/wg/drafts/html/master/semantics.html#the-section-element))
@@ -17,6 +19,12 @@
 * ```<main>``` - Contains the main content of the page. It can only be used once per page. Read more at [w3c](https://www.w3.org/html/wg/drafts/html/master/semantics.html#the-main-element) and [html5doctor](http://html5doctor.com/the-main-element/). 
 * ```<time>``` - Use with a machine-readable timestamp in the ``datetime`` attribute, and a human-readable description. Example:   ```<time datetime="2005-10-07">October</time>```. Read more at [CSS Tricks](https://css-tricks.com/time-element/).
 * ```<mark>``` - Used to <mark>highlight</mark> text. Read more [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark).
+
+### Information Architecture
+
+### Routes Links Directories
+
+
 
 ### CSS - Cascading Style Sheet
 * Syntax:
@@ -57,7 +65,7 @@ p, div {
     * An element's style properties can be automatically inherited from ``body``, or with ``inherit`` to specify that they should inherit from parent element.
     * Read more: https://www.smashingmagazine.com/2010/04/css-specificity-and-inheritance/#3-inheritance
 
-### Example from class :
+### Example in class :
 
 ### HW:
 
