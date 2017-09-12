@@ -67,7 +67,8 @@ HW: See weekly detail
 <tr>
 <td valign="top">2</td>
 <td valign="top">
-<b>Sept 12</b><b><br/>Semantic HTML & CSS</b>
+<a href="weekly_detail/week2.html">
+<b>Sept 12</b><b><br/>Semantic HTML & CSS</b></a>
 <ul>
 <li>Homework Presentations</li>
 <li>Semantic HTML</li>
