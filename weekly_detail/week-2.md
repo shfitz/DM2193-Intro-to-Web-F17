@@ -62,7 +62,7 @@ p, div {
 ### HW:
 
 * Read "[How We Really Use the Web](http://www.sensible.com/chapter.html)" from Steve Krug's book <i>Don't Make Me Think</i>.
-* Read "[What You Think You Know About The Web Is Wrong](http://time.com/12933/what-you-think-you-know-about-the-web-is-wrong/)"
+* Read "[The Web We Lost](http://anildash.com/2012/12/the-web-we-lost.html)" by Anil Dash
 * Experiment with styling your apartment navigation. Can you make the page more attractive?
 
 ## <b>September 14<br/>The Elements of User Experience</b>
@@ -74,9 +74,8 @@ In Class:
 * Discuss HW
 
 HW: 
-* Begin working on your [project plan](../assignments/project_plan.html) for the midterm. Post a draft to Slack. **Be prepared to present a 5 minute project proposal on Monday**.
+* Begin working on your [project plan](../assignments/project_plan.html) for the midterm. Post a draft to Slack. Be prepared to present a 5 minute project proposal on Monday.
 * Create a Site Map for your project, or for an existing website
 * Create a Wireframe for your project, or for an existing website
 * Read Steve Krug's chapter "[Billboard Design 101](http://www.pcworld.com/article/137231/article.html)"
-
-* Optional Reading: [Elements of User Experience by Jesse James Garrett](http://www.jjg.net/elements/)
+* Read the follow-up to the previosu reading, "[Rebuilding the web we lost](http://anildash.com/2012/12/rebuilding-the-web-we-lost.html)" by Anil Dash
