@@ -84,7 +84,7 @@
             </ul>
             HW: <ul>
                 <li>Read "How We <em>Really</em> Use the Web"</li>
-                <li>Prepare a draft project plan to present on Wednesday. Use <a href="http://www.webmonkey.com/2010/02/information_architecture_tutorial">Information Architecture Tutorial<a/> as a guide</li>
+                
 
         </td>
         <td valign="top">
@@ -96,13 +96,15 @@
                 <li>Wireframes</li>
                 <li>Site Maps</li>
             </ul>
-            Midterm Proposals<br/>
+
             HW:
             <ul>
-            <li>Site Map</li>
+            <li>Start your midterm engines</li>
             <li>Wireframe</li>
-            <li>Revise Project Plan</li>
-            <li>Read "Billboard Design 101"</li>
+      <li>Prepare a draft project plan to present on Monday. Use <a href="http://www.webmonkey.com/2010/02/information_architecture_tutorial">Information Architecture Tutorial<a/> as a guide</li>
+
+
+           
         </td>
     </tr>
     <tr>

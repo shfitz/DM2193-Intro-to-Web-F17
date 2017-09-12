@@ -1,7 +1,7 @@
 # Summary
 
 * [Syllabus](README.md)
-* [Schedule Overview Grid](schedule_overview_grid.md)
+* [Schedule ](schedule_overview_grid.md)
 * [Readings & Resources](readings_resources.md)
 * [Major Assignments](assignments/assignments.md)
   * [Show & Tell](assignments/show_and_tells.md)
