@@ -1,5 +1,7 @@
 ## <b>September 12<br/> Semantic HTML & CSS</b>
 
+### Homework party
+
 ### UX intro
 * wireframes
 
@@ -24,7 +26,16 @@
 
 ### Routes Links Directories
 
+### Example in class :
 
+### HW:
+
+* Read "[How We Really Use the Web](http://www.sensible.com/chapter.html)" from Steve Krug's book <i>Don't Make Me Think</i>.
+* Read "[Five important tips for wireframing](http://mediatemple.net/blog/tips/five-important-considerations-for-wireframing/)"
+* Create a Site Map for your project, or for an existing website
+* Create a Wireframe for an idealized version of your apartment site, or for an existing website.
+
+## <b>September 14<br/>The Elements of User Experience</b>
 
 ### CSS - Cascading Style Sheet
 * Syntax:
@@ -65,22 +76,7 @@ p, div {
     * An element's style properties can be automatically inherited from ``body``, or with ``inherit`` to specify that they should inherit from parent element.
     * Read more: https://www.smashingmagazine.com/2010/04/css-specificity-and-inheritance/#3-inheritance
 
-### Example in class :
 
-### HW:
-
-* Read "[How We Really Use the Web](http://www.sensible.com/chapter.html)" from Steve Krug's book <i>Don't Make Me Think</i>.
-* Read "[Five important tips for wireframing](http://mediatemple.net/blog/tips/five-important-considerations-for-wireframing/)"
-* Create a Site Map for your project, or for an existing website
-* Create a Wireframe for an idealized version of your apartment site, or for an existing website.
-
-## <b>September 14<br/>The Elements of User Experience</b>
-
-In Class:
-* Show and Tell Scheduling
-* Discuss Readings
-* Elements of User Experience
-* Discuss HW
 
 HW: 
 * Begin working on your [project plan](../assignments/project_plan.html) for the midterm. Post a draft to Slack. Be prepared to present a 5 minute project proposal on Monday.
