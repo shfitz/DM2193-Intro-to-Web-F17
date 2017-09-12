@@ -1,4 +1,4 @@
-## <b>Feb 1<br/> Semantic HTML & CSS</b>
+## <b>September 12<br/> Semantic HTML & CSS</b>
 
 ### HTML Recap
 * ```span``` - display "inline"
@@ -57,35 +57,30 @@ p, div {
     * An element's style properties can be automatically inherited from ``body``, or with ``inherit`` to specify that they should inherit from parent element.
     * Read more: https://www.smashingmagazine.com/2010/04/css-specificity-and-inheritance/#3-inheritance
 
-### Example from class (updated):
-https://d157rqmxrxj6ey.cloudfront.net/jasonsigal/29538/
+### Example from class :
 
 ### HW:
-* Start a CSS Tutorial of your choice. Some recommendations [here](../readings_resources.html) include:
-    * Book: HTML & CSS by Jon Duckett*
-    * Head First HTML with CSS & XHTML by Elizabeth & Eric Freeman **
-    * Book: [CSS3 for Web Designers](http://www.abookapart.com/products/css3-for-web-designers) by Dan Cederholm
-    * http://learn.shayhowe.com/
-    * [w3 css tutorial](http://www.w3schools.com/css/default.asp)
-    * Many more resources can be found [here](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#html--css) (a list of free programming books!).
-* Read "[How We Really Use the Web](http://www.sensible.com/chapter.html)" from Steve Krug's book <i>Don't Make Me Think</i>. If you want, you can also read "[Billboard Design 101](http://www.pcworld.com/article/137231/article.html)" (it will be assigned in a future reading).
-* Skim "[What You Think You Know About The Web Is Wrong](http://time.com/12933/what-you-think-you-know-about-the-web-is-wrong/)"
-* Start work on your [project plan](../assignments/project_plan.html) for the midterm. Be prepared to describe the goal of your website for the class on Wednesday.
+
+* Read "[How We Really Use the Web](http://www.sensible.com/chapter.html)" from Steve Krug's book <i>Don't Make Me Think</i>.
+* Read "[What You Think You Know About The Web Is Wrong](http://time.com/12933/what-you-think-you-know-about-the-web-is-wrong/)"
+* Experiment with styling your apartment navigation. Can you make the page more attractive?
 
 
-## <b>Feb 3<br/>The Elements of User Experience</b>
+
+
+## <b>September 14<br/>The Elements of User Experience</b>
 
 In Class:
 * Show and Tell Schedule using [Randomizer](http://shiffman.github.io/randomizer/)
-* Discuss Reading
+* Discuss Readings
 * Elements of User Experience
     * http://slides.com/jasonsigal/deck-3
 * Discuss HW
 
 HW: 
-* Continue work on your [project plan](../assignments/project_plan.html) for the midterm. Post a draft to Slack. **Be prepared to present a 5 minute project proposal on Monday**.
+* Begin working on your [project plan](../assignments/project_plan.html) for the midterm. Post a draft to Slack. **Be prepared to present a 5 minute project proposal on Monday**.
 * Create a Site Map for your project, or for an existing website
 * Create a Wireframe for your project, or for an existing website
-* Read Steve Krug's chapter "[Billboard Design 101](http://www.pcworld.com/article/137231/article.html)" if you haven't already
-* Continue learning about CSS and HTML on your own—do your second Learning Log.
+* Read Steve Krug's chapter "[Billboard Design 101](http://www.pcworld.com/article/137231/article.html)"
+
 * Optional Reading: [Elements of User Experience by Jesse James Garrett](http://www.jjg.net/elements/)
