@@ -54,9 +54,8 @@ SEE WEEKLY DETAIL
 <li>Protocols: HTTP, FTP</li>
 <li>FTP Clients</li>
 <li>HTML</li>
-<li>Elements, Attributes, Semantics, Comments</li>
+<li>Elements, Attributes, Comments</li>
 <li>Review Conventions</li>
-<li>Developer Tools</li>
 <li>Discuss HW assignments</li>
 </ul>
 HW: See weekly detail
