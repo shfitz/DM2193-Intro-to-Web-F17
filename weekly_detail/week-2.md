@@ -3,9 +3,15 @@
 ### Homework party
 
 ### UX intro
-* wireframes
+* UX (User Experience) is baout how someone interacts with a product (any product, not just a website)
+* wireframes are means through which we can test out throries of how people will navigate a site.
+* Wireframes focus on organization, not design (though designers and developers both rely on them).
+
+<img src="https://raw.githubusercontent.com/shfitz/DM2193-Intro-to-Web-F17/master/fig471_01a_0.jpg" />
 
 ### Semantic HTML
+* Semantic HTML describes the content of a page to the browser and the developer. We'll use it to screw around with formatting on Thursday. 
+
 * ```<header>``` - introduction for a section, or for the body. Read more at [w3c html spec](https://www.w3.org/html/wg/drafts/html/master/semantics.html#the-body-element)
 * ```<article>``` -  "a self-contained item that is, in principle, independently distributable or reusable, e.g. in syndication. Examples: A forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content." (via [w3c html spec](https://www.w3.org/html/wg/drafts/html/master/semantics.html#the-article-element))
 * ```<section>``` - "thematic grouping of content." "Examples of sections would be chapters, the various tabbed pages in a tabbed dialog box, or the numbered sections of a thesis. A Web site's home page could be split into sections for an introduction, news items, and contact information." (via [w3c html spec](https://www.w3.org/html/wg/drafts/html/master/semantics.html#the-section-element))
@@ -17,12 +23,14 @@
 * ```<mark>``` - Used to <mark>highlight</mark> text. Read more [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark).
 
 ### Divs and spans
-* ```span``` - display "inline"
+* ```span``` - display "inline" - useful for text
 * ```div``` - display "block"
 
 ### Information Architecture
 * site-wide orginization of the pages 
 * think of it as a high-level map
+
+<img src="https://raw.githubusercontent.com/shfitz/DM2193-Intro-to-Web-F17/master/fig469_01a_0.jpg" />
 
 ### Routes Links Directories
 * how we organize content in our sites
