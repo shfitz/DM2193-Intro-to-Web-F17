@@ -68,10 +68,9 @@ p, div {
 ## <b>September 14<br/>The Elements of User Experience</b>
 
 In Class:
-* Show and Tell Schedule using [Randomizer](http://shiffman.github.io/randomizer/)
+* Show and Tell Scheduling
 * Discuss Readings
 * Elements of User Experience
-    * http://slides.com/jasonsigal/deck-3
 * Discuss HW
 
 HW: 
