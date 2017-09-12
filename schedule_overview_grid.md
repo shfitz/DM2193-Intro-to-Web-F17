@@ -84,7 +84,7 @@ HW: See weekly detail
 </ul>
 DUE:
 <ul>
-<li>Choose Your Own Adventure</li>
+<li>Apartment  tour</li>
 </ul>
 
 </td>
