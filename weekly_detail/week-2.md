@@ -5,12 +5,6 @@
 ### UX intro
 * wireframes
 
-### Divs and spans
-* ```span``` - display "inline"
-* ```div``` - display "block"
-* Introducing the ``class="class-name"`` and ``id="id-name"`` attributes.
-* [Google's HTML/CSS Style guide for class/id naming](https://google.github.io/styleguide/htmlcssguide.xml#ID_and_Class_Naming)
-
 ### Semantic HTML
 * ```<header>``` - introduction for a section, or for the body. Read more at [w3c html spec](https://www.w3.org/html/wg/drafts/html/master/semantics.html#the-body-element)
 * ```<article>``` -  "a self-contained item that is, in principle, independently distributable or reusable, e.g. in syndication. Examples: A forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content." (via [w3c html spec](https://www.w3.org/html/wg/drafts/html/master/semantics.html#the-article-element))
@@ -22,9 +16,19 @@
 * ```<time>``` - Use with a machine-readable timestamp in the ``datetime`` attribute, and a human-readable description. Example:   ```<time datetime="2005-10-07">October</time>```. Read more at [CSS Tricks](https://css-tricks.com/time-element/).
 * ```<mark>``` - Used to <mark>highlight</mark> text. Read more [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark).
 
+### Divs and spans
+* ```span``` - display "inline"
+* ```div``` - display "block"
+
 ### Information Architecture
+* site-wide orginization of the pages 
+* think of it as a high-level map
 
 ### Routes Links Directories
+* how we organize content in our sites
+* identifying page names
+* identifying names in folders
+* linking throughout a site shorthand 
 
 ### Example in class :
 
