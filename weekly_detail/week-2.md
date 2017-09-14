@@ -87,8 +87,6 @@ p, div {
     * Read more: https://www.smashingmagazine.com/2010/04/css-specificity-and-inheritance/#3-inheritance
 
 
-
 HW: 
-* Begin working on your [project plan](../assignments/project_plan.html) for the midterm. Post a draft to Slack. Be prepared to present a 5 minute project proposal on Monday.
-* Either cretae a new site with CSS styling and a clear site hierarchy, or style your apartment navigation pages with CSS. Incorporate the wireframes you created 
+* Either create a new site with CSS styling and a clear site hierarchy, or style your apartment navigation pages with CSS. Make sure pages have a clear header, footer, menu and side column. Play around with any CSS properties we have covered so far.
 * Read "[The Web We Lost](http://anildash.com/2012/12/the-web-we-lost.html)" and follow up, "[Rebuilding the web we lost](http://anildash.com/2012/12/rebuilding-the-web-we-lost.html)" by Anil Dash

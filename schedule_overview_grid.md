@@ -89,8 +89,8 @@ DUE:
 
 </td>
 <td valign="top">
-
-<b>Sept 14<br/>Information Architecture, UX/UI</b>
+<a href="weekly_detail/week2.html">
+<b>Sept 14<br/>CSS  Intro</b></a>
 <ul>
 <li>Intro to Style / CSS</li>
 
@@ -103,46 +103,23 @@ DUE:
 </tr>
 <tr>
 <td valign="top">3</td>
-<td valign="top"><b>Sept 19<br/>Midterm Proposals, CSS pt.2</b>
+<td valign="top"><b>Sept 19<br/> Images</b>
 <ul>
-<li>Show & Tells: James T, Jamie, Nicole</li>
-<li>Present Midterm Proposals, Site Maps & Wireframes</li>
-<li>CSS Continued</li>
+<li>Box  Model</li>
 <li>Images</li>
 <ul>
 <li>Creative Commons image resources</li>
 <li>Preparing Images for the Web</li>
 <li>Styling Images</li>
-<!-- <li><a href="http://slides.com/jasonsigal/slides">Slides</a></li> -->
 </ui>
 <br/>
 </ul>
-DUE: Project Proposal, Site Map & Wireframe <br/>
-HW:
-<ul>
-<li>Read <a href="http://www.lukew.com/ff/entry.asp?981">Visual Hierarchy</a></li>
-</ul>
+
 </td>
 <td valign="top"><b>Sept 21<br/>
 CSS Positioning</b>
-<ul>
-<li>Show & Tells: Susie, Tyler</li>
-<li>Midterm Proposal Presentations</li>
-<li>CSS Box Model</li>
-<li>Grids in Graphic Design</li>
-<li>Grid System in CSS</li>
-<li>Display, Clear</li>
-<li>Units, Margins, Padding</li>
-<!-- <li>
-<a href="http://slides.com/jasonsigal/css/">Slides</a></li> -->
-</ul>
-HW:
-<ul>
-<li>Review: <a href="http://learnlayout.com/">Learn CSS Layout</a></li>
-<li>HTML/CSS prototype based on your wireframe
-</li>
-<li>Optional: <a href="http://www.456bereastreet.com/archive/200501/turning_a_list_into_a_navigation_bar">List to Navigation Bar</a></li>
-</ul>
+
+
 
 </td>
 </tr>
@@ -150,60 +127,20 @@ HW:
 <td valign="top">4</td>
 <td valign="top"><b>Sept 26</b>
 <br/>
-<b><em> </em></b>
+<b>Transforms & Transitions</b>
 </td>
 <td valign="top"><b>Sept 28<br/>
-Design for the Web</b>
-<ul>
-<li>Review HW</li>
-<li>Design Guidelines & Brand Books </li>
-<li>Colorspace</li>
-<li>Font</li>
-<!-- <li><a href="http://slides.com/jasonsigal/deck-7/">Slides</a></li>-->
-</ul>
-Due: HTML/CSS Prototype
-<br/>
-HW:
-<ul>
-<li>Create a Style Guide for your website using a program of your choice (it could be Photoshop, or HTML/CSS). Use <a href="http://www.yelp.com/styleguide">Yelp</a> as inspiration. Post to Slack with hashtag #wk4a. Include sections for:</li>
-<ul>
-<li>Color</li>
-<li>Typography</li>
-<li>Grid System / Layout</li>
-<li>Navigation</li>
-<li>Links & Buttons</li>
-<li>Optional: Include references to CSS selectors</li>
-</ul>
-<li>Revise Project Plan</li>
-<li>Keep working on your website</li>
-</ul>
+Media Queries</b>
+
+
 </td>
 </tr>
 <tr>
 <td valign="top">5</td>
-<td valign="top"><a href="week_5.md"><b>Oct 3 <br/>
-Responsive & CSS Transitions</b>
-<ul>
-<li>Responsive vs Mobile First</li>
-<li>Media Queries</li>
-<li>Fun w/ CSS3:</li>
-<li>JavaScript: document.getElementById</li>
-<ul>
-<li>Transition</li>
-<li>Filter</li>
-<li>Transform</li>
-<li>Animation</li>
-</ul>
-</ul>
-HW:
-<ul>
-<li>Redo prototypes, make them responsive, prepare for user testing</li>
-<li>Read <a href="https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns/?hl=en">Responsive Patterns</a> and <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Guide to Flexbox</a></li>
-<li>Read <a href="http://css3.bradshawenterprises.com/">CSS3 Transform, Transition, Animation Tutorial</a></li>
-</ul>
-<!-- DUE: Style Guide<br/></a>
+<td valign="top"><b>Oct 3 <br/>
+Midterm Proposals</b>
 
-<a href="https://slides.com/jasonsigal/responsive">Slides</a></li> -->
+
 </td>
 <td valign="top"><b>
 
@@ -211,45 +148,22 @@ HW:
 Oct 5
 <br/>
 
-Review CSS and HTML, User-Centered Design</b>
+Midterm Proposals</b>
 
-<ul>
-<li>Review Prototypes</li>
-<li>User Testing</li>
-<li>Web Standards</li>
-<li>Accessibility w/ Claire Kearny-Volpe from NYU Ability Lab</li>
-<li>CSS Advanced Selectors</li>
-</ul>
+
+
 </td>
 </tr>
 <tr>
 <td valign="top">6</td>
-<td valign="top"><b>Oct 10<br>User Test, Git/Github, Audio/Video, Review</b>
-<ul>
-<li>User Test Responsive Prototypes</li>
-<li>Intro to Git & GitHub</li>
-<li>HTML5 Audio/Video</li>
-<li>Review </li>
-</ul>
-HW:
-<ul>
-<li>Put your project on GitHub.</li>
-<li>Keep working on midterms</li>
-<li>Review the Non-Quiz and come to next class with questions</li>
-</ul>
 
+<td valign="top"><b>Oct 12<br></b>
+<b>CSS frameworks</b>
 </td>
 <td valign="top"><b>Oct 12<br></b>
-<b>HTML Forms & JavaScript Intro:</b>
-<ul>
-<li>History</li>
-<li>Syntax</li>
-<li>Variables</li>
-<li>Types</li>
-<li>Debugging</li>
-<li>DOM</li>
-</ul>
+<b>CSS frameworks</b>
 </td>
+
 </tr>
 
 <tr>
@@ -264,7 +178,7 @@ HW:
 
 
 <tr>
-<td valign="top">--</td>
+<td valign="top">8</td>
 <td valign="top"><b>oct 24</b><br>
 Post-midterm coma
 </td>
@@ -276,7 +190,7 @@ Post-midterm coma
 
 
 <tr>
-<td valign="top">8</td>
+<td valign="top">9</td>
 <td valign="top">
 <b>Oct 31</b><br>
 <b>JavaScript + DOM</b>
@@ -301,7 +215,7 @@ Post-midterm coma
 </tr>
 
 <tr>
-<td valign="top">9</td>
+<td valign="top">10</td>
 <td valign="top"><b>Nov 7</b><br>
 <b>JavaScript Continued</b>
 <ul>
@@ -317,7 +231,7 @@ we'll figure it out.
 </td>
 </tr>
 <tr>
-<td valign="top">10</td>
+<td valign="top">11</td>
 <td valign="top">
 
 <s><b>Nov 14</b></s>
@@ -339,7 +253,7 @@ we'll figure it out.
 </td>
 </tr>
 <tr>
-<td valign="top">11</td>
+<td valign="top">12</td>
 <td valign="top"><b>Nov 21</b><br>
 <h4>Final Project Proposals</h4>
 </td>
@@ -349,7 +263,7 @@ we'll figure it out.
 </tr>
 
 <tr>
-<td valign="top">12</td>
+<td valign="top">13</td>
 <td valign="top"><b>Nov 28</b><br>
 <b>JSON & API's</b>
 <ul>
@@ -383,13 +297,13 @@ CSS Preprocessors</b>
 </tr>
 
 <tr>
-<td valign="top">13</td>
+<td valign="top">14</td>
 <td valign="top"><b>Dec 5</b><br>
-<li>Review HW</li>
-<li>HW: Prepare to present something that you learned for the class on Wednesday
+<li>Mobile??</li>
+
 </td>
 <td valign="top"><b>Dec 7</b><br>
-<!--<b>Mobile</b>
+<!--<b></b>
 <ul>
 <li>Handlebars</li>
 <li>Web Components</li>
@@ -412,15 +326,6 @@ Topics based on final project proposals
 </td>
 </tr>
 
-<!-- <tr>
-<td valign="top">Final</td>
-<td valign="top"><b>May 9</b><br>
-<h4>Final Presentations</h4>
-</td>
-<td valign="top"><b>May 11</b><br>
-<h4>Final Presentations</h4>
-</td>
-</tr>
--->
+
 </table>
 
