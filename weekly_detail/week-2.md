@@ -45,7 +45,9 @@
 * Create a Site Map for your project, or for an existing website
 * Create a Wireframe for an idealized version of your apartment site, or for an existing website.
 
-## <b>September 14<br/>The Elements of User Experience</b>
+## <b>September 14<br/>CSS</b>
+
+[Code in class](https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/css-week2-class%20examples)
 
 ### CSS - Cascading Style Sheet
 * Syntax:
