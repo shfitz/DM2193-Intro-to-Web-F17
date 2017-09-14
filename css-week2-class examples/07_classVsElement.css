@@ -1,0 +1,12 @@
+p {
+  margin-left: 10px;
+    /* this will apply to all <p> tags */
+}
+
+.big-indent{
+      margin-left: 30px;
+/* ths will apply to aything with the class big-indent
+    you can call it anything you like */
+}
+
+/* comments lok like this */

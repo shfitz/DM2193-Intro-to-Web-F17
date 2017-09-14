@@ -1,0 +1,16 @@
+/* only use ids once per page*/
+
+
+#work{
+  background-color: black;
+    color:white;
+    font-family: monospace
+}
+
+#party{
+background-color: aquamarine;
+    color: brown;
+    font-family: cursive;
+
+}
+

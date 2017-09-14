@@ -1,0 +1,17 @@
+h1{
+   font-family: "Verdana", sans-serif;
+}
+
+/*Class Selector*/
+.profile-photo{
+   border: 1px solid white;
+   width: 200px;
+   height: 200px;
+}
+
+/*Id Selector*/
+#info{
+   margin: 0 auto;
+   text-align:left;
+   background-color: rgba(100,100,100,0.5);
+}
