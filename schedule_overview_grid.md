@@ -299,30 +299,24 @@ CSS Preprocessors</b>
 <tr>
 <td valign="top">14</td>
 <td valign="top"><b>Dec 5</b><br>
-<li>Mobile??</li>
+<li>Final  Presentations</li>
 
 </td>
 <td valign="top"><b>Dec 7</b><br>
-<!--<b></b>
-<ul>
-<li>Handlebars</li>
-<li>Web Components</li>
-<li>React.js</li>
-</ul> -->
+Final  Presentations
 </td>
 </tr>
 
 <tr>
 <td valign="top">14</td>
 <td valign="top"><b>Dec 12</b><br>
-<b>TBA</b>
-<br/>
-Topics based on final project proposals
+<b>No  class</b>
+
+
 </td>
 <td valign="top"><b>Dec 14</b><br>
-<b>TBA</b>
+<b>Last  Class</b>
 <br/>
-Topics based on final project proposals
 </td>
 </tr>
 
