@@ -79,16 +79,13 @@ p, div {
 * Cascade Specificity
     * Order:
         1. inline ``style=`` tag is most specific (but don't use it!)
-        2. ID tag
+        2. ID tag #
         3. class / psuedoclass
         4. Elements / pseudo-elements
-    * From there, last rule wins! It's the order they are listed on the page. If two rules conflict, the last rule overwrites the first rule.
-    * Read more: [CSS Specificity Things You Should Know](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
-* Inheritance
-    * An element's style properties can be automatically inherited from ``body``, or with ``inherit`` to specify that they should inherit from parent element.
-    * Read more: https://www.smashingmagazine.com/2010/04/css-specificity-and-inheritance/#3-inheritance
+    *  If two rules conflict, the last rule overwrites the first rule.
 
 
 HW: 
 * Either create a new site with CSS styling and a clear site hierarchy, or style your apartment navigation pages with CSS. Make sure pages have a clear header, footer, menu and side column. Play around with any CSS properties we have covered so far.
-* Read "[The Web We Lost](http://anildash.com/2012/12/the-web-we-lost.html)" and follow up, "[Rebuilding the web we lost](http://anildash.com/2012/12/rebuilding-the-web-we-lost.html)" by Anil Dash
+* Read "[The Web We Lost](http://anildash.com/2012/12/the-web-we-lost.html)" and follow up, "[Rebuilding the web we lost](http://anildash.com/2012/12/rebuilding-the-web-we-lost.html)" by Anil Dash. We'll discuss these in class atthe beginning. 
+
