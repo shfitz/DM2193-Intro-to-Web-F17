@@ -104,10 +104,13 @@ DUE:
 <tr>
 <td valign="top">3</td>
 <td valign="top"><b>Sept 19 <br />Box Model<br/> </b>
-<ul>
+<ul><li>Joel presentation</li>
+<li>review homework</li>
+<li>reading discusssion</li>
 <li>Box  Model</li>
 <ul>
 <br/>
+<ul><li>homework : beging to wrap the elements of your pages in box elements. How can you differentiate between them? 
 </ul>
 
 </td>

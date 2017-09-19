@@ -11,5 +11,5 @@
 * [Weekly Detail](weekly_detail/README.md)
   * [Week 1](weekly_detail/week1.md)
   * [Week 2](weekly_detail/week-2.md)
-* Week 3
+  * [Week 3](weekly_detail/week-3.md)
 
