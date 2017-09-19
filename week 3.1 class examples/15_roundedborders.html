@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>Box model properites</title>
+    <style type="text/css">
+        div {
+            background-color: rgba(0, 0, 200, 0.1);
+        }
+        
+        .container-fluid {
+            width: 90%;
+            margin: 0 auto;
+            padding: 2%;
+        }
+        
+        .clear-fix::after {
+            display: block;
+            clear: both;
+            /* ensure some older compatability */
+            height: 0;
+            font-size: 0;
+            content: " ";
+            /* extra backup */
+            visibility: hidden;
+        }
+        
+        .thumbnail-border-padding {
+            border-radius: 10px;
+            width: 250px;
+            height: 250px;
+            float: left;
+            border: 5px solid #006FFF;
+            /* Much nicer but the padding added 40px to each div's dimensions! Lets rework our width and height again to account for this */
+            width: 250px;
+            height: 250px;
+            padding: 20px;
+        }
+                .thumbnail-border-hideme {
+            width: 250px;
+            height: 250px;
+            float: left;
+            border: 5px solid #006FFF;
+            /* Much nicer but the padding added 40px to each div's dimensions! Lets rework our width and height again to account for this */
+            width: 250px;
+            height: 250px;
+            padding: 20px;
+                    visibility:hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid clear-fix">
+        <div class="thumbnail-border-padding"> eh</div>
+        <div class="thumbnail-border-hideme">some</div>
+        <div class="thumbnail-border-padding">text</div>
+        <div class="thumbnail-border-padding">here</div>
+        <!-- too many!! -->
+    </div>
+</body>
+
+</html>
