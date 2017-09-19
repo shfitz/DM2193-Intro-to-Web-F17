@@ -106,9 +106,7 @@ DUE:
 <td valign="top"><b>Sept 19 <br />Box Model<br/> </b>
 <ul>
 <li>Box  Model</li>
-
 <ul>
-</ui>
 <br/>
 </ul>
 
