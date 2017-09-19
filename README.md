@@ -5,7 +5,7 @@
 
 Scott Fitzgerald shf220@nyu.edu
 Fall 2017 • Tu & Th • 12:30-2:20PM • Magnet Rm 811 • 3 credit hrs
-Office hours TBD
+Office hours by appointment
 
 
 ##### Slack: https://introtowebfall2017.slack.com
