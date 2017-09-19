@@ -103,14 +103,11 @@ DUE:
 </tr>
 <tr>
 <td valign="top">3</td>
-<td valign="top"><b>Sept 19<br/> Images</b>
+<td valign="top"><b>Sept 19 <br />Box Model<br/> </b>
 <ul>
 <li>Box  Model</li>
-<li>Images</li>
+
 <ul>
-<li>Creative Commons image resources</li>
-<li>Preparing Images for the Web</li>
-<li>Styling Images</li>
 </ui>
 <br/>
 </ul>
