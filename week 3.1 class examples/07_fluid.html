@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Box model properites</title>
+    <style type="text/css">
+        div {
+            background-color: rgba(0, 0, 200, 0.1);
+        }
+        
+        .container-fluid {
+            width: 90%;
+            margin: 0 auto;
+            padding: 2%;
+        }
+        
+        .thumbnail {
+            width: 300px;
+            height: 300px;
+            float: left;
+        }
+        
+        .clear-fix::after {
+            display: block;
+            clear: both;
+            /* ensure some older compatability */
+            height: 0;
+            font-size: 0;
+            content: " ";
+            /* extra backup */
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid clear-fix">
+        <div class="thumbnail"></div>
+        <div class="thumbnail"></div>
+        <div class="thumbnail"></div>
+    </div>
+</body>
+
+</html>
