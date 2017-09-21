@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS layout and positioning</title>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+        
+        div.fixedbottom {
+            position: fixed;
+            bottom: 0;
+            right:0;
+            width:100px;
+            border: 3px dashed #3cf;
+        }
+        
+        div.fixedleft {
+            position: fixed;
+            left: 0;
+            top: 150px;
+            width:100px;
+            border: 3px dashed #3cf;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>fixed</h2>
+    <p>positioned relative to the viewport (browser window), which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+</p>
+    <div class="fixedbottom">this div is fixed in one place</div>
+    <div class="fixedleft">this div is fixed in a different place</div>
+</body>
+
+</html>

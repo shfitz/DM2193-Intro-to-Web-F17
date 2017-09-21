@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS layout and positioning</title>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+        
+        div.relative1 {
+            position: relative;
+            left: 30px;
+            border: 3px dashed #3cf;
+        }
+        
+        div.relative2 {
+            position: relative;
+            left: 50px;
+            top: 100px;
+            border: 3px dashed #3cf;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>relative</h2>
+    <p>Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</p>
+    <div class="relative1">this div is relativvveee1</div>
+    <div class="relative2">this div is relativvveee2</div>
+</body>
+
+</html>

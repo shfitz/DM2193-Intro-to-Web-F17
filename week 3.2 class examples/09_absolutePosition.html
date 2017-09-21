@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS layout and positioning</title>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+        
+        div.container {
+            position:relative;
+            border: 3px solid #f03;
+            width: 800px;
+            height: 600px;
+        }
+        
+        div.absolute {
+            position: absolute;
+            top: 80px;
+            right: 0;
+            width: 100px;
+            height:100px;
+            border: 3px dashed #3cf;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>absolute</h2>
+        <p>positioned relative to the nearest positioned (any position except static) ancestor. it's not positioned relative to the viewport, like fixed. if no ancestors, then it's relative to the viewport </p>
+        <div class="absolute">this div is absolutely in place, based on the dive that surrpunds it</div>
+    </div>
+</body>
+
+</html>

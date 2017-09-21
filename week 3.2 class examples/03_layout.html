@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>CSS layout and positioning</title>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }        
+        header,
+        footer {
+            background-color: magenta;
+            color: white;
+            padding: 5px;
+        }
+        
+        .col {
+            float: left;
+            padding: 15px;
+        }
+        
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        .menu {
+            width: 25%;
+        }
+        
+        .content {
+            width: 75%;
+        }
+        
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .menu li {
+            padding: 8px;
+            margin-bottom: 8px;
+            background-color: #33b5e5;
+            color: #ffffff;
+        }
+        
+        .menu li:hover {
+            background-color: #0099cc;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>This is the best site ever</h1></header>
+    <div class="clearfix">
+        <div class="col menu">
+        <ul>
+            <li>my work</li>
+            <li>my hobbies</li>
+            <li>my play</li>
+            <li>my cats</li>
+        </ul>
+    </div>
+    <div class="content"> <h1>my cats</h1>
+    <p>My cats are named weirdo and fatty.</p>
+    <p>These are their adopted names, originally they were pod and blixa.</p>
+        </div>
+    </div>
+    <footer>
+  <p>copyleft 2017</p>
+    </footer>
+</body>
+</html>

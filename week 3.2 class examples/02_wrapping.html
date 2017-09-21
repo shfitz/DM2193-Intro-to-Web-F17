@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>CSS layout and positioning</title>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+        /*Ithe float property can be used to wrap text around images*/
+        
+        img.right{
+            float: right;
+            margin: 0 0 10px 10px;
+        }
+        
+        div.right {
+            margin: 5px;
+            padding: 30px;
+            float: right;
+            width: 75%;
+            border: 1px solid #F3C;
+        }
+        
+        div.container {
+            margin: 10 auto;
+            height: 90%;
+            width: 90%;
+            border: 5px solid #006633;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>flow</h1>
+        <div class="right"><img class="right" src="https://www.askideas.com/media/08/Old-Man-Smiley-Face-Funny-Dance.jpg" width="100px" height="100px" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula, turpis ac aliquet lacinia, augue massa interdum massa, in mattis nisl nisi eu nibh. Nulla non est in magna consequat pretium at at libero. Nunc pretium nunc eget dolor posuere ullamcorper. Phasellus vel ipsum sed libero tincidunt hendrerit. Pellentesque at sodales ipsum. Fusce aliquam leo id nisl feugiat, vitae rutrum urna congue. Pellentesque facilisis eu libero in faucibus.</div>
+    </div>
+</body>
+
+</html>
