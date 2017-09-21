@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS layout and positioning</title>
+    <style type="text/css">
+        .container {
+            position: relative;
+        }
+        
+        nav {
+            position: absolute;
+            left: 0px;
+            width: 200px;
+        }
+        
+        div.title {
+            /* position is static by default */
+            margin-left: 200px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: darkgray;
+            padding: 10px;
+        }
+         div.content {
+            /* position is static by default */
+            margin-left: 200px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: darkgray;
+            padding: 10px;
+        }
+         div.footnotes {
+            /* position is static by default */
+            margin-left: 200px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: darkgray;
+            padding: 10px;
+        }
+        
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            height: 70px;
+            background-color:gainsboro;
+            width: 100%;
+        }
+        
+        body {
+            margin-bottom: 120px;
+            font-family: sans-serif;
+        }
+        
+        a {
+            color: deeppink;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#">This</a></li>
+                <li><a href="#">is</a></li>
+                <li><a href="#">a</a></li>
+                <li><a href="#">navigation</a></li>
+            </ul>
+        </nav>
+        <div class="title">The margin-left style for sections makes sure there is room for the nav. Otherwise the absolute and static elements would overlap </div>
+        <div class="content">
+            if the container was smaller than the nav, the whole thing would look funny.<br />
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. </div>
+        <div class="footnotes">resizing is nice </div>
+    </div>
+    <footer>Hello there!</footer>
+</body>
+
+</html>
