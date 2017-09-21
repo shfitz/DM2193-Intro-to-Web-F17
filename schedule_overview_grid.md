@@ -140,6 +140,8 @@ CSS Positioning  &  images</b>
 </td>
 <td valign="top"><b>Sept 28<br/>
 Media Queries</b>
+<ul><li>Matthew  presentation</li>
+<li>rich media</li></ul>
 
 
 </td>
