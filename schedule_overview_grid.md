@@ -115,9 +115,14 @@ DUE:
 
 </td>
 <td valign="top"><b>Sept 21<br/>
-CSS Positioning</b>
+CSS Positioning  &  images</b>
 
+<ul><li>image formatting for the web</li>
+<li>positionig elements</li>
+</ul>
 
+<ul><li>Homework : begin to layout your sites that you've been working on based off the wireframes you made last week. Resize and adapt your images and other content to appropriate scales for the web.</li>
+<li>Start to formulate a plan for a site you will make for your midterm. We'll talk abotu specifics next week.</li></ul>
 
 </td>
 </tr>
