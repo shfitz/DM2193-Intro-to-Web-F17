@@ -119,11 +119,12 @@ CSS Positioning  &  images</b>
 
 <ul><li>image formatting for the web</li>
 <li>positionig elements</li>
+<li>in-browser fuckery</li>
 <li><ahref="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week%203.2%20class%20examples">Class notes</a></li>
 </ul>
 
 <ul><li>Homework : begin to layout your sites that you've been working on based off the wireframes you made last week. Resize and adapt your images and other content to appropriate scales for the web.  <em>Post this on your website and github.</em> Send me a link to both before class on Tuesday.</li>
-<li>Start to formulate a plan for a site you will make for your midterm. We'll talk abotu specifics next week.</li></ul>
+<li>Start to formulate a plan for a site you will make for your midterm. We'll talk about specifics next week.</li></ul>
 
 </td>
 </tr>
@@ -132,6 +133,10 @@ CSS Positioning  &  images</b>
 <td valign="top"><b>Sept 26</b>
 <br/>
 <b>Transforms & Transitions</b>
+<ul><li>Asaf  presentation</li>
+<li>review homework</li>
+<li>transforms/transitions</li>
+<li>midterm dicussion</li></ul>
 </td>
 <td valign="top"><b>Sept 28<br/>
 Media Queries</b>
