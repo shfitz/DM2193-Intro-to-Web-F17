@@ -149,7 +149,7 @@ Media Queries</b>
 <tr>
 <td valign="top">5</td>
 <td valign="top"><b>Oct 3 <br/>
-Midterm Proposals</b>
+Planning your site
 
 
 </td>
