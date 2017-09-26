@@ -3,6 +3,7 @@
 ### Homework party
 
 ### Fun things
+
 * Transition - Transform almosst any CSS property by animating the change in value from one to the other. 
 
 ```
@@ -16,6 +17,7 @@
 ```
 
 * Transform - Change the position or size of an HTML element. Options include skew scale rotate translate scale3d rotate3d translate3d.
+
 ```
     .zoom-in {
         transform: scale(2);
