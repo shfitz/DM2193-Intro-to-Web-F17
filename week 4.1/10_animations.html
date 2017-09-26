@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Animations</title>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+        
+        div.container {
+            margin: 10px;
+            height: 90%;
+            width: 90%;
+            padding: 10px;
+        }
+        
+        div.rotateMe {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: spinMe;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes spinMe {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Animations</h1>
+        <h2>an animation lets an element gradually change from one style to another. You can change as many CSS properties you want, as many times you want.To use CSS3 animation, you must first specify some keyframes for the animation.Keyframes hold what styles the element will have at certain times.</h2>
+        <p>When you specify CSS styles inside the @keyframes rule, the animation will gradually change from the current style to the new style at certain times.</p>
+        <div class="rotateMe">wheeeeee</div>
+    </div>
+</body>
+
+</html>

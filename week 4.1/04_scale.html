@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>CSS Transforms</title>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+        
+        div.container {
+            margin: 10px;
+            height: 90%;
+            width: 90%;
+            padding: 10px;
+        }
+        
+        div.scale {
+            -webkit-transform: scale(2, 3);
+            /* Safari */
+            transform: scale(2, 3);
+            position: absolute;
+            border: 4px dotted #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Transform 2d</h1>
+        <h2>scale: scale(x,y); || scale(s);</h2>
+        <p> increases or decreases the size of an element </p>
+        <div class="scale">I am scaled up</div>
+    </div>
+</body>
+
+</html>

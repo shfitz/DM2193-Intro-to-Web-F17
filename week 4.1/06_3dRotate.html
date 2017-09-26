@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>CSS Transforms</title>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+        
+        div.container {
+            margin: 10px;
+            height: 90%;
+            width: 90%;
+            padding: 10px;
+        }
+        
+        div.rotX {
+            position: fixed;
+            left: 300px;
+            -webkit-transform: rotateX(180deg);
+            /* Safari */
+            transform: rotateX(180deg);
+            border: 4px dotted #000;
+            width: 200px;
+        }
+        
+        div.rotY {
+
+            -webkit-transform: rotateY(150deg);
+            /* Safari */
+            transform: rotateY(150deg);
+            border: 4px dotted #000;
+            width: 200px;
+        }
+        
+        div.rotZ {
+            position: fixed;
+            left: 600px;
+            -webkit-transform: rotateZ(90deg);
+            /* Safari */
+            transform: rotateZ(90deg);
+            border: 4px dotted #000;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Transform 3d</h1>
+        <h2>rotate X Y Z</h2>
+        <p>
+            <ul>
+                <li>rotateX() : rotates an element around its X-axis at a given degree</li>
+                <li>rotateY() : rotates an element around its Y-axis at a given degree</li>
+                <li>rotateZ() : rotates an element around its Z-axis at a given degree</li>
+            </ul>
+        </p>
+        <div class="rotX">I am rotX</div>
+        <div class="rotY">I am rotY</div>
+        <div class="rotZ">I am rotZ</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <title>CSS Transforms</title>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+        
+        div.container {
+            margin: 10px;
+            height: 90%;
+            width: 90%;
+            padding: 10px;
+        }
+        
+        div.changerEase {
+            width: 100px;
+            height: 100px;
+            background: red;
+            -webkit-transition: width 2s;
+            /* Safari */
+            transition: width 2s;
+            -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
+            margin: 10px;
+        }
+        
+        div.changerEasein {
+            width: 100px;
+            height: 100px;
+            background: red;
+            -webkit-transition: width 2s;
+            /* Safari */
+            transition: width 2s;
+            -webkit-transition-timing-function: ease-in;
+            transition-timing-function: ease-in;
+            margin: 10px;
+        }
+        
+        div.changerEaseOut {
+            width: 100px;
+            height: 100px;
+            background: red;
+            -webkit-transition: width 2s;
+            /* Safari */
+            transition: width 2s;
+            -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+            margin: 10px;
+        }
+        
+        div.changerInOut {
+            width: 100px;
+            height: 100px;
+            background: red;
+            -webkit-transition: width 2s;
+            /* Safari */
+            transition: width 2s;
+            -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+            margin: 10px;
+        }
+        
+        div.changerlin {
+            width: 100px;
+            height: 100px;
+            background: red;
+            -webkit-transition: width 2s;
+            /* Safari */
+            transition: width 2s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            margin: 10px;
+        }
+        
+        div.changerlin:hover {
+            width: 300px;
+        }
+        
+        div.changerInOut:hover {
+            width: 300px;
+        }
+        
+        div.changerEaseIn:hover {
+            width: 300px;
+        }
+        
+        div.changerEase:hover {
+            width: 300px;
+        }
+        
+        div.changerEaseOut:hover {
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Transitions</h1>
+        <h2>there are multiple kinds of transition curves</h2>
+        <div class="changerEase">ease</div>
+        <div class="changerlin">linear</div>
+        <div class="changerEaseIn">ease-in</div>
+        <div class="changerEaseOut">ease-out</div>
+        <div class="changerInOut">ease-in-out</div>
+    </div>
+</body>
+
+</html>

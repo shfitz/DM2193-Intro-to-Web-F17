@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>Animations</title>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+        
+        div.container {
+            margin: 10px;
+            height: 90%;
+            width: 90%;
+            padding: 10px;
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #cc99cc;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dropdowns</h1>
+        <h2>Useful for revealing content when user interacts with a page</h2>
+        <div class="dropdown">Mouse all over me
+        <div class="dropdown-content"><p>wheeeeee</p></div>
+            </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>CSS Transforms</title>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+        
+        div.container {
+            margin: 10px;
+            height: 90%;
+            width: 90%;
+            padding: 10px;
+        }
+        
+        div.skew {
+            -webkit-transform: skew(20deg, 10deg);
+            /* Safari */
+            transform: skew(20deg, 10deg);
+            border: 4px dotted #000;
+            width:25%;
+        }
+        
+        div.skewX {
+            position:fixed;
+            left:300px;
+            -webkit-transform: skewX(20deg);
+            /* Safari */
+            transform: skewX(20deg);
+            border: 4px dotted #000;
+            width:25%;
+        }
+        
+        div.skewY {
+            position:fixed;
+            left:600px;
+            transform: translate(50px, 100px);
+            -webkit-transform: skewY(20deg);
+            /* Safari */
+            transform: skewY(20deg);
+            border: 4px dotted #000;
+            width:25%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Transform 2d</h1>
+        <h2>skews</h2>
+        <p>
+            <ul>
+                <li>skewX() : skews an element along the X-axis by the given angle.</li>
+                <li>skewY() : skews an element along the Y-axis by the given angle.</li>
+                <li>skew() : skews an element along the X and Y-axis by the given angles.</li>
+            </ul>
+        </p>
+        <div class="skewX">I am skewX</div>
+        <div class="skewY">I am skewY</div>
+        <div class="skew">I am skew</div>
+    </div>
+</body>
+
+</html>
