@@ -150,16 +150,18 @@ Media Queries</b>
 <tr>
 <td valign="top">5</td>
 <td valign="top"><b>Oct 3 <br/>
-
+Planning your site
 </b>
-Midterm Proposals
+
 </td>
 <td valign="top"><b>
 
 
 Oct 5</b>
 <br/>
-Planning your site
+Midterm Proposals
+
+
 
 
 
