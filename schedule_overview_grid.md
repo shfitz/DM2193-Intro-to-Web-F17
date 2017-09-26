@@ -136,7 +136,8 @@ CSS Positioning  &  images</b>
 <ul><li>Asaf  presentation</li>
 <li>review homework</li>
 <li>transforms/transitions</li>
-<li>midterm dicussion</li></ul>
+<li>midterm dicussion</li>
+<li><a  href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week%204.1">class notes</a></ul>
 </td>
 <td valign="top"><b>Sept 28<br/>
 Media Queries</b>
