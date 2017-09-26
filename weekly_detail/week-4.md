@@ -16,12 +16,12 @@
 ```
 
 * Transform - Change the position or size of an HTML element. Options include skew scale rotate translate scale3d rotate3d translate3d.
-'''
+```
     .zoom-in {
         transform: scale(2);
     }
     .zoom-out {
         transform: scale(0.5);
     }
-'''
+```
 
