@@ -137,7 +137,7 @@ CSS Positioning  &  images</b>
 <li>review homework</li>
 <li>transforms/transitions</li>
 <li>midterm dicussion</li>
-<li><a  href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week%204.1">class notes</a></ul>
+<li><a  href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week%204.1">class notes</a></li><li>Homework : Read <a  href="https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns?hl=en">Google's notes on Responsive Web Design Patterns</a></ul>
 </td>
 <td valign="top"><b>Sept 28<br/>
 Media Queries</b>
