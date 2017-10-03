@@ -154,8 +154,12 @@ No  class</b>
 <li>Dong Ha's  presentation</li>
 <li>Fancy Fonts</li>
 <li>Media Queries</li>
-
 <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week%205.1">Class notes</a></li>
+<li>Check on midterm progress</li>
+<li><b>Homework : </b> get your midterm proposal and associated docs ready. Send thm to me before class on Thursday</li>
+
+
+
 
 </ul>
 </td>
@@ -164,13 +168,9 @@ No  class</b>
 
 Oct 5</b>
 <br/>
-Midterm Proposals
-
-
-
-
-
-
+<ul><li>Samir's presentation</li>
+<li>Midterm Proposals</li>
+</ul>
 
 </td>
 </tr>
