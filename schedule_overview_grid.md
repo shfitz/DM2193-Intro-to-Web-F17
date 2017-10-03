@@ -156,7 +156,7 @@ No  class</b>
 <li>Media Queries</li>
 <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week%205.1">Class notes</a></li>
 <li>Check on midterm progress</li>
-<li><b>Homework : </b> get your midterm proposal and associated docs ready. Send thm to me before class on Thursday</li>
+<li><b>Homework : </b> get your midterm proposal and associated docs ready. Send them to me before class on Thursday.  Plan on showing a slideshow or images that describe a simple, multipage (minimum of 4 pages) website. Do a short write up on your site as well that we can refer to for documentation. The writeup and presentation should describe the concept or idea behind site, have a site map and wireframes for the pages, illustrate an existing website you drew inspiration from, describe the concepts and skills you learned to build your site and any concepts or skills you stilll need to still learn to complete the project.</li>
 
 
 
