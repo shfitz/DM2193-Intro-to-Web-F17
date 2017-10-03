@@ -140,19 +140,24 @@ CSS Positioning  &  images</b>
 <li><a  href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week%204.1">class notes</a></li><li>Homework : Read <a  href="https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns?hl=en">Google's notes on Responsive Web Design Patterns</a></ul>
 </td>
 <td valign="top"><b>Sept 28<br/>
-Media Queries</b>
-<ul><li>Matthew  presentation</li>
-<li>rich media</li></ul>
+No  class</b>
+
+</ul>
 
 
 </td>
 </tr>
 <tr>
 <td valign="top">5</td>
-<td valign="top"><b>Oct 3 <br/>
-Planning your site
-</b>
+<td valign="top"><b>Oct 3 </b><br/>
+<ul><li>Matthew's  presentation</li>
+<li>Dong Ha's  presentation</li>
+<li>Fancy Fonts</li>
+<li>Media Queries</li>
 
+<li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week%205.1">Class notes</a></li>
+
+</ul>
 </td>
 <td valign="top"><b>
 
