@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        * {
+            font-family: sans-serif;
+        }
+        
+        img {
+            width: 100%;
+        }
+        
+        h1 {
+            font-size: 32px;
+        }
+        
+        h2 {
+            font-size: 28px;
+        }
+        
+        .header {
+            padding: 1%;
+            background-color: #acacac;
+            border: 1px solid #e9e9e9;
+            border-radius: 4px;
+        }
+        
+        .menuitem {
+            margin: 4%;
+            margin-left: 0;
+            margin-top: 0;
+            padding: 4%;
+            border-bottom: 1px solid #e9e9e9;
+        }
+        
+        .main {
+            padding: 2%;
+        }
+        
+        .right {
+            padding: 4%;
+            background-color: #a6c6cb;
+            border-radius: 4px;
+        }
+        
+        .footer {
+            padding: 1%;
+            text-align: center;
+            background-color: #99b5ba;
+            border: 1px solid #e9e9e9;
+            font-size: 10px;
+            border-radius: 4px;
+        }
+        
+        .container {
+            width: 100%;
+        }
+        
+        .wrapper {
+            overflow: hidden;
+        }
+        
+        .gridbox {
+            margin-bottom: 2%;
+            margin-right: 2%;
+            float: left;
+        }
+        
+        .gridheader {
+            width: 100%;
+        }
+        
+        .gridmenu {
+            width: 23%;
+        }
+        
+        .gridmain {
+            width: 48%;
+        }
+        
+        .gridright {
+            width: 23%;
+            margin-right: 0;
+        }
+        
+        .gridfooter {
+            width: 100%;
+            margin-bottom: 0;
+        }
+        a{
+            text-decoration: none;
+            color: cornflowerblue;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        @media only screen and (max-width: 500px) {
+            .gridmenu {
+                width: 100%;
+            }
+            .menuitem {
+                margin: 1%;
+                padding: 1%;
+            }
+            .gridmain {
+                width: 100%;
+            }
+            .main {
+                padding: 1%;
+            }
+            .gridright {
+                width: 100%;
+            }
+            .right {
+                padding: 1%;
+            }
+            .gridbox {
+                margin-right: 0;
+                float: left;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="gridbox gridheader">
+                <div class="header">
+                    <h1>Nicolas Cage</h1> </div>
+            </div>
+            <div class="gridbox gridmenu">
+                <div class="menuitem"><a href="#">Raising Arizona</a></div>
+                <div class="menuitem"><a href="#">Wild at Heart</a></div>
+                <div class="menuitem"><a href="#">Adaptation</a></div>
+                <div class="menuitem"><a href="#">The Wicker Man</a></div>
+            </div>
+            <div class="gridbox gridmain">
+                <div class="main">
+                    <h1>More about Nic</h1>
+                    <p>Since the beginning of Cage's career, many critics, including Roger Ebert, have described his performance as "operatic." In February 2011, Cage said that, at a certain point in his career, he realized that he had developed his own method of acting, which he described as "Nouveau Shamanic." He noted, "at some point I'll have to write a book" about it. Cage later explained that he drew the inspiration for the name from the book The Way of the Actor by Brian Bates, in which he read about the parallel between the ancient shamans and thespians.</p> <img src="http://www.placecage.com/400/300" alt="Nic!" width="" height="" /> </div>
+            </div>
+            <div class="gridbox gridright">
+                <div class="right">
+                    <h2>Who?</h2>
+                    <p>Nic Cage. Famous actor</p>
+                    <hr />
+                    <h2>Wow?</h2>
+                    <p>It's his snakeskin jacket!</p>
+                    <hr />
+                    <h2>What's that?</h2>
+                    <p>A symbol of his individuality and belief in personal freedom.</p>
+                </div>
+            </div>
+            <div class="gridbox gridfooter">
+                <div class="footer">
+                    <p>This is based on fluid web design from www.w3schools.com. You can put things in here like contact information</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

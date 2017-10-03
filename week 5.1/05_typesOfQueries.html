@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style type="text/css">
+        body {
+            background-color: coral;
+            font-family: sans-serif;
+        }
+        /* if the screen width is 400 pix wide*/
+        
+        @media screen and (width: 400px) {
+            body {
+                background-color: magenta;
+                font-family: serif;
+            }
+        }
+        
+        @media screen and (min-width:401px) and (max-width:800px) {
+            body {
+                background-color: aqua;
+                font-family: sans-serif;
+            }
+        }
+        
+        @media screen and (orientation:landscape){
+            li {
+                list-style-type: armenian;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>media query types</h1>
+    <ul>
+        <li><i>all</i> Used for all media type devices</li>
+        <li><i>print</i> Used for printers</li>
+        <li><i>screen</i> Used for computer screens, tablets, smart-phones etc.</li>
+        <li><i>speech</i> Used for screenreaders that "reads" the page out loud</li>
+    </ul>
+    <h1>media query features</h1>
+    <ul>
+        <li>There are many many features, a stupid amount to compeltely list here. What follows are the ones that will probably be most useful for now.</li>
+        <li><i>width</i> describes the width of the targeted display area of the output device. <em>min-width</em> and <em>max-width</em> are part of this.</li>
+        <li><i>height</i> describes the height of the targeted display area of the output device. </li>
+        <li> <i>device-width</i> describes the width of the rendering surface of the output device</li>
+        <li> <i>device-height</i> describes the height of the rendering surface of the output device</li>
+        <li> <i>orientation</i> returns ‘portrait’ when the value of the ‘height’ media feature is greater than or equal to the value of the ‘width’ media feature; otherwise, it's ‘landscape’. </li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style type="text/css">
+        body {
+            background-color: coral;
+            font-family: sans-serif;
+        }
+        /* smartphones, iPhone, portrait 480x320 phones */
+        
+        @media (min-width:320px) {}
+        /*portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+        
+        @media (min-width:481px) {}
+        /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+        
+        @media (min-width:641px) {}
+        /* tablet, landscape iPad, lo-res laptops ands desktops */
+        
+        @media (min-width:961px) {}
+        /* big landscape tablets, laptops, and desktops */
+        
+        @media (min-width:1025px) {}
+        /* hi-res laptops and desktops */
+        
+        @media (min-width:1281px) {}
+    </style>
+</head>
+
+<body>
+    <h1>Mobile first</h1>
+    <p>We talk about pages being mobile first or desktop first not only from a design standpoint, but also from a technical standpoint. min-width is useful for determning the minimum width of a viewport. if we reversed the order of these queries, the mobile style would override all the rest. That's because big viewports can have small sizes too ;) </p>
+</body>
+
+</html>

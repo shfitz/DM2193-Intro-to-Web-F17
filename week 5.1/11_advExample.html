@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Media Queries</title>
+    <style type="text/css">
+        /* a more advanced responsive desktop first example by Katie Adee */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            /* this forces the padding and border to not effect the dimensions of our block elements */
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        /* Generic Clearfix */
+        
+        .clear-fix:after {
+            content: '';
+            display: block;
+            clear: both;
+            height: 0;
+            font-size: 0;
+            visibility: hidden;
+        }
+        /* Desktop First */
+        /* These styles apply by default to the largest screens */
+        
+        body {
+            background-color: red;
+        }
+        
+        .container {
+            width: 1024px;
+            margin: 0 auto;
+            font-size: 0em;
+        }
+        
+        .thumb {
+            width: 23%;
+            margin: 1%;
+            display: inline-block;
+        }
+        
+        .thumb img {
+            width: 100%;
+            height: auto;
+        }
+        /*  Navigation*/
+        
+        header {
+            width: 100%;
+            background-color: #555;
+            line-height: 30px;
+            text-align: center;
+        }
+        
+        nav h1 {
+            max-width: 20%;
+            float: left;
+            font-size: 20px;
+            margin: 10px;
+        }
+        
+        nav ul {
+            max-width: 80%;
+            float: right;
+            list-style-type: none;
+        }
+        
+        nav ul li {
+            display: inline-block;
+        }
+        
+        nav ul li a {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        
+        nav ul li a:hover {
+            background-color: black;
+            color: white;
+        }
+        /* smaller desktop screens and tablets */
+        /* All statements below must evaluate to TRUE in order for the styles within the brackets to be applied */
+        
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            body {
+                background-color: green;
+            }
+            .container {
+                width: 100%;
+            }
+            .thumb {
+                width: 45%;
+                margin: 2.5%;
+            }
+        }
+        /* Target ONLY Devices within a range */
+        /* Open the mobile tab in developer tools to preview these styles */
+        
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+            body {
+                background-color: yellow;
+            }
+        }
+        /* Smaller than a tablet, Basically any mobile phone size */
+        
+        @media only screen and (max-width: 767px),
+        (max-device-width: 767px) {
+            body {
+                background-color: blue;
+            }
+            .container {
+                width: 100%;
+            }
+            .thumb {
+                width: 90%;
+                margin: 5%;
+            }
+            nav h1,
+            nav ul,
+            nav ul li {
+                min-width: 100%;
+                display: block;
+                float: none;
+                text-align: center;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="clear-fix">
+            <h1>Page title goes here</h1>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--  the main container and content we will make a responsive image grid
+    large screens will have 4 wide, Medium Screens 2 wide, Mobile Size 1 wide  -->
+    <div class="container clear-fix">
+        <div class="thumb"> <img src="http://www.stevensegallery.com/400/400" /> </div>
+        <div class="thumb"> <img src="http://www.stevensegallery.com/400/400" /> </div>
+        <div class="thumb"> <img src="http://www.stevensegallery.com/400/400" /> </div>
+        <div class="thumb"> <img src="http://www.stevensegallery.com/400/400" /> </div>
+    </div>
+</body>
+
+</html>

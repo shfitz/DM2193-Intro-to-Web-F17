@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        div.container {
+            overflow: auto;
+        }
+        
+        * {
+            font-family: sans-serif;
+        }
+        
+        .menulist {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .menuitem {
+            background: #ffccff;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            list-style-type: none;
+            margin: 4px;
+            padding: 2px;
+        }
+        
+        .menuitem:hover {
+            background: #CCFFFF;
+            border: 2px dotted #ccc;
+            border-radius: 10px;
+            list-style-type: none;
+            margin: 4px;
+            padding: 2px;
+        }
+        /* these are the things tat wil change */
+        
+        div.main {
+            margin-left: 10px;
+        }
+        
+        div.leftsidebar {
+            float: none;
+            width: auto;
+        }
+        
+        @media screen and (min-width: 480px) {
+            /* if the screen is > 480px, float the 
+            navigation and fix the width to 200 pixels */
+            div.leftsidebar {
+                width: 200px;
+                float: left;
+            }
+            /* if the screen is > 480px, move the 
+            main content over 220 pixels */
+            div.main {
+                margin-left: 220px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="leftsidebar">
+            <ul class="menulist">
+                <li class="menuitem"><a href="#">Here's</a></li>
+                <li class="menuitem"><a href="#">a</a></li>
+                <li class="menuitem"><a href="#">list</a></li>
+                <li class="menuitem"><a href="#">of</a></li>
+                <li class="menuitem"><a href="#">items</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <h1>As you resize the window</h1>
+            <p>The menu will change location. This is a neat trick.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae urna sed velit rhoncus faucibus. Cras eu lectus in justo consequat auctor sit amet ut elit. In nec tempus mauris. Vestibulum placerat enim at lorem pulvinar tincidunt. Maecenas quis tellus tristique, malesuada mauris vitae, elementum enim. Maecenas porttitor scelerisque dui, et dapibus nunc commodo a. Nunc accumsan, diam a vulputate pharetra, dui odio feugiat nisi, a ultrices nisl nibh consectetur nibh. Phasellus ipsum leo, facilisis a vulputate at, facilisis sit amet justo. Curabitur maximus tortor in erat vulputate, at congue ipsum dictum. Nullam ullamcorper et lorem sit amet hendrerit. Proin mollis metus tellus, eu dapibus magna placerat id. Proin at molestie enim. Pellentesque finibus quam non venenatis pretium. Vivamus quis mauris nisi. Vivamus at neque quis velit condimentum tincidunt.</p>
+            <p>Suspendisse potenti. Cras tincidunt nec ex eget congue. Pellentesque ullamcorper libero velit, id faucibus arcu ullamcorper ut. Maecenas sodales ante dui, at semper elit porttitor eu. Donec sed pellentesque leo, at semper leo. Vestibulum iaculis dapibus lorem, a congue dui porttitor eu. Nunc sed semper ex. Curabitur vel enim nec ex eleifend condimentum a eu felis. Nulla imperdiet gravida massa, at sodales erat aliquam vitae. Fusce hendrerit arcu nulla, sed dictum nisi euismod ut. Aliquam erat volutpat. Quisque tortor quam, viverra vitae luctus nec, ultricies sit amet dui. Ut rhoncus ligula id sapien auctor, vitae fermentum risus cursus.</p>
+            <p>Nulla facilisi. Donec commodo, tortor at pellentesque mollis, mi lectus lobortis ipsum, et scelerisque leo ex in tortor. Morbi ornare odio odio, et tristique mi tristique at. Mauris vitae egestas turpis, ac convallis tortor. Nullam a augue leo. Maecenas volutpat hendrerit metus eget semper. Cras ut nibh quis quam porttitor sagittis placerat et ex. Sed volutpat lacus sapien, sed imperdiet ipsum ultrices sit amet. Nunc finibus interdum est quis imperdiet. Vestibulum interdum lorem justo, nec tristique odio dictum eu. Fusce pretium nunc dolor, sit amet consectetur odio ullamcorper sit amet.</p>
+        </div>
+    </div>
+</body>
+
+</html>

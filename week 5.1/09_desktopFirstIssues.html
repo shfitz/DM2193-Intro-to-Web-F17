@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style type="text/css">
+        body {
+            background-color: coral;
+            font-family: sans-serif;
+        }
+        /* Tablet Portrait size up to 996px */
+        
+        @media only screen and (min-width: 768px) and (max-width: 995px) {}
+        /* Common Mobile Sizes */
+        
+        @media only screen and (max-width: 767px) {}
+        /* Mobile Landscape Size to Tablet Portrait */
+        
+        @media only screen and (min-width: 480px) and (max-width: 767px) {}
+        /* Mobile Portrait Size to Mobile Landscape Size */
+        
+        @media only screen and (max-width: 479px) {}
+    </style>
+</head>
+
+<body>
+    <h1>Desktop first</h1>
+    <p>To target a desktop version first, we should set a minimum and maximum for each style. Start with the default for the page on a laptop and work backwads.
+    
+    *These media queries we developed by Josh Cope to work with the Responsive 996px grid system, which we'll talk about next week.
+
+</p>
+</body>
+
+</html>
