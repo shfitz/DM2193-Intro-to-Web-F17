@@ -1,4 +1,15 @@
-# # Intro to Web Development <small>DM-UY 2193</small> ![NYU](http://engineering.nyu.edu/files/tandon_long_color.png) #### Integrated Digital Media • Technology, Culture & Society Department Scott Fitzgerald shf220@nyu.edu Fall 2017 • Tu & Th • 12:30-2:20PM • Magnet Rm 811 • 3 credit hrs Office hours TBD --- ###### NB: This schedule is subject to change!!! ## SCHEDULE OVERVIEW *All dates and assignments are subject to change at the discretion of the professor! This page and Slack are the official sources for all dates and assignments.* **HW** - Homework and readings are due on following class unless otherwise specified.
+## Intro to Web Development <small>DM-UY 2193</small> ![NYU](http://engineering.nyu.edu/files/tandon_long_color.png) 
+
+#### Integrated Digital Media • Technology, Culture & Society Department 
+Scott Fitzgerald shf220@nyu.edu 
+Fall 2017 • Tu & Th • 12:30-2:20PM • Magnet Rm 811 • 3 credit hrs 
+Office hours by appointment --- 
+
+##### NB: This schedule is subject to change!!! 
+
+##### SCHEDULE OVERVIEW This page and Slack are the official sources for all dates and assignments.* **HW** - Homework and readings are due on following class unless otherwise specified.
+
+
 <br/>
 <table>
     <thead>
