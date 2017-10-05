@@ -253,19 +253,6 @@ No class</b> </ul>
                     <li>SASS</li>
                 </ul>
             </ul>
-            <!--<b>More Framework Components</b>
-<ul>
-<li>Customizing Components</li>
-<li>JavaScript Components</li>
-<li>JQuery Mobile</li>
-<b>Command Line & Node.js</b>
-<ul>
-<li>Intro to Node.JS</li>
-<li>Run a local server with node.js</li>
-<li>Customizing Bootstrap source code</li>
-<li>Gulp / Webpack</li>
-<li>Bower</li>
-<li>NPM</li> --></ul>
         </td>
         <td valign="top"><b>Nov 30</b>
             <ul>
