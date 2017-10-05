@@ -13,5 +13,6 @@ Plan to show a slideshow or images that describe a simple, multipage (minimum of
 
 Presentations will be timed. 5 minutes for presentation, 5 minutes for class critique.
 
+#### Deliverables
 
-
+**Before class on October 17**, you must provide me with links to your site _and_ a github repo. That is, I expect a direct link to a functional site as well as a link to your code.
