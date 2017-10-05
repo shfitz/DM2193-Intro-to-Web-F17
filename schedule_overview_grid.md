@@ -145,16 +145,16 @@ No class</b> </ul>
     <tr>
         <td valign="top">6</td>
         <td valign="top"><b>Oct 10<br></b>
-            <li>Erich's presentation</li>
+            <ul><li>Erich's presentation</li>
             <li>HTML Audio & Video</li>
             <li>HTML forms</li>
-            <li><b>Homework : </b> Continue work on your midterm project.</li>
+            <li><b>Homework : </b> Continue work on your midterm project.</li></ul>
         </td>
         <td valign="top"><b>Oct 12<br></b>
-            <li>Rebecca's presentation</li>
+            <ul><li>Rebecca's presentation</li>
             <li>CSS frameworks</li>
             <li><a href="http://996grid.com/">966 Grid</a></li>
-            <li><b>Homework : </b> Wrap up your midterm project.</li>
+            <li><b>Homework : </b> Wrap up your midterm project.</li></ul>
         </td>
     </tr>
     <tr>
