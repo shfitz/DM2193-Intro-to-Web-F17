@@ -135,7 +135,7 @@ No class</b> </ul>
                 <li>Midterm Proposals</li>
                 <li><b>Homework : </b>
                     <ul>
-                        <li>Work on your midterm project.</li>
+                        <li>Work on your <a href="/assignments/midterm.md">midterm project</a>.</li>
                         <li><a href="https://www.w3schools.com/howto/default.asp">Useful how-tos at w3 schools</a>. Feel free to incorporate into your project.</li>
                     </ul>
                 </li>
@@ -148,23 +148,23 @@ No class</b> </ul>
             <ul><li>Erich's presentation</li>
             <li>HTML Audio & Video</li>
             <li>HTML forms</li>
-            <li><b>Homework : </b> Continue work on your midterm project.</li></ul>
+            <li><b>Homework : </b> Continue work on <a href="/assignments/midterm.md">midterm project</a>.</li></ul>
         </td>
         <td valign="top"><b>Oct 12<br></b>
             <ul><li>Rebecca's presentation</li>
             <li>CSS frameworks</li>
             <li><a href="http://996grid.com/">966 Grid</a></li>
-            <li><b>Homework : </b> Wrap up your midterm project.</li></ul>
+            <li><b>Homework : </b> Wrap up your <a href="/assignments/midterm.md">midterm project</a>.</li></ul>
         </td>
     </tr>
     <tr>
         <td valign="top">7</td>
         <td valign="top"><b>Oct 17</b>
             <br>
-            <h4>Midterm Presentations</h4> </td>
+            <h4><a href="/assignments/midterm.md">Midterm </a> Presentations</h4> </td>
         <td valign="top"><b>Oct 19</b>
             <br>
-            <h4>Midterm Presentations</h4> </td>
+            <h4><a href="/assignments/midterm.md">Midterm </a> Presentations</h4> </td>
     </tr>
     <tr>
         <td valign="top">8</td>
