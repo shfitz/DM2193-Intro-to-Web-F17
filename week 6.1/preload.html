@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Center the loader */
+        
+        #loader {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -25px;
+            border: 16px solid #75c4ff;
+            border-radius: 50%;
+            border-top: 16px solid #fa34ee;
+            border-right: 16px solid #ffc600;
+            border-bottom: 16px solid #ecff49;
+            width: 50px;
+            height: 50px;
+            -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+        }
+        
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        /* Div for "page content" */
+        
+        .animate-bottom {
+            position: relative;
+        }
+        
+        #myDiv {
+            display: none;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body onload="myFunction()">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv">
+        <h2>Loaded!</h2>
+        <p>Here's the things you wanted to see beneath that other div</p>
+    </div>
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
+</body>
+
+</html>

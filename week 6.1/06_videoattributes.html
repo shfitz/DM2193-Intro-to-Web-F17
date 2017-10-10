@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rich media</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <video controls width="320" height="180"
+        loop muted
+       poster="imcat.png">
+  <source src="IMG_1790.mp4" type="video/mp4">
+  <source src="IMG_1790.webm" type="video/webm">
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="IMG_1790.mp4">link to the video</a> instead.</p>
+</video>
+    <p>some other fun attributes include :</p> 
+    <ul><li>width and height : you have an idea of what these do</li>
+    <li> autoplay : starts playing right away (plz dont do this)</li><li>loop : loops a video. use sparingly</li><li>muted : plays video with no sound</li><li>poster: supply an image file's url and it will be displayed before the video plays. like a billboard </li><li>preload : used for buffering large files. valid parameters are 'none' (no preloading), 'auto' (buffer media file), or 'metadata' (only buffers metadata)</li></ul>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rich media</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+        
+        .fullscreen-bg {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            overflow: hidden;
+            z-index: -100;
+        }
+        
+        .fullscreen-bgVideo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        @media (min-aspect-ratio: 16/9) {
+            .fullscreen-bgVideo {
+                height: 300%;
+                top: -100%;
+            }
+        }
+        
+        @media (max-aspect-ratio: 16/9) {
+            .fullscreen-bgVideo {
+                width: 300%;
+                left: -100%;
+            }
+        }
+        
+        .content {
+            background: linear-gradient(to bottom, rgba(255, 255, 255, .85) 45%,rgba(255, 255, 255, 0) 100%);
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fullscreen-bg">
+        <video loop muted autoplay class="fullscreen-bgVideo">
+            <source src="IMG_1790.mp4" type="video/mp4">
+            <source src="IMG_1790.webm" type="video/webm"> </video>
+    </div>
+    <div class="content">CSS background and background-image properties are neat, but what about video?
+        <br /> if you loop, autoplay and (importantly!) mute your video, you can load it into a container to play.</div>
+</body>
+
+</html>

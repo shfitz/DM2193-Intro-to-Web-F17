@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rich media</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Here's the solution to this stupid problem</p>
+    <video controls>
+  <source src="IMG_1790.mp4" type="video/mp4">
+  <source src="IMG_1790.webm" type="video/webm">
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="http://damnfinecupof.coffee/IMG_1790.mp4">link to the video</a> instead.</p>
+</video>
+    <p>we pulled the src out from the video element, and placed it into a "source" tag. the browser will play the first source it can. Be sure to include the 'type' attribute, it makes thigs easier for the browser to understand what sort of content it will encounter at the source.</p>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rich media</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <p>The previous example had some issues. Notably, it didnt work in all browsers. Surprise! Even thogh there's a standard, people still find ways to make thigs proprietary!</p>
+    <p>Formats like MP3, MP4 and WebM are container formats. They <em>contain</em> different tracks for all the media they are meant to display.</p>
+    <p>ausio and video are usually separate.</p>
+    <p>Standard web containers include </p>
+    <ul>
+        <li>webm : packages Ogg Vorbis audio with VP8/VP9 video. This works in Firefox and Chrome. It's possobel to find straight up ogg files, but they have been phased out in favor of webm. These are open source codecs.</li>
+        <li>MP4 bundles AAC or MP3 audio with h.264 video. This is found in IE and Safari. These codecs are covered by patents and cost $$ to be included in browsers.</li>
+    </ul>
+    <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats#Browser_compatibility">Here's a useful compatiability chart</a>.</p>
+    <p>We need to use the containers because video and audio file are huge. not all browsers support all codecs, hence the problem described here.</p>
+</body>
+
+</html>
