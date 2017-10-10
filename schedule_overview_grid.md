@@ -150,7 +150,8 @@ No class</b> </ul>
             <li>HTML Audio & Video</li>
             <li>Embedding media</li>
             <li>objects and iframes</li>
-            <li><b>Homework : </b> Continue work on <a href="/assignments/midterm.md">midterm project</a>.</li></ul>
+            <li><b>Homework : </b> Continue work on <a href="/assignments/midterm.md">midterm project</a>.</li>
+            <li>For those of you looking to make a slideshow or similar, see <a href="https://www.smashingmagazine.com/2012/04/pure-css3-cycling-slideshow/">this tutorial</a> for a way to do it with just CSS.</ll><li><a href="http://www.colorzilla.com/gradient-editor/">A CSS gradient generator</a> for creating interesting backgrounds.</li><li><a href="https://www.w3schools.com/howto/howto_css_dropdown.asp">Tutorial on making dropdown menus on hover</a>
         </td>
         <td valign="top"><b>Oct 12<br></b>
             <ul><li>Rebecca's presentation</li>
