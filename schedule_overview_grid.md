@@ -66,6 +66,7 @@ Office hours by appointment ---
             <a href="weekly_detail/week2.html"> <b>Sept 14<br/>CSS Intro</b></a>
             <ul>
                 <li>Intro to Style / CSS</li>
+                <li>Homework : Style your apartment site using the font and color styles we used in class</li>
             </ul>
         </td>
     </tr>
@@ -80,7 +81,7 @@ Office hours by appointment ---
                 <ul>
                     <br/>
                     <ul>
-                        <li>homework : beging to wrap the elements of your pages in box elements. How can you differentiate between them? </ul>
+                        <li>homework : beging to wrap the elements of your pages in box elements. How can you differentiate between them?</ul>
         </td>
         <td valign="top"><b>Sept 21<br/>
 CSS Positioning & images</b>
@@ -147,7 +148,8 @@ No class</b> </ul>
         <td valign="top"><b>Oct 10<br></b>
             <ul><li>Erich's presentation</li>
             <li>HTML Audio & Video</li>
-            <li>HTML forms</li>
+            <li>Embedding media</li>
+            <li>objects and iframes</li>
             <li><b>Homework : </b> Continue work on <a href="/assignments/midterm.md">midterm project</a>.</li></ul>
         </td>
         <td valign="top"><b>Oct 12<br></b>
