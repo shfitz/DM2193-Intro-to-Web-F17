@@ -147,6 +147,7 @@ No class</b> </ul>
         <td valign="top">6</td>
         <td valign="top"><b>Oct 10<br></b>
             <ul><li>Erich's presentation</li>
+            <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week%206.1">Notes for class</a></li>
             <li>HTML Audio & Video</li>
             <li>Embedding media</li>
             <li>objects and iframes</li>
