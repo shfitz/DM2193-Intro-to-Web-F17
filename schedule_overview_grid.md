@@ -149,7 +149,6 @@ No class</b> </ul>
             <ul><li>Erich's presentation</li>
             <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week%206.1">Notes for class</a></li>
                        <li><a href="http://damnfinecupof.coffee/vids/">Videos I am using</a></li>
-
             <li>HTML Audio & Video</li>
             <li>Embedding media</li>
             <li>objects and iframes</li>
