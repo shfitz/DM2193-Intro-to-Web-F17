@@ -201,7 +201,7 @@ No class</b> </ul>
             <ul>
                 <li>Bonnie Presents</li>
                 <li>JavaScript cont.</li>
-                <li>Guest : Claire Kearney-Volpe from NYU's <a href="http://ability.nyu.edu/" target="_overthere">Ability Lab</> on Web Accessibility and User-Centered Design</li>
+                <li>Guest : Claire Kearney-Volpe from NYU's <a href="http://ability.nyu.edu/" target="_overthere">Ability Lab</a> on Web Accessibility and User-Centered Design</li>
                 <ul>
                     <li>Math</li>
                 </ul>
