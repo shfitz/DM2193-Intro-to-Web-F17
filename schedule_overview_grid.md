@@ -157,8 +157,9 @@ No class</b> </ul>
         </td>
         <td valign="top"><b>Oct 12<br></b>
             <ul><li>Rebecca's presentation</li>
-            <li>CSS frameworks</li>
-            <li><a href="http://996grid.com/">966 Grid</a></li>
+            <li>CSS frameworks</li><ul>
+            <li><a href="http://996grid.com/">966 Grid</a></li><li><a href="http://bulma.io/">Bulma</a></li></ul>
+            <li><a href="http://fontawesome.io/">Font Awesome</a></li>
             <li><b>Homework : </b> Wrap up your <a href="/assignments/midterm.md">midterm project</a>.</li></ul>
         </td>
     </tr>
