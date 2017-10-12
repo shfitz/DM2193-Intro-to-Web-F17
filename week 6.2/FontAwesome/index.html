@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Font Awesome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        * {
+            font-family: sans-serif;
+        }
+        
+        body {
+            margin: 10px;
+            padding: 5px;
+        }
+        
+        h2 {
+            text-decoration: underline;
+        }
+        
+        em {
+            padding: 2px;
+            border: 1px;
+            border-style: dashed;
+            margin: 2px;
+            background-color: azure;
+        }
+    </style>
+    <!-- this is a link to the local sheet for FA -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- this is a link to the CDN, which lets you access updates automagically -->
+ <!--   <script src="https://use.fontawesome.com/8a6d5ce5c2.js"></script> -->
+</head>
+
+<body>
+    <h2>Font Awesome</h2>
+    <p>Font Awesome is a collection of 600+ icons and pictographs tht are free to use. It's primarily placed in your site in one of two ways. Either place directly in your own site/directory, or use their CDN.</p>
+    <p>There's a <a href="http://fontawesome.io/cheatsheet/">massive list of available icons</a>, and it's pretty straightforward to drop them into your page.</p>
+    <hr>
+    <p>It's designed to be used with any inline element. And while semantically you should use the <em style="background-color: azure">&lt;span&gt;</em> element, Font Awesome usues <em>&lt;i&gt;</em> in their examples because "it's three less letters to type", which means we can all be a little lazier today.</p>
+    <hr>
+    <p>In use, it's really simple. You add a class to your inline element, like so : <em>&lt;i class="fa fa-paper-plane"&gt;</em>. This will give us the paper plane icon : <i class="fa fa-paper-plane"></i>. It will inheret things like color and size too. For example, <em>&lt;i class="fa fa-paper-plane" style="color: blueviolet; font-size: 32px"&gt;</em> will give you this : <i class="fa fa-paper-plane" style="color: blueviolet; font-size: 32px"></i>.</p>
+    <hr>
+    <p>You can increase sizes relative to the container with the classes <em>fa-lg</em> and <em>fa-2x</em> thru <em>fa-5x</em>.
+        <br /><i class="fa fa-superpowers fa-lg"></i>
+        <br /> <i class="fa fa-superpowers fa-2x"></i>
+        <br /><i class="fa fa-superpowers fa-5x"></i></p>
+    <hr>
+    <p style="width:200px;background-color: skyblue;padding:5px;border-color: dimgray;border-width:1px;border-style: solid"><i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i> It's possible to do fancy things like these near quotes too. Here, classes are added for moving the icon to the left and adding a border around the icon itself.</p>
+    <hr>
+    <p>And, what fun would an icon be if it can't be distracting as possible? The <em>spin</em> class animates icons, while the <em>pulse</em> class does an 8-step animation, whch works well with some of their loading icons :
+        <br /> <i class="fa fa-cog fa-spin fa-3x" aria-hidden="true"></i> <em>&lt;i class="fa fa-cog fa-spin fa-3x" aria-hidden="true"&gt;</em>
+        <br /> <i class="fa fa-spinner fa-pulse fa-3x" aria-hidden="true"></i> <em>&lt;i class="fa fa-spinner fa-pulse fa-3x" aria-hidden="true"&gt;</em></p>
+</body>
+
+</html>
