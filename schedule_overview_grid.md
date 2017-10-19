@@ -172,8 +172,10 @@ No class</b> </ul>
             <h4><a href="/assignments/midterm.md">Midterm </a> Presentations</h4> </td>
         <td valign="top"><b>Oct 19</b>
             <br>
-            <h4><a href="/assignments/midterm.md">Midterm </a> Presentations</h4> </td>
-    </tr>
+            <h4><a href="/assignments/midterm.md">Midterm </a> Presentations</h4> 
+            <ul></li>Reading : please review the following articles on javascript & the DOM:<li><ul><li><a href="https://javascript.info/intro">Introduction to javascript</a></li><li><a href="https://en.wikibooks.org/wiki/JavaScript/Introduction_to_the_Document_Object_Model_(DOM)">JS/Intro to the DOM</a></li><li><em>Bonus</em> : <a href="https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632">The 8-point grid system</a> (not required reading, but might be a useful alternative for those of you looking to try another system for designing a site)</li></ul></ul>
+    </td>
+</tr>
     <tr>
         <td valign="top">8</td>
         <td valign="top"><b>Oct 24</b>
