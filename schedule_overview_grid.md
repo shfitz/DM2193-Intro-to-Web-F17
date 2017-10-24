@@ -188,6 +188,7 @@ No class</b> </ul>
                     <li>Events</li>
                 </ul>
                 <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week%208.1">code and notes from class</a></li>
+                <li>Reading : <a href="https://arstechnica.com/information-technology/2016/07/dark-patterns-are-designed-to-trick-you-and-theyre-all-over-the-web/">Dark patterns are designed to trick you (and they're all over the web)</a>
             </ul>
             <td valign="top"><b>Oct 26</b>
                 <ul>
