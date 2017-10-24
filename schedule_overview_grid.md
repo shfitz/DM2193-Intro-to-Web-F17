@@ -187,6 +187,7 @@ No class</b> </ul>
                     <li>Functions</li>
                     <li>Events</li>
                 </ul>
+                <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week%208.1">code and notes from class</a></li>
             </ul>
             <td valign="top"><b>Oct 26</b>
                 <ul>
