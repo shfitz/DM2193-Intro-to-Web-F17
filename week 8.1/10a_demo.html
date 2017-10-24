@@ -2,19 +2,18 @@
 <html>
 
 <head>
-    <title>for() is the best loop</title>
+    <title></title>
     <script type="text/javascript">
         function iveBeenIded() {
             var theNavigation = document.getElementById("nav");
             console.log(theNavigation);
         }
 
-                function iveBeenSelected() {
+        function iveBeenSelected() {
             var theNavigation = document.querySelector("p.formatted");
             console.log(theNavigation);
         }
 
-        
         function iveBeenTexted() {
             var theNavigation = document.querySelector("p.formatted");
             console.log(theNavigation.textContent);
@@ -25,7 +24,7 @@
             font-family: fantasy;
         }
         
-        p.formatted{
+        p.formatted {
             font-family: sans-serif;
         }
     </style>
@@ -36,10 +35,8 @@
     <br />
     <button onclick="iveBeenIded()">get it!</button>
     <p class="formatted">The function doesn't store the element, it stores a reference to where that nodes lives in the DOM tree. This example uses getElementbyId();</p>
-    
-        <button onclick="iveBeenSelected()">get it!</button>
+    <button onclick="iveBeenSelected()">get it!</button>
     <p class="formatted">This example uses querySelector(); to find the first matching element.</p>
-    
     <p class="formatted">You can access the text inside the element too.</p>
     <button onclick="iveBeenTexted()">get text!</button>
     <p class="formatted"> DOM requests can return one element (as above) or a NodeList, which is a collection of nodes. We'll access those later.</p>

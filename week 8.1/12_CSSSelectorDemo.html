@@ -7,8 +7,8 @@
         function selectCSS() {
             var myThing = document.querySelector("p.rad");
             myThing.className = "cool";
-            var prevText =myThing.textContent;
-            myThing.textContent="it was " + prevText +  " now it's so cool.";
+            var prevText = myThing.textContent;
+            myThing.textContent = "it was " + prevText + " now it's so cool.";
         }
     </script>
     <style type="text/css">
@@ -22,13 +22,15 @@
             font-family: fantasy;
             background-color: #99c0ef;
         }
-        
-      
     </style>
 </head>
 
 <body>
     <p class="rad">rad</p>
+    <br />
+    <p class="rad">bad</p>
+    <br />
+    <p class="rad">dad</p>
     <br />
     <button onclick="selectCSS()">switch it</button>
 </body>
