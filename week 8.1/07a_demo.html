@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Boolean switcheroo</title>
+    <script type="text/javascript">
+        // This variable is a boolean. it can only be true or false
+        var isOn = true;
+
+        function switchOnOff() {
+            if (isOn == true) {
+                console.log("isOn is currently true. Switching to false now.");
+                isOn = false;
+            }
+            else {
+                console.log("isOn is currently false. Switching to true now.");
+                isOn = true;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="switchOnOff()">change the boolean on or off</button>
+</body>
+
+</html>

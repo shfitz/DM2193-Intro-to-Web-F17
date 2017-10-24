@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello multiple functions</title>
+    <script type="text/javascript">
+        function startMeUp(){
+            addItUp(123.4, 456);
+        }
+        
+        function addItUp(a, b) {
+            var total = a + b;
+            alert("the total value is " + total + ".");
+        }
+    </script>
+</head>
+
+<body onload="startMeUp();"> 
+    <button onclick="addItUp(100, 142);">add these instead</button>
+    
+    Here's an example of a function being called by another function, as well as independently.
+    
+    </body>
+
+</html>

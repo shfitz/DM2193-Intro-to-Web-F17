@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello World</title>
+    <script type="text/javascript">
+        var myPrecious = "Pepperoni";
+        console.log("the varible is a string :" + myPrecious);
+        myPrecious = 16 + 32;
+        console.log("myPrecious is now an int : ");
+        console.log(myPrecious);
+        myPrecious = myPrecious * 2;
+        console.log("myPrecious is an int again : ");
+        console.log(myPrecious);
+        myPrecious = "16";
+        console.log("now myPrecious is a string ");
+        console.log(myPrecious);
+        myPrecious = myPrecious * 2;
+        console.log("multiplying gave us an int again. Javascript will guess what you want (sometimes) : " + myPrecious);
+        myPrecious = "16";
+        myPrecious = parseFloat(myPrecious);
+        console.log("better to cast a type to a different type. parseFloat() changes a string to a float : ");
+        console.log(myPrecious);
+        myPrecious = myPrecious.toString();
+        console.log("toString() changes a float or int to a String : " + myPrecious);
+    </script>
+</head>
+
+<body>check the console to see what has become of my Precious</body>
+
+</html>

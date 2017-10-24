@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Javascript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+        pre{
+            background-color: beige;
+            padding: 10px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>do some stuff</h1>
+    <p>We can change things in javascript.</p>
+    <h2>Expressions</h2>
+    <p>We all complain about math (except for mathmeticians and physicicsts, but i'm not sure they're realy human), but here's where we can put our educations to use.</p><p>javascript, like most programming langauges, has the ability to create mathematical expressions to evaluate numbers.</p>
+    <pre>console.log(2+2); // writes 4 to the console</pre>
+    <script type="text/javascript">console.log(2+2);</script>
+    <p>you can do a lot with math in javascript using algebra alone. setting varables, manipulating them, doing all sorts of funky shit (nb :funky shit will happen soon enough)</p> 
+    <pre>var a = 3;
+    var b = 5;
+    var c = a*b;
+    console.log(c);</pre><p>the above code snippet will write 15 to the console. You can <a href="05a_mathDemo.html"> it here</a>.</p> 
+    <p>the basic artithmetic operators are <ul><li>+ : addition</li><li>- : subtraction</li><li>* : multiplication</li><li>/ : division</li><li>% : remainder (aka modulo, aka mod)</li><li>** : exponetials</li><li>++ : increment</li><li>-- : decrement</li><li>- : unary negation (turns somethig to its negative)</li><li>+ : unary plus (changes string to integer)</li></ul> For more information, check out <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators">this page chock full of examples.</a></p>
+    <p>speaking of converting to an integer .... </p>
+    <h2>Converting Data types</h2><p>since varables can hold anything, it's totally possible to screw something up if we aren't paying attention. Fortunately, there's a number of ways to convert from one datatype to another</p><p>remember how we declared a string?<pre>var myPrecious = "Pepperoni";</pre>The quotes tell javascript to expect a string. But what if we later want to reassign myPrecious to something like 16+32?<pre>myPrecious = 16+32;</pre> or do other stuff like ints to strings, or other wacky stuff? <a href="05b_consversionDemo.html">Lookie here</a></p>
+</body>
+
+</html>

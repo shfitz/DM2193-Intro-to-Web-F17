@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>for() is the best loop</title>
+    <script type="text/javascript">
+        function iveBeenClicked() {
+            console.log("Start Counting!!!!");
+            for (var i = 0; i < 9; i++) {
+                console.log(i);
+            }
+            console.log("Done Counting!!!!");
+        }
+
+        function iveBeenClickedAgain(num) {
+            for (var i = 0; i < num; i++) {
+                console.log(i);
+            }
+            console.log("Done Counting!!!!");
+        }
+        
+               function iveBeenDecremented(num) {
+                               console.log("Commence countdown ... ");
+
+            for (var i = num; i > 0; i--) {
+                console.log(i);
+            }
+            console.log("Done Counting!!!!");
+        } 
+    </script>
+</head>
+
+<body>
+    <button onclick="iveBeenClicked()">Count for me</button>
+    <br />
+    <button onclick="iveBeenClickedAgain(20)">Count for me 20x</button>
+    <p>the i++ in the code increments the variable after each successful loop. -- is how you decrement</p>
+      <button onclick="iveBeenDecremented(100)">Count down from 100</button>
+</body>
+
+</html>

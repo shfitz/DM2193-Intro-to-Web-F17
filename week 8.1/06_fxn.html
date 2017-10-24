@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Javascript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10px;
+            font-family: sans-serif;
+        }
+        
+        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+        }
+        
+        pre {
+            background-color: beige;
+            padding: 10px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Functions</h1>
+        <p>functions are repeatable blocks of code that you can name.</p>
+        <h2>Syntax</h2>
+        <p>There's a keyword <em>function</em> that identifies when you're creating a new one. Don;t cram too much stuff into them. Use meaningful (and hopefully short) names to identify what task the fucntion is executing.</p> <pre>function myFucntion(argument0, argument1){
+    // do something here
+    }</pre>
+        <p>You use a function by <em>invoking</em> it. That is, you call it by name in your program. Thsi is doens usualling in another fucntion or when an event happens.</p>
+        <h2>Events</h2>
+        <h3>onclick</h3>
+        <p>javascript is driven by events. On the web, there are a bunch of different events that happen in a page. onload, onclick, hover. When we want to leverage an event, we tie a fucntion to an <em>event listener</em>. This listens for somethig to happen, then executes our code. For example, <a href="06a_buttonDemo.html">we can use a button to do some math for us.</a></p>
+        <h3>onload</h3>
+        <p>With great power comes great responsibility, and this means you have to decide what you do when pages load. Are you going to throw up some arbitrary popup window just because you can? <a href="06b_onloadDemo.html">(hint : today you are)</a></p>
+        <h3>functions in functions</h3> 
+        <p>It's turtles all the way down with this one. You can call a function inside another function <a href="06f_fxnfxnDemo.html">as in this example</a>.</p>
+    </div>
+</body>
+
+</html>

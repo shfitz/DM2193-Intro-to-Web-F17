@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Accessing the DOM</h1>
+    <p>There are a couple different ways to access the DOM.</p>
+    <ul>
+        <li><pre>document.getElementById("IDname");</pre> will return a single element on the page with the ID you looked for (remember how we talked about only having one element with an id name?</li>
+        <li><pre>document.getElementsByTagName("h1");</pre> will return an array of elements on the page that match the specified tag</li>
+        <li><pre>document.getElementsByClassName(".active");</pre> will return an array of elements on the page that match the specified CSS class</li>
+        <li><pre>document.querySelector(".container");</pre> will return the first element on the page that matches the CSS selector</li>
+        <li><pre>document.querySelectorAll(".container");</pre> will return an array of elements on the page that matches the CSS selector</li>
+    </ul>
+</body>
+
+</html>
