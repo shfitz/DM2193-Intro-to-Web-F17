@@ -9,19 +9,33 @@
             margin: 10;
             font-family: sans-serif;
         }
+                        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+        }
     </style>
 </head>
 
-<body>
+<body><div class="container">
     <h1>Accessing the DOM</h1>
-    <p>There are a couple different ways to access the DOM.</p>
+    <p>There are two steps to access and update the DOM.</p>
+    <ol>
+        <li>Access the elements. With a DOM query, you can sleect an individual element node or multiple elements (aka a node list). You can also 'traverse the DOM' which involved moving a node from one element to a related one.</li>
+        <li>Work with the elements. You can access/update text nodes, work wth HTML elements, and access/update attribute values.</li>
+    </ol>
+    <p>DOM Queries</p>
     <ul>
         <li><pre>document.getElementById("IDname");</pre> will return a single element on the page with the ID you looked for (remember how we talked about only having one element with an id name?</li>
+        <li><pre>document.querySelector(".container");</pre> will return the first element on the page that matches the CSS selector</li>
         <li><pre>document.getElementsByTagName("h1");</pre> will return an array of elements on the page that match the specified tag</li>
         <li><pre>document.getElementsByClassName(".active");</pre> will return an array of elements on the page that match the specified CSS class</li>
-        <li><pre>document.querySelector(".container");</pre> will return the first element on the page that matches the CSS selector</li>
         <li><pre>document.querySelectorAll(".container");</pre> will return an array of elements on the page that matches the CSS selector</li>
     </ul>
+    <p><a href="10a_demo.html">demo of the above</a></p>
+    </div>
 </body>
 
 </html>

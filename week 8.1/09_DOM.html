@@ -9,20 +9,28 @@
             margin: 10;
             font-family: sans-serif;
         }
+                        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+        }
     </style>
 </head>
 
-<body>
+<body><div class="container">
     <h1>Accessing the DOM (Document Object model)</h1>
     <p>The DOM is a programmig interface to HTML. It's the way we can start to do fun shit with javascript and other things in our sites. Through the DOM, we can treat HTML documents like objects.</p>
     <ul>
-        <li>Everything is a node (including the document itself)</li>
+        <li>Everything is a node (including the document itself, the 'document node')</li>
         <li>all HTML elements are 'element nodes'</li>
         <li>all HTML attributes are 'attribute nodes'</li>
-        <li>text indise elemts are 'text nodes'</li>
-        <li>hell, even comments are nodes called (surprise!) 'comment nodes'</li>
+        <li>text inside elements are 'text nodes'</li>
     </ul>
     <p>When you write HTML, you aren't writing the DOM, it is created when the page loads into your browser. The page is the 'owner' of all the elements, it's considered the root node. All the nodes can be accessed through javascript, but you have to navigate to the node you want to change. Things get weird in that we can create, modify and destroy elements, CSS classes, pretty much anything on the page.</p>
+    <img src="body.png" width="640"/><img src="tree.png" width="640"/>
+    </div>
 </body>
 
 </html>

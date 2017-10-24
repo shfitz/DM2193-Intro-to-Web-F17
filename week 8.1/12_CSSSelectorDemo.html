@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Select elements with CSS selectors</title>
+    <script type="text/javascript">
+        function selectCSS() {
+            var myThing = document.querySelector("p.rad");
+            myThing.className = "cool";
+            var prevText =myThing.textContent;
+            myThing.textContent="it was " + prevText +  " now it's so cool.";
+        }
+    </script>
+    <style type="text/css">
+        p.rad {
+            width: 200px;
+            font-family: sans-serif;
+            background-color: azure;
+        }
+        
+        p.cool {
+            font-family: fantasy;
+            background-color: #99c0ef;
+        }
+        
+      
+    </style>
+</head>
+
+<body>
+    <p class="rad">rad</p>
+    <br />
+    <button onclick="selectCSS()">switch it</button>
+</body>
+
+</html>

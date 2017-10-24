@@ -14,10 +14,17 @@
             padding: 10px;
             font-family: monospace;
         }
+                .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+        }
     </style>
 </head>
 
-<body>
+<body><div class="container">
     <h1>Hello Javascript</h1>
     <p>We can also link to an external file, just like an external stylesheet. This is useful when you want to use the same thing on multiple pages.</p>
     <pre>&lt;!DOCTYPE html&gt; 
@@ -31,8 +38,9 @@
     &lt;/html&gt;
 </pre>
     <p>When we do this, it's useful to recall that javaScript doens't have any native display functionality. things like the p5js canvas are built into libraries. we need to program our outputs.</p>
-    <p> we already say <pre>alert();</pre>. Other things we'll use to display information include <pre>console.log();</pre> which will log information to the browser's console window, and <pre>.innerHTML</pre> which changes the text inside a HTML element. We'll get into mre specifics with that later.</p>
+    <p> we already say <pre>alert();</pre>. Other things we'll use to display information include <pre>console.log();</pre> which will log information to the browser's console window, and DOM things that can change the text inside a HTML element. We'll get into more specifics with that later.</p>
     <p><a href="03a_extHelloDemo.html">here's a demo</a> of an externally linked file that prints to the console.</p>
+    </div>
 </body>
 
 </html>

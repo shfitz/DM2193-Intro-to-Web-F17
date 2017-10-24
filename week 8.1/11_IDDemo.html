@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Use IDs to select class elements</title>
+    <script type="text/javascript">
+        function swapID() {
+            var myThing = document.getElementById("nav");
+            myThing.className = "fleedom"
+            myThing.textContent ="I'm Free!";
+        }
+    </script>
+    <style type="text/css">
+        #nav {
+            width: 200px;
+        }
+        
+        .fleedom {
+            font-family: fantasy;
+            background-color: chartreuse;
+        }
+        
+        .restrained {
+            font-family: sans-serif;
+            background-color: azure;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav" class="restrained">FREE ME!</div>
+    <br />
+    <button onclick="swapID()">switch it</button>
+</body>
+
+</html>

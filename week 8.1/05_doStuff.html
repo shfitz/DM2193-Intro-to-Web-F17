@@ -14,10 +14,17 @@
             padding: 10px;
             font-family: monospace;
         }
+                .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+        }
     </style>
 </head>
 
-<body>
+<body><div class="container">
     <h1>do some stuff</h1>
     <p>We can change things in javascript.</p>
     <h2>Expressions</h2>
@@ -32,6 +39,7 @@
     <p>the basic artithmetic operators are <ul><li>+ : addition</li><li>- : subtraction</li><li>* : multiplication</li><li>/ : division</li><li>% : remainder (aka modulo, aka mod)</li><li>** : exponetials</li><li>++ : increment</li><li>-- : decrement</li><li>- : unary negation (turns somethig to its negative)</li><li>+ : unary plus (changes string to integer)</li></ul> For more information, check out <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators">this page chock full of examples.</a></p>
     <p>speaking of converting to an integer .... </p>
     <h2>Converting Data types</h2><p>since varables can hold anything, it's totally possible to screw something up if we aren't paying attention. Fortunately, there's a number of ways to convert from one datatype to another</p><p>remember how we declared a string?<pre>var myPrecious = "Pepperoni";</pre>The quotes tell javascript to expect a string. But what if we later want to reassign myPrecious to something like 16+32?<pre>myPrecious = 16+32;</pre> or do other stuff like ints to strings, or other wacky stuff? <a href="05b_consversionDemo.html">Lookie here</a></p>
+</div>
 </body>
 
 </html>
