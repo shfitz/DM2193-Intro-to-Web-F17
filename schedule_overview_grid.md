@@ -201,6 +201,7 @@ No class</b> </ul>
                     </ul>
                     <li>Homework : Add a new JavaScript function to your Midterm Project. You must write this from scratch. If you can not think of an appropriate application that appies to your midterm site, you may to write a html/js page from scratch to accomplish your goal. If you write a new page, dont worry about how nice it looks, focus on the JS & DOM interactivity/manipulation.</li>
                     <li>review : <a href="https://www.w3schools.com/js/js_htmldom_html.asp">DOM HTML</a> and <a href="https://www.w3schools.com/js/js_htmldom_css.asp">DOM CSS</a></li>
+                    <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week%208.2">notes from class</a></li>
                 </ul>
             </td>
     </tr>
@@ -229,7 +230,7 @@ No class</b> </ul>
     <tr>
         <td valign="top">10</td>
         <td valign="top"><b>Nov 7</b>
-            <ul>
+            <ul><li>Waad presents</li>
                 <li>JavaScript </li>
                 <ul>
                     <li>JQuery</li>
