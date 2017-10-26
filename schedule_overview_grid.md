@@ -196,10 +196,11 @@ No class</b> </ul>
                     <li>JavaScript continued</li>
                     <ul>
                         <li>Arrays</li>
-                        <li>Loops</li>
                         <li>Objects</li>
+                        <li>NodeLists</li>
                     </ul>
                     <li>Homework : Add a new JavaScript function to your Midterm Project. You must write this from scratch. If you can not think of an appropriate application that appies to your midterm site, you may to write a html/js page from scratch to accomplish your goal. If you write a new page, dont worry about how nice it looks, focus on the JS & DOM interactivity/manipulation.</li>
+                    <li>review : <a href="https://www.w3schools.com/js/js_htmldom_html.asp">DOM HTML</a> and <a href="https://www.w3schools.com/js/js_htmldom_css.asp">DOM CSS</a></li>
                 </ul>
             </td>
     </tr>
