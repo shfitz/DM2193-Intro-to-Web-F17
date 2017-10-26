@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>class demo</title>
+    <script type="text/javascript">
+        function getBySelName() {
+            var elements = document.querySelectorAll("li.listy");
+            if (elements.length > 3) {
+                var thisEl = elements[1];
+                thisEl.className = "hotness";
+            }
+        }
+
+        function getBySelNameAll() {
+            var elements = document.querySelectorAll("li.cool");
+            for(var i = 0; i < elements.length; i++ ) {
+                var thisEl = elements[i];
+                var newLen = (i+1)*50;
+                thisEl.style.width = newLen+"px";
+            }
+        }
+    </script>
+    <style type="text/css">
+        li.listy {
+            background-color: aliceblue;
+            width: 200px;
+        }
+        
+        li.hotness {
+            background-color: coral;
+            width: 400px;
+        }
+        
+        li.cool {
+            background-color: azure;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="getBySelName()">get elements by class name</button>
+    <ul>
+        <li class="listy">item 1</li>
+        <li class="listy">item 2</li>
+        <li class="listy">item 3</li>
+        <li class="listy">item 4</li>
+        <li class="listy">item 5</li>
+        <li class="listy">item 6</li>
+        <li class="listy">item 7</li>
+        <li class="listy">item 8</li>
+        <li class="listy">item 9</li>
+        <li class="listy">item 10</li>
+    </ul>
+    <button onclick="getBySelNameAll()">chaneg all elements by class name</button>
+    <ul>
+        <li class="cool">item 1</li>
+        <li class="cool">item 2</li>
+        <li class="cool">item 3</li>
+        <li class="cool">item 4</li>
+        <li class="cool">item 5</li>
+        <li class="cool">item 6</li>
+        <li class="cool">item 7</li>
+        <li class="cool">item 8</li>
+        <li class="cool">item 9</li>
+        <li class="cool">item 10</li>
+    </ul>
+</body>
+
+</html>

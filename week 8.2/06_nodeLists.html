@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>nodelists</title>
+    <script type="text/javascript">
+
+    </script>
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+        
+        pre {
+            background-color: azure;
+            padding: 10px;
+            font-family: monospace;
+            border: 1px dotted;
+            border-radius: 5px;
+        }
+        
+        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>NodeLists</h1>
+        <h2>lists/collections of nodes</h2>
+        <p>The other day we looked at returning one DOM element from a page and altering it. There are other ways of getting a lot of infomration in a page and querying that. It's called a nodelist. It's almost like a collection of nodes stored in an array. They're stored in the same order they appear on the page.</p>
+        <p>With a nodeList, you could selstc one element and alter it, or loops thorugh all and do soemthing with each of them. They're actually special tyoes of objects called <em>collections</em></p>
+        <p>like the objects we just created, these have a couple different properties. <em>length</em> will return the number of elements in the object, while <em>item()</em> gived you access to an index number. However, it's more common to use square brackes like an array to access things.</p>
+    <h2>live vs static</h2>
+    <p><em>live NodeLists</em> are updated when you change elements on a page. the <em>getElementsBy</em> methods return live nodeLists. With this, you can reuse the same elements multiple times without having to reload them.</p>
+    <p><em>static NodeLists</em> are not updated when/if you change its elements. The methods for generating static nodelists begin with <em>querySelector</em>.</p><p>image below taken from "javascript and jquery" by john duckett</p>
+        <img src="nodelistTypes.png" width="100%">
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>nodelists</title>
+    <script type="text/javascript">
+    </script>
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+        
+        pre {
+            background-color: azure;
+            padding: 10px;
+            font-family: monospace;
+            border: 1px dotted;
+            border-radius: 5px;
+        }
+        
+        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Selecting items from NodeLists</h1>
+        <h2>item() syntax</h2> <pre>var elements = document.getElementsByClassName("hotness");
+        if(elements.length &gt;= 1){
+            var firstElem = elements.item(0);
+        }</pre> <pre>var elements = document.getElementsByClassName("hotness");
+        if(elements.length &gt;= 1){
+            var allItems = [];
+            for(var i = 0; i&lt;elements.length; i++){
+                allItems[i]=elements.item(i);
+        }
+}</pre>
+        <h2>array syntax</h2>
+        <p>this is a little faster than the list, up to you</p> <pre>var elements = document.getElementsByClassName("hotness");
+        if(elements.length &gt;= 1){
+            var firstElem = elements[0];
+        }</pre> <pre>var elements = document.getElementsByClassName("hotness");
+        if(elements.length &gt;= 1){
+            var allItems = [];
+            for(var i = 0; i&lt;elements.length; i++){
+                allItems[i]=elements[i]);
+        }
+}</pre>
+        <p><a href="06a_classDemo.html">Demo selecting class attributes</a></p>
+        <p><a href="06b_tagDemo.html">Demo selecting elements by tag name</a></p>
+         <p><a href="06c_selectorDemo.html">Demo selecting elements by css selectors name</a></p>
+    </div>
+</body>
+
+</html>
