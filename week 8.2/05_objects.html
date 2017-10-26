@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>talking objects</title>
+    <script type="text/javascript">
+
+    </script>
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+        
+        pre {
+            background-color: azure;
+            padding: 10px;
+            font-family: monospace;
+            border: 1px dotted;
+            border-radius: 5px;
+        }
+        
+        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Objects</h1>
+        <p>Variables and arrays are neat! But sometimes we have different needs than just grouping things based on names or locations of images. Imagine three arrays like the below.</p> <pre>var catName = ["weirdo", "fatty", "chairman meow"];
+var catColor = ["tortise", "black", "red"];
+var catFood = ["tuna", "pepperoni", "hong shao rou"];
+        </pre>
+        <p>it would be a lot easier if we were able to refer to these elements as belonging to a certain cat instead of spreading them across three different arrays. That's where objects come in to play. You can combines different kinds of information inside of each object. With our cats, we would do it like this : </p> <pre>var catOne = {name : "weirdo", color : "tortise", food : "tuna", age : 8};
+var catTwo = {name : "fatty", color : "black", food : "pepperoni", age : 12};
+var catThree = {name : "chairman meow", color : "red", food : "hong shao rou", age : 124};</pre>
+        <p>this gives us variables that hold information in a more meaningful way (yay!). This also illustrates a super handy thing we'll be using on and off in the future and ever called <em>key value pairs</em>.</p>
+        <p>we access the inforamtion inside these through the dot notation we're already famiiar with. <a href="05a_objectinfo.html">here's an example of gettig information out of an object</a></p>
+        <p>it's still really useful storing information in arrays, largely because they store the data in a nice indexed format. You can do crazy shit like storing objects in arrays!</p> 
+        <pre>var myCats = [{
+        name: "weirdo"
+      , color: "tortise"
+      , food: "tuna"
+      , age: 8
+}, {
+        name: "fatty"
+      , color: "black"
+      , food: "pepperoni"
+      , age: 12
+}, {
+        name: "chairman meow"
+      , color: "red"
+      , food: "hong shao rou"
+      , age: 124
+}];
+         </pre>
+        <p>or heck, arrays inside objects</p>
+        <pre>var favs = {
+          colors: ["pink", "yellow", "orange", "teal"]
+         ,foods: ["pizza", "tacos", "steak", "steak"]
+}</pre></div>
+</body>
+</html>

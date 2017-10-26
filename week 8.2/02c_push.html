@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>for() is the best loop</title>
+    <script type="text/javascript">
+        var myNames = ["rev john", "chutney pants", "droolcup", "shfitz", "hey you", "bortrob"];
+        var lastName;
+
+        function popArray() {
+            lastName = myNames.pop();
+            console.log(lastName + " was removed from the array.")
+            console.log("the myNames array now has " + myNames.length + " items.");
+        }
+
+        function pushArray() {
+            myNames.push(lastName);
+            console.log(lastName + " was added to the array.")
+            console.log("the myNames array now has " + myNames.length + " items.");
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="popArray()">remove the last element from the array</button>
+    <br />
+    <button onclick="pushArray()">put last element removed back</button>
+</body>
+
+</html>

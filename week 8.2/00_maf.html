@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Javascript Maf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+        
+        pre {
+            background-color: azure;
+            padding: 10px;
+            font-family: monospace;
+            border: 1px dotted;
+            border-radius: 5px;
+        }
+        
+        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Javascript math</h1>
+        <p>We already discussed basci arethimetic in javascript, assition, subtraction etc. but lets see what elese there is, eh?</p>
+        <h2>basic algebra</h2>
+        <p>addition</p> <pre>console.log(20+3);
+console.log(myVar+yourVar);</pre>
+        <p>subtration</p> <pre>console.log(20-3);
+console.log(myVar-yourVar);</pre>
+        <p>multiplication</p> <pre>console.log(20*3);
+console.log(myVar*yourVar);</pre>
+        <p>division</p> <pre>console.log(20/3);
+console.log(myVar*yourVar);</pre>
+        <p>remainder/modulo</p> <pre>console.log(20%3); // gives us 2
+console.log(myVar%yourVar);</pre>
+        <h2>increment/decrement</h2>
+        <p>increase a val by 1</p> <pre>x++;</pre>
+        <p>decrease a val by 1</p> <pre>x--;</pre>
+        <p>increase a val by another number</p> <pre>x=x+=5; // increase by 5</pre>
+        <p>decrease a val by another number</p> <pre>x=x-=5; // decrease by 5</pre> 
+    <h2>built in Math functions</h2>
+        <p> there' quite a bit we can do out of the box, but in order to do so, we need to use the <em>Math</em> object. It, like a lot of javascript, uses dot notation to access functions.</p>
+        
+        <h3>Math.floor</h3>
+        <p>rounds down to the nearest integer</p>
+        <pre>var myFloat = 3.33;
+var myFloatToo = Math.floor(myFloat); // gives us 3</pre>
+        
+        <h3>Math.ceil</h3>
+        <p>rounds up to the nearest integer</p>
+        <pre>var myFloat = 3.33;
+var myFloatToo = Math.ceil(myFloat); // gives us 4</pre>
+        
+         <h3>Math.round</h3>
+        <p>rounds up or down to the nearest integer</p>
+        <pre>var myFloat = 3.33;
+var myFloatToo =3.66;
+console.log(Math.round(myFloat)); // 3
+console.log(Math.round(myFloatToo)); // 4</pre>  
+        
+          <h3>Math.random</h3>
+        <p>gives a random number b/w 0.0 and 1.0</p>
+        <pre>var myNum = Math.random();
+console.log(myNum);</pre>      
+        <p>a fun trick to use Math.round with Math.random to give us a 1 or a 0</p>
+        <pre>var yesNo = Math.round(Math.random());
+console.log(yesNo);</pre><p><a href="00a_coinflip.html">let's flip a coin</a></p>
+        <p>What if we wanted a whole number randomizer? Easiest to make our own function that does such a thing. would look like this : </p>
+        <pre>function randomNumber(n) {
+  var rn = Math.round(n * Math.random(n));
+  return(rn);
+ }</pre>
+        <p>what's the crazy <em>return</em> doing in there? It sends the value back to the function that called it in the first place. it's how we get values from one place to another. In the above example, we'll get a number between 0 and n.</p><p>sometimes though, we want a random value  between 2 arbitrary numbers, like soemthing in the range of 255 and 1024. This function will help with that : </p>
+                <pre>function randNumRange(min, max) {
+ var rn = Math.round(Math.random() * (max - min) + min);
+ return rn;
+}</pre>
+        <p><a href="00b_bills.html">example?</a></p>
+    </div>
+</body>
+
+</html>

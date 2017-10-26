@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>loopdeloop</title>
+    <script type="text/javascript">
+        var myNames = ["rev john", "chutney pants", "droolcup", "shfitz", "hey you", "bortrob"];
+
+        function increment() {
+            for(var i = 0; i<myNames.length;i++){
+                console.log(myNames[i]);
+            }
+        }
+
+        function decrementDelete() {
+            for(var i = myNames.length-1; i>=0;i--){
+                var deletedName = myNames.pop();
+                console.log("Just removed " + deletedName + " at index " + i + " from myNames, which  now has " + myNames.length + " elements.");
+            }
+        }        
+        
+        function incrementAdd() {
+            for(var i = 0; i<10;i++){
+                myNames.push(i);
+                console.log("Just added and element to myNames, which now has " + myNames.length + " elements.");
+            }
+        }          
+    </script>
+</head>
+
+<body>
+    <button onclick="increment()">show me the array!</button>
+    <button onclick="decrementDelete()">Delete the array!</button>    
+    <button onclick="incrementAdd()">make up an array!</button>
+    </body>
+</html>

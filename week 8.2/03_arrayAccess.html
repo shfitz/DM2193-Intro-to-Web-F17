@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Javascript Arrays</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+        
+        pre {
+            background-color: azure;
+            padding: 10px;
+            font-family: monospace;
+            border: 1px dotted;
+            border-radius: 5px;
+        }
+        
+        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Javascript Arrays</h1>
+        <h2>Acessing elements in an array</h2>
+        <p>Often it's necessary to get a specific item (or items) from an array. We can access this functionality with index numbers. it allows us to both retreive and get information from an array. The number is simply a referecne to the dats contaned inside the array. <em>(NB : arrays are zero-indexed, that is, they start counting at 0. This is because computers hate us.)</em></p>
+        <p><a href="03a_demoindex.html">here's an example</a> of getting and setting information.</p>
+        <h2>looping through an array</h2>
+        <p>remember for() loops? Those were pretty neat right? We are gonna use those again but this time in conjunction with an array to access all the crap inside.</p>
+        <pre>for(var i = 0; i&lt;myNames.length; i++){
+     console.log(myNames[i]);
+ }</pre><p>sweet, now we can see all the things in the array without having to write out things one at a time. </p> <p><a href="03b_demofor.html">here's an example of incrementing and decrementing in arrays with for loops</a></p>
+    </div>
+</body>
+
+</html>

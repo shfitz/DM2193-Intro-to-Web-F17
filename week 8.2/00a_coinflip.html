@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>give me some information!</title>
+    <script type="text/javascript">
+        function flip() {
+            var img = document.getElementById("flipper");
+            var ht = Math.round(Math.random());
+            console.log(ht);
+            if (ht == 0) {
+                //heads
+                console.log("heads!");
+                img.src = "https://coins.thefuntimesguide.com/files/susan-b-anthony-obverse.png";
+            }
+            else {
+                //tails
+                console.log("tails!");
+                img.src = "https://coins.thefuntimesguide.com/files/susan-b-anthony-dollar-coin-reverse.png";
+            }
+        }
+    </script>
+    <style type="text/css">
+        img {
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="flip()">flip a coin</button><img src="" id="flipper"> </body>
+
+</html>

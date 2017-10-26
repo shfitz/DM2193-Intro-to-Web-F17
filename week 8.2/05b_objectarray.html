@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>give me some information!</title>
+    <script type="text/javascript">
+        var myCats = [{
+            name: "weirdo"
+            , color: "tortise"
+            , food: "tuna"
+            , age: 8
+}, {
+            name: "fatty"
+            , color: "black"
+            , food: "pepperoni"
+            , age: 12
+}, {
+            name: "chairman meow"
+            , color: "red"
+            , food: "hong shao rou"
+            , age: 124
+}];
+
+        function getCatNames() {
+            for (var i = 0; i < myCats.length; i++) {
+                console.log(myCats[i].name);
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="getCatNames()">gimmie cat names</button>
+</body>
+
+</html>

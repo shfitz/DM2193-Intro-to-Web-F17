@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>give me some information!</title>
+    <script type="text/javascript">
+        var myNames = ["rev john", "chutney pants", "droolcup", "shfitz", "hey you", "bortrob"];
+        var lastName;
+
+        function getRandName() {
+            var whatIndex = 0;
+            whatIndex = randomNumber(myNames.length);
+            console.log("the name at index " + whatIndex + " is " + myNames[whatIndex]);
+        }
+        // the Math.random() function provides a floating point number between 0.0 and 1.0. Use this utility function to get an integer between 0 and an upper bound (exclusinve)
+        function randomNumber(limit) {
+            return Math.floor(Math.random() * limit);
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="getRandName()">get a random item from the array</button>
+</body>
+
+</html>

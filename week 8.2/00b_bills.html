@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>give me some information!</title>
+    <script type="text/javascript">
+        function makeItRain() {
+            var img = document.getElementById("deluge");
+            var billVal = randNumRange(1, 6);
+            console.log(billVal);
+            if (billVal == 1) {
+                //one
+                console.log("one!");
+                img.src = "http://modernnotion.com/wp-content/uploads/1869-dollar-front.jpg";
+            }
+            else if (billVal == 2) {
+                //five
+                console.log("five!");
+                img.src = "http://www.antiquemoney.com/wp-content/uploads/2013/05/1899-5-indian-chief-silver-certificate-superb-gem-uncirculated.jpg";
+            }
+            else if (billVal == 3) {
+                //ten
+                console.log("ten!");
+                img.src = "http://canadacurrency.com/wp-content/uploads/2013/10/1954-10-bank-of-canada-front.jpg";
+            }
+            else if (billVal == 4) {
+                //twenty
+                console.log("twenty!");
+                img.src = "http://i0.kym-cdn.com/photos/images/original/001/108/959/4ce.jpg_large";
+            }
+            else if (billVal == 5) {
+                //fifty
+                console.log("fifty!");
+                img.src = "http://www.antiquemoney.com/wp-content/uploads/2014/02/20-50.jpg";
+            }
+            else {
+                //hunned
+                console.log("hundred!");
+                img.src = "https://c1.staticflickr.com/5/4026/4409083113_c1a4fd0a5b.jpg";
+            }
+        }
+
+        function randNumRange(min, max) {
+            var rn = Math.round(Math.random() * (max - min) + min);
+            return rn;
+        }
+    </script>
+    <style type="text/css">
+        img {
+            width: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="makeItRain()">make it rain</button>
+    <br /><img src="" id="deluge"> </body>
+
+</html>
