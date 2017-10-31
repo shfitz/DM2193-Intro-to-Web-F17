@@ -212,10 +212,10 @@ No class</b> </ul>
                 <li>Bonnie Presents</li>
                 <li>JavaScript cont.</li>
                 <ul>
-                    <li>Forms and user input</li>
+                    <li><strike>Forms and user input</strike></li>
                 </ul>
-                <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week9.1">Class notes</a></li>
                    <li>Guest : Claire Kearney-Volpe from NYU's <a href="http://ability.nyu.edu/" target="_overthere">Ability Lab</a> on Web Accessibility and User-Centered Design</li>
+                   <li>Read this article<a href="https://staltz.com/the-web-began-dying-in-2014-heres-how.html">The Web began dying in 2014</a></li>
             </ul>
         </td>
         <td valign="top"> <b>Nov 2</b>
@@ -225,6 +225,7 @@ No class</b> </ul>
                 <ul>
                     <li>Forms</li>
                 </ul>
+                 <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week9.1">Class notes</a></li>
             </ul>
         </td>
     </tr>
