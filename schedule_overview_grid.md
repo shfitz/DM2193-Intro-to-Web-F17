@@ -212,12 +212,13 @@ No class</b> </ul>
                 <li>Bonnie Presents</li>
                 <li>JavaScript cont.</li>
                 <ul>
-                    <li>Math</li>
+                    <li>Forms and user input</li>
                 </ul>
+                <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week9.1">Class notes</a></li>
                    <li>Guest : Claire Kearney-Volpe from NYU's <a href="http://ability.nyu.edu/" target="_overthere">Ability Lab</a> on Web Accessibility and User-Centered Design</li>
             </ul>
         </td>
-        <td valign="top"> <b>Nov 1</b>
+        <td valign="top"> <b>Nov 2</b>
             <ul>
                 <li>Jonathan Presents</li>
                 <li>JavaScript continued</li>
