@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+        
+        pre {
+            background-color: azure;
+            padding: 10px;
+            font-family: monospace;
+            border: 1px dotted;
+            border-radius: 5px;
+        }
+        
+        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Forms part 2</h1>
+        <h2>labels</h2>
+        <p>take a look at <a href="02a_example.html">this form</a>. One of the things you (hopefully!) notice is that there's a <em>label</em> tag in there now. This, intuitively, adds a label to a form input. makes life easier for the user! Note how the <em>for</em> attribute matches the <em>input</em> name. This name is important. It's part of what you're sending.</p><p>there's also a <em>type</em> attribute in there, browsers will render these differently.</p><pre>
+        &lt;input type=&quot;text&quot;/&gt; 
+        &lt;input type=&quot;number&quot;/&gt; 
+        &lt;input type=&quot;password&quot;/&gt; 
+        &lt;input type=&quot;hidden&quot;/&gt; 
+        &lt;input type=&quot;email&quot;/&gt; 
+        &lt;input type=&quot;color&quot;&gt; 
+        &lt;input type=&quot;date&quot;/&gt; 
+        &lt;input type=&quot;month&quot;/&gt; 
+        &lt;input type=&quot;week&quot;/&gt; 
+        &lt;input type=&quot;time&quot;/&gt; 
+        &lt;input type=&quot;radio&quot;/&gt; 
+        &lt;input type=&quot;checkbox&quot;/&gt; 
+        &lt;input type=&quot;range&quot; min=&quot;0&quot; max=&quot;10&quot;/&gt; 
+        &lt;input type=&quot;submit&quot; value=&quot;SUBMIT!&quot;/&gt; 
+        &lt;input type=&quot;button&quot; value=&quot;Click this Button&quot;/&gt; 
+        &lt;input type=&quot;reset&quot;/&gt;
+        </pre>
+        <form>
+        <input type="text"/><br />
+<input type="number"/><br />
+<input type="password"/><br />
+<input type="hidden"/><br />
+<input type="email"/><br />
+<input type="color"><br />
+<input type="date"/><br />
+<input type="month"/><br />
+<input type="week"/><br />
+<input type="time"/><br />
+<input type="radio"/><br />
+<input type="checkbox"/><br />
+<input type="range" min="0" max="10"/><br />
+<input type="submit" value="SUBMIT!"/><br />
+<input type="button" value="Click this Button"/><br />
+<input type="reset"/></form>
+        
+    </div>
+</body>
+
+</html>

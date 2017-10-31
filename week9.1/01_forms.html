@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+        
+        pre {
+            background-color: azure;
+            padding: 10px;
+            font-family: monospace;
+            border: 1px dotted;
+            border-radius: 5px;
+        }
+        
+        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Forms</h1>
+        <h2>Useful tools!!!</h2>
+        <p>In addition to text and images, forms are another common web feature. Often they are used with an external service (like a search box), but we can start to practice with it by passing things to our local scripts.</p>
+        <p><em>form</em> and <em>input</em> are the main tags we'll use here. <em>form</em> goes around the <em>input</em> like so : </p><pre>&lt;form&gt;
+        &lt;input type=&quot;text&quot; /&gt; 
+        &lt;input type=&quot;submit&quot; /&gt; 
+&lt;/form&gt;</pre>
+        <form>
+            <input type="text" />
+            <input type="submit" /> 
+        </form>
+        <p>to make soemthing like this functional, we need to add a bit more.</p><pre>&lt;form action=&quot;login.php&quot; method=&quot;POST&quot; name=&quot;sampleForm&quot;&gt;</pre><p>looks more like it. The attributed do the real work here. <em>action </em> will contain a script or file to process the form data. here, it's calling a PHP page (php gets executed on the server). <em>method</em> is genrally either a <em>GET</em> or <em>POST</em> request. </p><p><em>GET</em> submits the data as a URL query, it might look like this : https://www.google.com/search?q=hellraiser. For legibility, that's not too bad, however we're sort of screwed if we want to pass a username+login this way : http://mysite.com/login.js?user=Mark&pass=admin. This makes everything viewable in the browser. While GET requests are great for retreiving data (like from APIs), they're less good at sending information.</p><p><em>POST</em> requests submit data as part of the body of the request, so it's not blatantly visible when you're sending a request.</p><p>The <em>name</em> attribute is helpful when you have multiple forms on a page or site. it's really helpful when dealing with server side programming, but it's good practive to name forms regardless.</p>
+    </div>
+</body>
+
+</html>

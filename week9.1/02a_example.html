@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+        
+        pre {
+            background-color: azure;
+            padding: 10px;
+            font-family: monospace;
+            border: 1px dotted;
+            border-radius: 5px;
+        }
+        
+        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>form of an ice bucket</h1>
+        <p>
+            <form action="register.php" action="GET" name="regForm">
+                <label for="FirstName">First Name: </label>
+                <input name="FirstName" placeholder="First Name" type="text">
+                <label for="LastName">Last Name: </label>
+                <input name="LastName" type="text" placeholder="Last Name" maxlength="15">
+                <label for="Password">Password</label>
+                <input name="Password" type="password" />
+                <input name="Submit" type="submit" value="submit" />
+        </form>
+        </p>
+    </div>
+</body>
+
+</html>
