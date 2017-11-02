@@ -218,15 +218,17 @@ No class</b> </ul>
                    <li>Read this article<a href="https://staltz.com/the-web-began-dying-in-2014-heres-how.html">The Web began dying in 2014</a></li>
             </ul>
         </td>
-        <td valign="top"> <b>Nov 2</b>
+        <td valign="top"><b>Nov 2</b>
             <ul>
                 <li>Jonathan Presents</li>
                 <li>JavaScript continued</li>
                 <ul>
                     <li>Forms</li>
+                    <li>anonymous fnctions</li>
                     <li>Jquery intro</li>
                 </ul>
                  <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week9.1">Class notes</a></li>
+                 <li>Homework : Take the site you added javascript to from last week. Swap out your javascript with jquery. If you already used jquery in your project, further enhance the functionality you added.</li>
             </ul>
         </td>
     </tr>
@@ -234,14 +236,11 @@ No class</b> </ul>
         <td valign="top">10</td>
         <td valign="top"><b>Nov 7</b>
             <ul><li>Waad presents</li>
-                <li>JavaScript </li>
-                <ul>
-                    <li>JQuery</li>
-                </ul>
+                <li>JQuery cont.</li>
             </ul>
         </td>
         <td valign="top"> <b>Nov 9</b>
-            <br> <em>Scott's out of town</em></td>
+            <br> <em>Scott is giving a talk in Buffalo</em></td>
     </tr>
     <tr>
         <td valign="top">11</td>
@@ -250,7 +249,6 @@ No class</b> </ul>
                 <li>Amy Presents</li>
                 <li>Javascript</li>
                 <ul>
-                    <li>JQuery</li>
                     <li>Geolocation</li>
                 </ul>
             </ul>
