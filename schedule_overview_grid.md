@@ -224,6 +224,7 @@ No class</b> </ul>
                 <li>JavaScript continued</li>
                 <ul>
                     <li>Forms</li>
+                    <li>Jquery intro</li>
                 </ul>
                  <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week9.1">Class notes</a></li>
             </ul>
