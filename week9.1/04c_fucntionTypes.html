@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Other kinds of functions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+        
+        pre {
+            background-color: azure;
+            padding: 10px;
+            font-family: monospace;
+            border: 1px dotted;
+            border-radius: 5px;
+        }
+        
+        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Many kinds of functions in javascript</h1>
+       <p>We've seen traditional function declaration like this : </p><pre>
+function roomSize(width, height){
+    return area = width * height;
+}
+
+var space = roomSize(10, 10);</pre>
+        <p>but there are other ways of declaring and using functions. one is to use it as an expression. The name is typically omitted. This is also called an anonymous function. This is used when code needs to run once inside a task. </p><pre>// function as an expression
+var area = function(width, height){
+    return area = width * height;
+}
+
+var space = area(10, 10);</pre>
+        
+        <p>You'll run into this alot in jQuery (coming up next!) so it's a good FYI. It's often used as an argument inside another function.</p></div>
+</body>
+
+</html>

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Forms</title>
+    <title>Jquery example</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style type="text/css">
         body {
@@ -26,23 +26,27 @@
             padding: 5px;
             border-radius: 10px;
         }
+        
+        .headline {
+            color: blueviolet;
+        }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/07a_example.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <h1>form of an ice bucket</h1>
-        <p>
-            <form action="http://127.0.0.1:8080" action="GET" name="regForm">
-                <label for="FirstName">First Name: </label>
-                <input name="FirstName" placeholder="First Name" type="text">
-                <label for="LastName">Last Name: </label>
-                <input name="LastName" type="text" placeholder="Last Name" maxlength="15">
-                <label for="Password">Password</label>
-                <input name="Password" type="password" />
-                <input name="Submit" type="submit" value="submit" />
-        </form>
-        </p>
+        <h1>Jquery example</h1>
+        <h2>make some changes with jQuery</h2>
+        <p>Here's a list of things I want to do this weekend</p>
+        <ol>
+            <li>get some sleep</li>
+            <li>see my niece</li>
+            <li>go to the gym</li>
+            <li>forget to set my clock back</li>
+            <li>watch the marathon</li>
+        </ol>
     </div>
 </body>
 

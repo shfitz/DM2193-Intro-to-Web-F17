@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>variables from inputs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+        
+        pre {
+            background-color: azure;
+            padding: 10px;
+            font-family: monospace;
+            border: 1px dotted;
+            border-radius: 5px;
+        }
+        
+        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    </style>
+    <script type="text/javascript">
+        function userNumber() {
+            //get the input element by ID
+            var userNum = document.getElementById("num");
+            //post the value of the input using the .value property of the element object
+            console.log("user input was: " + userNum.value);
+        };
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1> form for selecting a range </h1>
+        <p>in the code below, the user uses a number box to choose a value between 0 and 9. This gets passed to the userNumber() function. it's triggered by the button event.</p>
+        <form>
+            <fieldset> 
+                <!-- groups form elements together, and draws a box around them -->
+                <legend>Pick a number between 0 and 10</legend>
+                <input type="number" name="num" id="num" min="0" max="9" step="1">
+                <button onclick="userNumber();">See Number</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

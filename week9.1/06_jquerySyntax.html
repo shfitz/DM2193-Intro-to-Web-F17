@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jquery Syntax</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+        
+        pre {
+            background-color: azure;
+            padding: 10px;
+            font-family: monospace;
+            border: 1px dotted;
+            border-radius: 5px;
+        }
+        
+        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Jquery Syntax</h1>
+        <p>Everything in Jquery is done through the Jquery object. We looked at objects last week as a data storage tool. Jquery is a little different in that it stores data <em>and</em> has functionality. it's like getting a free gift froma  mail-order catalog.</p>
+        
+        <h2>firing up jquery</h2>
+        <p>there's a base function called <em>jQuery()</em> that lets you find elemensts in a page. As lazy programmers, we hate writing out jQuery() all the time. fortunately, there's the option of of using <em>$()</em> instead.</p>
+        
+        <p>in javascript, we would type <em>&lt;body onload=&quot;myFunction();&quot;&gt;</em> to get something to happen after the page loaded. Jquery has a built in function for this, which helps make sure there's no issues with trying to access DOM elements before the page finishes loading. You can wrap all your code inside this, which makes it convenient for sticking in the head of your pages.</p><pre>$(document).ready(function() {
+  // your code goes here
+});</pre>
+
+        <h2>Honest to goodness use</h2>
+<p>
+        in Jquery, there are some similarities to the DOM queries we've been using, but it's a bit simpler. The syntax for calling jquery is </p>
+        <pre>$(selector).action();</pre>
+        
+        <p>the <em>selector</em> above is the query for HTML elements. the <em>action()</em> is the thing to do to the returned element/s.</p>
+        <p>There ae some selectors that will get more play than others. However, they are all similar to the ones you're accustomed to from CSS</p><pre>// javascript
+document.getElementById("myID");  
+// jquery 
+$("myID") 
+// returns a single element with the searched id
+        
+// javascript
+document.getElementsByTagName("p");  
+// jquery 
+$("p")
+// returns an array of elements from the page with the specified tag
+        
+// javascript
+document.getElementsByClassName(“.coolness”); 
+// jquery 
+$(".coolness")
+// returns an array of elements from the page with the specified css class
+
+// javascript
+document.querySelector(".coolness");  
+// jquery 
+$("li.coolness")
+$(".coolness:first")
+// returns the first element on the page that matches the CSS selector searched for. 
+// use :first to find the first element that matched either the tag or class.</pre><p>One more thing : </p><pre>$(this) 
+// returns the current HTML element. 
+// usually found inside a fxn after something has been selected to so something else</pre>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jquery Events</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+        
+        pre {
+            background-color: azure;
+            padding: 10px;
+            font-family: monospace;
+            border: 1px dotted;
+            border-radius: 5px;
+        }
+        
+        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Jquery Events & effects</h1>
+        <h1>events</h1>
+        <p>We can bind or attach events to elements selected through jQuery’s methods. Some of the more common ones you will recognize from our JavaScript examples. The events are pretty self explanatory. The document.ready() function is an example event in that it executes function(s) once the document has loaded and is ready. </p>
+        <p>Here's an <a href="07a_hide.html">example of a click event that hides a paragraph when selected.</a></p>
+        <p>some common events include :</p><pre>/****** Interaction *******/
+
+$("selector").click();
+$("selector").dblclick();
+$("selector").mouseenter;
+$("selector").mouseleave();
+$("selector").mousedown();
+$("selector").mouseup();
+$("selector").hover();
+
+/****** Forms: *******/
+$("selector").focus();
+$("selector").blur();
+
+/****** Multiple Events  *******/
+/****** 
+Sometimes we want to attach multiple events to a single element. For example, if you execute a function when the mouse enters, you probably want to execute another function when the mouse leaves that element.
+*******/
+
+$("p").on({
+  mouseenter: function() {
+   console.log("mouse entered p element");
+  },
+  mouseleave: function() {
+   console.log("mouse left p element");
+  }
+});</pre>
+        <h2>Effects</h2>
+        <p>Everything is more fun when you can make a flashing atrocity out of it. Jquery has methods to show/hide/animate/fadeIn/fadeOut etc. The syntax looks like this : </p><pre>$(selector).hide(speed,callback);</pre>
+        <p><em>speed</em> and <em>callback</em> are optional parameters for effects. speed is specified in milliseconds. the callback is an optional function to execute once the element is done “hiding” in this case.</p>
+        <p>soem often used effects include :</p> 
+<pre>// Hide and Show elements:
+$("p").hide();
+$("p").show();
+
+// can be it shorter we by toggle between hidden and shown:
+$("p").toggle();
+
+// fading is a fun effect
+$(selector).fadeIn(speed,callback);
+
+// Fade In or Out:
+$("p").fadeIn(1000);
+$("p").fadeOut("slow");
+
+// toggle fading in and out:
+$("p").fadeToggle(1000);
+
+// fade to a specific opacity:
+$(selector).fadeTo(speed,opacity,callback);
+$("p").fadeTo("slow", 0.5);
+
+//  slide elements:
+$(selector).slideDown(speed,callback);
+// Up or Down:
+$("#div1").slideDown(1000);
+$("#div1").slideUp("fast");
+
+// toggle between Up and Down:
+$("#div1").slideToggle(1000);</pre> </div>
+</body>
+
+</html>

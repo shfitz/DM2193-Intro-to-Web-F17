@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jquery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            margin: 10;
+            font-family: sans-serif;
+        }
+        
+        pre {
+            background-color: azure;
+            padding: 10px;
+            font-family: monospace;
+            border: 1px dotted;
+            border-radius: 5px;
+        }
+        
+        .container {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid 1px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Jquery</h1>
+        <h2>What the heck is jquery?</h2>
+        <p><a href="http://jquery.com">Jquery</a> is a javascript library that makes it easy to do stuff with javascript in a website. Last week, you were using regular  js for basic functionality, but it can be a little daunting to deal with all the funny syntax for accessing elements in the DOM. Jquery fxes that by introducing a new syntax (yay?) that stremlones the process of accessing and changing elements in a site.</p><p>Eseentially, Jquery makes it so you only have to write code once that will work in all browsers. It allows you to <strong>select elements</strong> with CSS style selectors, <strong>perform tasks</strong> like update the DOM tree, animate elements, and loop through arrays of elements in less code than regiular js, and <strong>handle events</strong> enabling you to attach event listeners to elements withouth haveing to muck around with code for older browsers.</p>
+        <p>Like any other external js file, we want to link to jquery's library in the head of the page. You can either host a version of the library locally on your server, or you can link to a CDN like this : </p><pre>&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js&#34;&gt;&lt;/script&gt;</pre>
+        <p>An upside to using a cdn for your sites is that the content will cache in your browser, and if it's hosted by someone like google or microsoft,  they have fat pipes that will help get the file to a client's browser more quickly.</p>
+    </div>
+</body>
+
+</html>

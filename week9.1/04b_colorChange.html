@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>User Input</title>
+    <style type="text/css">
+        .red {
+            color: red;
+        }
+        
+        .green {
+            color: green;
+        }
+        
+        .blue {
+            color: blue;
+        }
+        
+        .purple {
+            color: rebeccapurple;
+        }
+    </style>
+    <script type="text/javascript">
+        //change the h1 with the id of change me based on user input when button to sumbit is clicked
+
+        var heading;
+        var num;
+        var myButton;
+        // init actions, things we perform when page has fully rendered
+        document.addEventListener("DOMContentLoaded", function () {
+            heading = document.getElementById("swapper");
+            num = document.getElementById("myNumber");
+            myButton = document.getElementById("changeBtn");
+            // add event listener to the button
+            myButton.addEventListener("click", changeHeadingColor);
+        });
+        // color change function that is exceuted on click via event listener above
+        function changeHeadingColor() {
+            // this will print out entire html element
+            console.log(num);
+            // we want to extract the value attribute
+            // form elements will always default to string
+            // parseInt() casts to an integer
+            var n = parseInt(num.value);
+            // rather than havibng a laundry list of conditionals lets us a switch
+            switch (n) {
+            case 0:
+                // if n is = 0 class red
+                heading.className = "red";
+                break;
+            case 1:
+                heading.className = "green";
+                break;
+            case 2:
+                heading.className = "blue";
+                break;
+            case 3:
+                heading.className = "purple";
+                break;
+            default:
+                //this is the catch all if none of the conditions above are met.
+                heading.innerHTML = "Hey, give me a number between 0 and 3."
+            }
+        }
+    </script>
+</head>
+<h1 id="swapper">change my color based on user input</h1>
+<p>Enter a number between 0 and 3 below, click submit and change the class of the header above</p>
+<form>
+    <fieldset> <!-- the fieldset groups related form components together -->
+        <legend>Pick a number between 0 and 3</legend>
+        <label for="myNumber">Number</label>
+        <input type="number" name="myNumber" id="myNumber" min="0" step="1" placeholder="0" value="0">
+        <button type="button" id="changeBtn">Change the header color</button>
+    </fieldset>
+</form>
+</body>
+</html>
