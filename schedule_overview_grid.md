@@ -239,7 +239,7 @@ No class</b> </ul>
                 <li>JQuery cont.</li>
                 <li>Bootstrap</li>
                 <li>Homework : <strong>Due Nov 9</strong> Come up with one question you have about implementing something in a webpage with javascript. Get as far as you can executing this issue. Submit your attempt and your associated question to me by 3pm Thursday.</li>
-                <li>Prepare for your final project</li>
+                <li>Prepare for your final project. If you are continuing with your midterm idea, present an outline of the changes and additions you will make to the site to complete it. For example, a to-do list including what BootStrap (if any) components you plan to use. If this is a new idea, in addition to the to-do list, present the color palette, pinterest/mood board, or link to similar site that inspired you.</li>
             </ul>
         </td>
         <td valign="top"> <b>Nov 9</b>
@@ -260,6 +260,7 @@ No class</b> </ul>
         <td valign="top"><b>Nov 16</b>
             <ul>
                 <li>Chris Presents</li>
+                <li>final project proposal</li>
             </ul>
             </ul>
         </td>
