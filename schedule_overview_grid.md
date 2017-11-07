@@ -238,6 +238,8 @@ No class</b> </ul>
             <ul><li>Waad presents</li>
                 <li>JQuery cont.</li>
                 <li>Bootstrap</li>
+                <li>Homework : <strong>Due Nov 9</strong> Come up with one question you have about implementing something in a webpage with javascript. Get as far as you can executing this issue. Submit your attempt and your associated question to me by 3pm Thursday.</li>
+                <li>Prepare for your final project</li>
             </ul>
         </td>
         <td valign="top"> <b>Nov 9</b>
@@ -245,16 +247,17 @@ No class</b> </ul>
     </tr>
     <tr>
         <td valign="top">11</td>
-        <td valign="top"> <b>Nov 14</b>
+        <td valign="top"><b>Nov 14</b>
             <ul>
                 <li>Amy Presents</li>
+                <li>Bootstrap contd.</li>
                 <li>Javascript</li>
                 <ul>
                     <li>Geolocation</li>
                 </ul>
             </ul>
         </td>
-        <td valign="top"> <b>Nov 16</b>
+        <td valign="top"><b>Nov 16</b>
             <ul>
                 <li>Chris Presents</li>
             </ul>
@@ -307,7 +310,7 @@ No class</b> </ul>
         <td valign="top"><b>Dec 12</b>
             <br> <b>No class</b> </td>
         <td valign="top"><b>Dec 14</b>
-            <br> <b>Last Class - all work must be turend in today</b>
+            <br> <b>Last Class - all work must be turned in today</b>
             <br/> </td>
     </tr>
 </table>
