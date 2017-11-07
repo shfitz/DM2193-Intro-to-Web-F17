@@ -237,6 +237,7 @@ No class</b> </ul>
         <td valign="top"><b>Nov 7</b>
             <ul><li>Waad presents</li>
                 <li>JQuery cont.</li>
+                <li>Bootstrap</li>
             </ul>
         </td>
         <td valign="top"> <b>Nov 9</b>
