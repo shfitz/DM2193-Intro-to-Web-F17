@@ -30,9 +30,9 @@
     <script type="text/javascript">
         function userNumber() {
             //get the input element by ID
-            var userNum = document.getElementById("num");
+            var userNum = document.getElementById("numberID");
             //post the value of the input using the .value property of the element object
-            console.log("user input was: " + userNum.value);
+            alert("user input was: " + userNum.value);
         };
     </script>
 </head>
@@ -45,7 +45,7 @@
             <fieldset> 
                 <!-- groups form elements together, and draws a box around them -->
                 <legend>Pick a number between 0 and 10</legend>
-                <input type="number" name="num" id="num" min="0" max="9" step="1">
+                <input type="number" name="num" id="numberID" min="0" max="9" step="1">
                 <button onclick="userNumber();">See Number</button>
             </fieldset>
         </form>
