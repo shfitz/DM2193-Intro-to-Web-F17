@@ -250,18 +250,13 @@ No class</b> </ul>
         <td valign="top"><b>Nov 14</b>
             <ul>
                 <li>Amy Presents</li>
-                <li>Bootstrap contd.</li>
-                <li>Javascript</li>
-                <ul>
-                    <li>Geolocation</li>
-                </ul>
+                 <li>Final project proposal</li>
             </ul>
         </td>
         <td valign="top"><b>Nov 16</b>
             <ul>
                 <li>Chris Presents</li>
-                <li>final project proposal</li>
-            </ul>
+                 <li>Final Project proposals</li>
             </ul>
         </td>
     </tr>
@@ -270,7 +265,11 @@ No class</b> </ul>
         <td valign="top"><b>Nov 21</b>
             <ul>
                 <li>Andrew Presents</li>
-                <li>Final Project proposals</li>
+                               <li>Bootstrap contd.</li>
+                <li>Javascript</li>
+                <ul>
+                    <li>Geolocation</li>
+                    </ul>
             </ul>
         </td>
         <td valign="top"><b>Nov 23</b>
