@@ -252,6 +252,7 @@ No class</b> </ul>
             <ul>
                 <li>Amy Presents</li>
                  <li>Final project proposal</li>
+                 <li><em>Homework</em> : Find a javascript library that interests you and write up a short bit on why/how you think you might use it (NB : this is not binding).</li>
             </ul>
         </td>
         <td valign="top"><b>Nov 16</b>
