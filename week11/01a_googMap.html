@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Weather example</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- my own css -->
+    <style type="text/css">
+        
+        .container {
+            border: 0px;
+        }
+        
+        .row {
+            border: 0px;
+            margin-top: 10px;
+        }
+        
+        #map {
+            height: 300px;
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=Your Key here"></script>
+    <script type="text/javascript">
+        var myPosition;
+
+        function getMyLocation() {
+            if (window.navigator.geolocation) {
+                myPosition = window.navigator.geolocation.getCurrentPosition(gotPosition);
+            }
+            else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+
+        function gotPosition(position) {
+            initMap(position.coords.latitude, position.coords.longitude);
+        }
+        // init the map inside of the #map div
+        function initMap(myLat, myLng) {
+            var container = document.getElementById('map');
+            // map is a global variable
+            map = new google.maps.Map(container, {
+                center: {
+                    lat: myLat
+                    , lng: myLng
+                }
+                , zoom: 8
+            });
+        }
+    </script>
+</head>
+
+<body onload="getMyLocation()">
+    <div class="container">
+        <h1>Get location</h1>
+            <div id="map"> </div>
+<p>      This requires an API Key. The key allows a certain level of access, and allows Google to track your usage of their API.
+</p>  <p>
+        Click on "Get a Key" here: <a href="https://developers.google.com/maps/documentation/javascript/">https://developers.google.com/maps/documentation/javascript/</a>
+</p><p>
+Keep your API private—never post API keys on GitHub. 
+</p>
+    </div>
+
+</body>
+
+</html>
