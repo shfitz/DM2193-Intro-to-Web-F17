@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>storage</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- my own css -->
+    <style type="text/css">
+        div {
+            background-color: #fdfeff;
+            border: 1px solid;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        
+        .container {
+            border: 0px;
+        }
+        
+        .row {
+            border: 0px;
+            margin-top: 10px;
+        }
+    </style>
+    <script type="text/javascript">
+        // checks to see if there's localstirage supported in the browser
+        /*
+        function checkStore() {
+            if (typeof (Storage) !== "undefined") {
+                // Code for localStorage/sessionStorage.
+                alert("I can save stuff!");
+            }
+            else {
+                // Sorry! No Web Storage support..
+                alert("sorry, this browser doesn't save anything");
+            }
+        }
+        */
+        // stores a value with an associated name forever
+        function storeMyInfo() {
+            // get the value of the form
+            var aName = document.getElementById("personName").value;
+            // Store the value
+            localStorage.setItem("name", aName);
+        }
+
+        function getMyInfo() {
+            // Retrieve the value asccociated wth "name" key
+            // and put it in the proper place
+            document.getElementById("result").innerHTML = localStorage.getItem("name");
+        }
+
+        function removeInfo() {
+            localStorage.removeItem("name"); // removes the value of "name"
+        }
+        // stores a value with an associated name while this window is open
+        function storeMySessionInfo() {
+            // get the value of the form
+            var aName = document.getElementById("sessionName").value;
+            // Store the value
+            sessionStorage.setItem("sessionName", aName);
+        }
+
+        function getMySessionInfo() {
+            // Retrieve the value asccociated wth "name
+            // and put it in the proper place
+            document.getElementById("resultSession").innerHTML = sessionStorage.getItem("sessionName");
+        }
+
+        function removeSessionDataByKey() {
+            // Remove saved data from sessionStorage
+            sessionStorage.removeItem("sessionName");
+        }
+
+        function clearSessionData() {
+            // Remove all saved data from sessionStorage
+            sessionStorage.clear();
+        }
+    </script>
+</head>
+
+<body onload="checkStore()">
+    <div class="container">
+        <h1>we can check for local storage</h1>
+        <div class="row">
+            <div class="col-md-12"><h2>localStorage</h2>
+                <p>There are 2 kinds of storage. One that works for single sessions, and another that will be persistent across sessions.</p>
+                <p>The localStorage object saves indefintely. There's no expiration date.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <form>
+                    <input type="text" id="personName" />
+                    <button onclick="storeMyInfo()">store a name forever</button>
+                </form>
+            </div>
+            <div class="col-md-4" id="result"></div>
+            <div class="col-md-4">
+                <button onclick="getMyInfo()">retreive that forever name</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12"><h2>SessionStorage</h2>
+                <p>The sessionStorage object is available as long as the window is open. Once it has closed, it's gone.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <form>
+                    <input type="text" id="sessionName" />
+                    <button onclick="storeMySessionInfo()">store a name while this window is open</button>
+                </form>
+            </div>
+            <div class="col-md-4" id="resultSession"></div>
+            <div class="col-md-4">
+                <button onclick="getMySessionInfo()">retreive that onetime name</button>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+
+</html>
