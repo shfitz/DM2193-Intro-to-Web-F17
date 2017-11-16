@@ -259,6 +259,7 @@ No class</b> </ul>
             <ul>
                 <li>Chris Presents</li>
                  <li>Final Project proposals</li>
+                 <li>localStorage</li>
             </ul>
         </td>
     </tr>
@@ -267,15 +268,14 @@ No class</b> </ul>
         <td valign="top"><b>Nov 21</b>
             <ul>
                 <li>Andrew Presents</li>
-                               <li>Bootstrap contd.</li>
-                <li>Javascript</li>
-                <ul>
+                    <li>JSON</li>
+                    <li>local servers</li>
                     <li>Geolocation</li>
-                    </ul>
+                    <li>react.js</li>
             </ul>
         </td>
         <td valign="top"><b>Nov 23</b>
-            <br> <b> No Class, Thanksgiving</b> </td>
+            <br><b>No Class, Thanksgiving</b> </td>
     </tr>
     <tr>
         <td valign="top">13</td>
@@ -292,8 +292,8 @@ No class</b> </ul>
         <td valign="top"><b>Nov 30</b>
             <ul>
                 <li>Phoenix presents </li>
-                <li>Node.js??</li>
-                <li>local servers?</li>
+                <li>Node.js</li>
+                <li>angular.js</li>
             </ul>
         </td>
     </tr>
