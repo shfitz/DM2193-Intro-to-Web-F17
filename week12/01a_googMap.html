@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- my own css -->
     <style type="text/css">
-        
         .container {
             border: 0px;
         }
@@ -22,7 +21,7 @@
             height: 300px;
         }
     </style>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBL7nmfR2nwvADkDjxqXWa-Rdqy2etAznY"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key="></script>
     <script type="text/javascript">
         var myPosition;
 
@@ -34,20 +33,35 @@
                 alert("Geolocation is not supported by this browser.");
             }
         }
-
+        // once we get the position of the broswer
         function gotPosition(position) {
+            // call init map passing the lat & lon
             initMap(position.coords.latitude, position.coords.longitude);
         }
         // init the map inside of the #map div
         function initMap(myLat, myLng) {
             var container = document.getElementById('map');
             // map is a global variable
+            // provided by the maps API
+            // it wants the following args
+            // (divTLiveIn, optionalArgs)
+            // here, it centers the map on our location
+            // and zooms in close
             map = new google.maps.Map(container, {
                 center: {
                     lat: myLat
                     , lng: myLng
                 }
-                , zoom: 8
+                , zoom: 18
+            });
+            // add a marker
+            var marker = new google.maps.Marker({
+                position: {
+                    lat: myLat
+                    , lng: myLng
+                }
+                , map: map
+                , title: 'My location'
             });
         }
     </script>
@@ -56,15 +70,15 @@
 <body onload="getMyLocation()">
     <div class="container">
         <h1>Get location</h1>
-            <div id="map"> </div>
-<p>      This requires an API Key. The key allows a certain level of access, and allows Google to track your usage of their API.
-</p>  <p>
-        Click on "Get a Key" here: <a href="https://developers.google.com/maps/documentation/javascript/">https://developers.google.com/maps/documentation/javascript/</a>
-</p><p>
-Keep your API private—never post API keys on GitHub. 
-</p>
+        <!-- the element we will store the map in -->
+        <div id="map"> </div>
+        <p> This requires an API Key. The key allows a certain level of access, and allows Google to track your usage of their API. </p>
+        <p> Click on "Get a Key" here: <a href="https://developers.google.com/maps/documentation/javascript/">https://developers.google.com/maps/documentation/javascript/</a> </p>
+        <p> Keep your API private—never post API keys publically. </p>
+        <p>Stick this code in your page. <code>&lt;script src=&#34;https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&#34;&gt;&lt;/script&gt;
+</code></p>
+        <p>You can also add markers to your pages</p><p>Moreso than most APIs, google documented their map one super well. You can find out all about it at <a href="https://developers.google.com/maps/documentation/javascript/3.exp/reference">the maps developer site</a>.</p>
     </div>
-
 </body>
 
 </html>

@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!-- my own css -->
     <style type="text/css">
-        
         div {
             background-color: #fdfeff;
             border: 1px solid;
@@ -19,7 +18,8 @@
         
         .container {
             border: 0px;
-        }        
+        }
+        
         .row {
             border: 0px;
             margin-top: 10px;
@@ -32,17 +32,103 @@
         <h1>Geolocation</h1>
         <div class="row">
             <div class="col-md-12">
-                <p>In order to do geolocation, you need to be running a server. There are a couple different ways to do that. If you're running Brackets, it's as easy as clicking the lightning bolt on the side of your editor. Sublime text has a package called "Sublime Server". If you're using something else, or want a challenge, you can use node.js. mas ship with python. you could start a server from the terminal in the directory of your choice with <code>python -m SimpleHTTPServer 8000</code></p>
-            </div>
+                <p>You'll need to be running this page on a server for it to work (the <code>file://</code> protocol doesn't support geolocation).</p>
+                <p>the <code>geolocation</code> API is a javascrip object that is part of the <code>window.navigator</code> object. you access it by calling <code>window.navigator.geolocation</code></p>
+                <p>to make sure the browser you're using supports geolocation, you can use this function : </p> <code><pre>function getMyLocation() {
+ if (navigator.geolocation) {
+  // you support location!
+  alert("I can see you");
+ } else {
+  alert("Geolocation is not supported by this browser.");
+ }
+}</pre></code>
+                <p>
+                    <button onclick="getMyLocation()">Do I support geolocation?</button>
+                </p>
+                <p>If your browser does support this, you can call the <code>getCurrentPosition()</code> method. This will ask the user if they give permission for the browser to share location information. This is not available immesiately, it's asynchronous. that is, we need to wait for it to happen. Because of this, it's useful to put this in a callbak function.</p><code><pre>// if getCurrentPosition is successful, it calls the function gotPosition, which is passed a javascript object wth information about our location
+function getThisLocation() {
+ if (window.navigator.geolocation) {
+  window.navigator.geolocation.getCurrentPosition(gotPosition);
+} else {
+  alert("Geolocation is not supported by this browser.");
+ }
+}
+
+function gotPosition(position) {
+  // print location to the console
+  console.log(position);
+}</pre></code>
+                <button onclick="getThisLocation()">Print location to the console</button>
+                <p>the <code>coords</code> object has some information for us, specifically the latitude and longitude. We can stick this in our page like so : </p> <code><pre>
+function showThisLocation() {
+ if (window.navigator.geolocation) {
+  window.navigator.geolocation.getCurrentPosition(showPosition);
+} else {
+  alert("Geolocation is not supported by this browser.");
+ }
+}
+
+function showPosition(position) {
+  var lat;
+  var lon;
+  lat = position.coords.latitude;
+  lon = position.coords.longitude;
+  document.getElementById("dispLoc").innerHTML="latitude: "+lat+", longitude : " +lon;
+}</pre></code>
+                <button onclick="showThisLocation()">Show me the location in the page</button> <span id="dispLoc"></span> </div>
         </div>
         <div class="row">
-            <div class="col-md-6"><a href="#"></a></div>
+            <div class="col-md-6">
+                <a href="#"></a>
+            </div>
             <div class="col-md-6"><a href="01a_googMap.html">google map example</a></div>
         </div>
     </div>
     <!-- Optional JavaScript -->
+    <script type="text/javascript">
+        function getMyLocation() {
+            if (navigator.geolocation) {
+                alert("I can see you");
+            }
+            else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+
+        function getThisLocation() {
+            if (window.navigator.geolocation) {
+                window.navigator.geolocation.getCurrentPosition(gotPosition);
+            }
+            else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+
+        function gotPosition(position) {
+            // print location to the console
+            console.log(position);
+        }
+
+        function showThisLocation() {
+            if (window.navigator.geolocation) {
+                window.navigator.geolocation.getCurrentPosition(showPosition);
+            }
+            else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+
+        function showPosition(position) {
+            var lat;
+            var lon;
+            lat = position.coords.latitude;
+            lon = position.coords.longitude;
+            document.getElementById("dispLoc").innerHTML = "latitude: " + lat + ", longitude : " + lon;
+        }
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
