@@ -259,7 +259,7 @@ No class</b> </ul>
             <ul>
                 <li>Chris Presents</li>
                  <li>Final Project proposals</li>
-                 <li>localStorage</li>
+                 <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/blob/master/week11/00_localstore.html">localStorage in-class example</a></li>
             </ul>
         </td>
     </tr>
@@ -269,9 +269,8 @@ No class</b> </ul>
             <ul>
                 <li>Andrew Presents</li>
                     <li>JSON</li>
-                    <li>local servers</li>
                     <li>Geolocation</li>
-                    <li>react.js</li>
+                    <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week12">In class notes</a></li>
             </ul>
         </td>
         <td valign="top"><b>Nov 23</b>
