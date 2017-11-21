@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>local servers</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- my own css -->
+    <style type="text/css">
+        
+        div {
+            background-color: #fdfeff;
+            border: 1px solid;
+            border-radius: 10px;
+        }
+        
+        .container {
+            border: 0px;
+        }        
+        .row {
+            border: 0px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>local servers</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <p>These are largely based on the <a href="https://github.com/processing/p5.js/wiki/Local-server">p5js local server notes</a>.</p><p> It can be really useful to run a local server soemtimes for checking things. There are a number of ways to do this depending on the platform you're using.  In class, I've been using the live preview capabilities of Brackets. It starts a server on my computer that coughs up webpages when I make requests. Sublime Text has a plugin for this as well.</p><h2>Python</h2><p>On OSX you already have python installed. Linux and windows folks can install from <a href="https://www.python.org/">Python.org</a>. You can start a server with the line<code>python -m SimpleHTTPServer</code> in the terminal. This will start a server with the root being whatever directory you started the server from. It's a little pokey, but shoudl suffice for most uses.</p><h2>node.js</h2><p>node is a javascript library that is server-side, not the client side stuff we've been using. That is, it's an independent thing on a computer, it doesn;t run in the browser. It's faster than the python serer, becoming more widely used every day, and is the hip thing to do. Plus, you already know javascript, and darn it, that's worth something. <ol><li><a href="https://nodejs.org/en/download/">Download and install node.js </a>for the platform of your choosing.</li><li>in the terminal, type (Linusx/macOS) <code>sudo npm install -g http-server</code> and enter your password. In windows, open the command prompt and type <code>npm install -g http-server</code> (you will probably need to be an admin for this.)</li><li>type <code>http-server</code></li></ol>npm is shorthand for "node package manager". It's a tool that allows you to  quickly download and use packages that extend the code node library.</p><h2>Apache</h2><p>Apache is one of the oldest an most widely used servers on the web. on the mac, it's already installed. you can start it by typing <code>sudo apachectl start</code> in your terminal. Visit localhost in your browser to verify it's working. The server root is at /Library/WebServer/Documents. You'll need to change permissions on the directory to addd items to it. For windows, <a href="http://www.wampserver.com/en/">download WAMP</a>, install it and follow the instructiosn to set up the server. On Linux (Ubuntu), install with <code>sudo apt-get install apache2</code>. The server root is at /var/www/. <a href="https://www.linode.com/docs/websites/hosting-a-website">This Linode documentation</a> is pretty good for setting up a server on Linux.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6"><a href="#"></a></div>
+            <div class="col-md-6"><a href="01_geolocation.html">let's use this thing</a></div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+
+</html>
