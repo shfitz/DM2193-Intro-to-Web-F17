@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>d3.js</title>
+    <!-- styles -->
+    <style>
+        path {
+            fill: none;
+            stroke: #aaa;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <p>D3 is really well known for it's data viz capabilities. Generally these are made from SVG elements. Data can come from anywhere. An API, a csv file, a big old randomly generated array, you name it. D3 will render the graph or image as <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">a SVG</a>, which is a special type of vector image you can see in the browser. You declare its shape and points using XML.</p>
+    
+    <svg width="600" height="100" class="jag">
+        <path transform="translate(200, 0)" /> </svg>
+    
+    <br />
+    
+    <svg width="600" height="100" class="smo">
+        <path transform="translate(200, 0)" /> </svg>
+    
+    <p>Example adapted from <a href="http://d3indepth.com">d3indepth.com</a></p>
+
+    <!-- javascript below -->
+    <!-- import d3 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <script>
+        // array to hold plot points
+        var data = [[0, 50], [100, 80], [200, 40], [300, 60], [400, 30]];
+        
+        var lineGenerator = d3.line(); // new line() instance
+        var pathString = lineGenerator(data); // what it says on the tin
+        d3.selectAll('.jag').select('path').attr('d', pathString);
+        
+        var smoofLineGenerator = d3.line().curve(d3.curveNatural);
+        var smoofPathString = smoofLineGenerator(data);
+        d3.selectAll('.smo').select('path').attr('d', smoofPathString);
+    </script>
+</body>
+
+</html>

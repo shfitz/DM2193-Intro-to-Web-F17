@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>d3.js</title>
+    <!-- styles -->
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 18px;
+        }
+        
+        #wrapper {
+            height: 220px;
+        }
+        
+        .person {
+            height: 20px;
+            position: relative;
+        }
+        
+        .person .label {
+            width: 90px;
+            text-align: right;
+        }
+        
+        .person .bar {
+            height: 19px;
+            background-color: steelblue;
+            position: absolute;
+            left: 100px;
+        }
+        
+        .person div {
+            display: inline-block;
+        }
+        
+        .data-view {
+            padding: 10px;
+            color: #777;
+            font-size: 12px;
+            width: 700px;
+        }
+    </style>
+</head>
+
+<body>
+    <p><a href="https://d3js.org/">d3 (Data Driven Documents)</a> is an open source JavaScript library for data-driven manipulation of the DOM. It allows you to work with data and shapes, do user interactions, and visualize data. It's really popular for data viz applications. </p>
+    <p>D3 attempts to simplify javascript calls to the DOM (even more so than jQuery). The
+        <a href="https://d3js.org/#selections">D3 introduction</a> page has a nice overview of how selections works.</p>
+    <div class="menu">
+        <button onClick="changeGraphColor();">Change paragraph colors</button>
+    </div>
+    
+    <p>In this instance, D3 is creating a div element for each person, add a label and bar to each div, setting the text labels, and updating the width of the div elements based on the person’s score.</p>
+    <div id="wrapper"> </div>
+    <div class="menu">
+        <button onClick="updateScores();">Update scores</button>
+        <button onClick="addPerson();">Add person</button>
+        <button onClick="removePerson();">Remove person</button>
+    </div>
+    
+    <!-- javascript below -->
+    <!-- import d3 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+    <script>
+        var names = ['Andy', 'Beth', 'Craig', 'Diane', 'Evelyn', 'Fred', 'Georgia', 'Harry', 'Isabel', 'John'];
+        var myData = [];
+        var barWidth = 400;
+        var barScale = d3.scaleLinear().domain([0, 100]).range([0, barWidth]);
+        // random score generator
+        function randomInteger(n) {
+            return Math.floor(10 * Math.random());
+        }
+        // initial states
+        function initialiseData() {
+            myData = [
+                {
+                    "name": "Andy"
+                    , "score": 37
+		  }
+                , {
+                    "name": "Beth"
+                    , "score": 39
+		  }
+                , {
+                    "name": "Craig"
+                    , "score": 31
+		  }
+                , {
+                    "name": "Diane"
+                    , "score": 35
+		  }
+                , {
+                    "name": "Evelyn"
+                    , "score": 38
+		  }
+		];
+        }
+        // when update button is pressed
+        function updateBars(data) {
+            // find the id 'wrapper', get all the people in the data array, return the name
+            var u = d3.select('#wrapper').selectAll('.person').data(data, function (d) {
+                return d.name;
+            });
+            // append the names to the divs
+            var entering = u.enter().append('div').classed('person', true);
+            entering.append('div').classed('label', true).text(function (d) {
+                return d.name;
+            });
+            // apend the bars to the divs
+            entering.append('div').classed('bar', true);
+            // do a fancy transition
+            entering.merge(u).select('.bar').transition().style('width', function (d) {
+                return barScale(d.score) + 'px';
+            });
+            u.exit().remove();
+        }
+
+        function addPerson() {
+            if (myData.length === 10) return;
+            myData.push({
+                name: names[myData.length]
+                , score: 30 + randomInteger(90)
+            });
+            update(myData);
+        }
+
+        function removePerson() {
+            if (myData.length === 0) return;
+            myData.pop();
+            update(myData);
+        }
+
+        function updateScores() {
+            for (var i = 0; i < myData.length; i++) {
+                myData[i].score = 30 + randomInteger(90);
+            }
+            update(myData);
+        }
+        // render it on screen
+        function updateDataView() {
+            d3.select('.data-view').text('Array: ' + JSON.stringify(myData));
+        }
+
+        function update() {
+            updateBars(myData);
+            updateDataView(myData);
+        }
+        initialiseData();
+        update(myData);
+
+        function changeGraphColor() {
+            d3.selectAll("p").transition().style("color", function () {
+                return "hsl(" + Math.random() * 360 + ",100%,33%)";
+            });
+        }
+    </script>
+</body>
+
+</html>

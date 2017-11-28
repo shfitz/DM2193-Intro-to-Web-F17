@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Vue.js</title>
+    <!-- import the vue library -->
+    <script src="https://unpkg.com/vue"></script>
+</head>
+
+<body>
+    <div id="app">
+        <h1>{{ message }}</h1>
+        <p><a href="http://vuejs.org">Vue</a> is a frontend javascript framework for building user interfaces. You can use it in conjunction with backend systems, but it doesn't require them. it's similar to React (which we'll get to later). When you first start with Vue, you have the choice of using a command line version of it, which compiles on the server, or the browser based javascript way you're accustomed to. For the time being, stick with what you know.</p>
+        <p>Vue (and react) uses a "virtual DOM", which means that you can quickly update elements in your page without having to refresh to reload. It's set up so data can be rendered a template, which gives you a lot of flexibility to make things happen in the browser.</p>
+    </div>
+</body>
+<!-- javascript below -->
+<script type="text/javascript">
+    var app = new Vue({ // new instance of Vue library
+        el: '#app' // look for the element named "app"
+            
+        , data: { // here's what to do
+            message: 'Hello Vue!' // we can change this, it's all reactive!
+                // open the console & type app.message = 'hello you!' to see a change
+        }
+    })
+</script>
+
+</html>

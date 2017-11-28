@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Vue.js</title>
+    <!-- import the vue library -->
+    <script src="https://unpkg.com/vue"></script>
+    <style type="text/css">
+        .fade-enter-active,
+        .fade-leave-active {
+            transition: opacity .5s
+        }
+        
+        .fade-enter,
+        .fade-leave-to
+        /* .fade-leave-active below version 2.1.8 */
+        
+        {
+            opacity: 0
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <p v-bind:title="message"> We just saw a way to dynamically change the text in a page, but we can bind attributes to elements.</p>
+        <p>You can bind things with a directive, these are special attributes identified with <code>v-</code>. In the above paragraph, it is basically saying “keep this element’s title attribute up-to-date with the message property on the Vue instance.”</p>
+        <p>You can do other things like <a href="https://vuejs.org/v2/guide/transitions.html">animation and transitions</a> : </p>
+    </div>
+    <div id="demo">
+        <button v-on:click="show = !show"> Toggle </button>
+        <transition name="fade">
+            <p v-if="show">I'm faded yo.</p>
+        </transition>
+    </div>
+</body>
+<!-- javascript below -->
+<script type="text/javascript">
+    // 
+    var app = new Vue({
+        el: '#app'
+        , data: {
+            message: 'You loaded this page on ' + new Date().toLocaleString() // you can change this like you did on the previous page
+        }
+    })
+    // this is for the transition
+    var demo = new Vue({
+        el: '#demo'
+        , data: {
+            show: true
+        }
+    })
+</script>
+
+</html>

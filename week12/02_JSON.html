@@ -66,7 +66,7 @@ request.send();</pre></code>
     <script type="text/javascript">
         $("#getEm").click(function () {
             $.getJSON('http://api.open-notify.org/astros.json', function (data) {
-                $("#jqueryAstros").html(data.number);
+                $("#jqueryAstros").html(data.people[0].name);
             });
         });
     </script>
@@ -79,7 +79,7 @@ request.send();</pre></code>
                 if (request.status >= 200 && request.status < 400) {
                     // Success!
                     var data = JSON.parse(request.responseText);
-                    console.log(data);
+                    console.log(request.responseText);
                     showInElement(data);
                 }
                 else {
@@ -93,7 +93,7 @@ request.send();</pre></code>
         };
         
         function showInElement(ISSVals){
-            document.getElementById("liveISS").innerHTML=ISSVals.number;
+            document.getElementById("liveISS").innerHTML=ISSVals.people[0].name;
         }
     </script>
 </body>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>JSX</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+
+<body>
+    <p>JSX is a funny thing. It looks like this : </p><pre>
+    <code>
+&lt;script type=&quot;text/jsx&quot;&gt; 
+    /** @jsx React.DOM **/ 
+    React.render( 
+        &lt;h1&gt;Hello, world!&lt;/h1&gt;, 
+        document.getElementById('myDiv') 
+    ); 
+&lt;/script&gt;
+    </code>
+    </pre>
+    <p>JSX is short for javascript XML, which lets you write HTML inside your javascript. It's not really HTML though, it's actually XML. The one notable difference is that the <code>class</code> attribute needs to be written as <code>className</code>. Here's <a href="https://facebook.github.io/react/docs/jsx-gotchas.html">a complete list of "gotchas"</a>. You don't <em>have</em> to use JSX though, you can also write in plain old javascript, but it looks funny when you do. </p> <pre><code>
+/** @jsx React.DOM **/
+React.render(
+  React.DOM.h1(null, 'Hello, world!'),
+  document.getElementById('myDiv')
+);
+</code></pre><p>When using the <code>render</code> method, the first argument is the <em>component</em> we want to render, the second is the element it should <em>mount</em> to. </p>
+    <div id="root"></div>
+    <script type="text/babel"> 
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>GSAP</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <style>
+        body {
+            padding: 8px;
+            font-family: sans-serif;
+        }
+        
+        #container {
+            width: 692px;
+        }
+        
+        #cat {
+            position: relative;
+            width: 384px;
+            height: 216px;
+            background: url(https://purrfectlove.net/wp-content/uploads/2016/10/flower-cats-1.gif) no-repeat;
+        }
+    </style>
+</head>
+
+<body onload="moveCat()">
+    <div id="container">
+        <h1>GSAP</h1>
+        <p> <a href="https://greensock.com">Greensock Animation Platform</a> is one of the more popular libraries for animation with javascript. There are a couple different libraries in there : "<a href="https://greensock.com/docs/TweenLite">TweenLite</a>","<a href="https://greensock.com/docs/TweenMax">TweenMax</a>", "<a href="https://greensock.com/docs/TimelineLite">TimelineLite</a>" and "<a href="https://greensock.com/docs/TimelineMax">TimelineMax</a>".</p>
+        <h2>TweenLite</h2>
+        <p> include the following in your page : </p><code>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"&gt;&lt;/script&gt;</code> and <pre><code>
+&lt;script&gt;
+window.onload = function(){
+    var logo = document.getElementById("cat");
+    TweenLite.to(cat, 10, {left:"632px"});
+}
+&lt;/script&gt;    
+    </code></pre>
+        <p>The first blub of code will load the library in the page. The second one will tween the image from the left side of the window to the right over one second. The syntax is <code>TweenLite.to( [target object], [duration in seconds], [destination values] )</code></p>
+        <div id="cat"></div>
+        <p>You can customize the kind of easing in the tween as well. There are many, many types. <a href="https://greensock.com/get-started-js#easing">Here's an interactive widget for seeing tweens</a>.</p><p>There's a lot more to GSAP. Here's <a href="https://greensock.com/get-started-js">a getting started video</a> that is useful.</p><p>There are a number of things you can do to extend GSAP as well, like <a href="https://greensock.com/draggable">dragging and dropping.</a></p>
+        <script>
+            function moveCat() {
+                var logo = document.getElementById("cat");
+                TweenLite.to(cat, 2, {
+                    left: "632px"
+                });
+            }
+        </script>
+</body>
+
+</html>
