@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GSAP 101</title>
+    <style type="text/css">
+        #meow {
+            position: absolute;
+            top: 500px;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body> <p>based off Katie Adee's GSAP timeline example</p>
+    <img src="https://purrfectlove.net/wp-content/uploads/2016/10/flower-cats-1.gif" id="meow" /> 
+    <img src="https://purrfectlove.net/wp-content/uploads/2016/10/flower-cats-1.gif" class="cat" />
+    <img src="https://purrfectlove.net/wp-content/uploads/2016/10/flower-cats-1.gif" class="cat" /> 
+    <img src="https://purrfectlove.net/wp-content/uploads/2016/10/flower-cats-1.gif" class="cat" /> <img src="https://purrfectlove.net/wp-content/uploads/2016/10/flower-cats-1.gif" class="cat" /> 
+    <img src="https://purrfectlove.net/wp-content/uploads/2016/10/flower-cats-1.gif" class="cat" />
+    <!-- Link to GreenSock CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <!-- custom scripts after GSAP has loaded -->
+    <script type="text/javascript">
+        // we write all animation scripts here after gsap loads
+        //grab our soccerball by ID
+        var sb = document.getElementById('meow');
+        // using the TWEENMAX object TO animate over 3 seconds and change position with an ease
+        //TweenMax.to(sb, 3, {left: 800, top: 300});
+        TweenMax.to(sb, 3, {
+            x: 800
+            , y: -500
+            , rotation: 360
+            , ease: Elastic.easeOut
+        });
+        // grab the array of cats
+        TweenMax.staggerTo('.cat', 1, {
+            y: 250
+            , rotation: 360
+            , delay: 2
+            , ease: Bounce.easeIn
+        }, 1);
+        TweenMax.to('#meow, .cat', 1, {
+            opacity: 0
+            , delay: 10
+            , onComplete: fini
+        });
+
+        function fini() {
+            alert("Animation is finsihed!");
+        }
+    </script>
+</body>
+
+</html>
