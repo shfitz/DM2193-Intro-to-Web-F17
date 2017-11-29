@@ -283,16 +283,21 @@ No class</b> </ul>
                 <li>Zafir presents </li>
                 <li>Preprocessors</li>
                 <ul>
-                    <li>SASS</li>
-                    <li>LESS</li>
+                    <li><a href="http://paperjs.org/">paper.js</a></li>
+                    <li><a href="http://d3js.org">d3.js</a></li>
+                    <li><a href="http://vuejs.org">vue.js</a></li>
+                    <li><a href="http://reactjs.org">react.js</a></li>
+                    <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week13.1">notes from class</a></li>
                 </ul>
             </ul>
         </td>
         <td valign="top"><b>Nov 30</b>
             <ul>
                 <li>Phoenix presents </li>
-                <li>Node.js</li>
-                <li>angular.js</li>
+                <li>preprocessors</li>
+                <li><a href="http://haml.info/">HAML</a></li>
+                <li><a href="http://sass-lang.com/">SASS</a></li>
+                <li><a href="https://github.com/shfitz/DM2193-Intro-to-Web-F17/tree/master/week13.2">notes from class</a></li>
             </ul>
         </td>
     </tr>
