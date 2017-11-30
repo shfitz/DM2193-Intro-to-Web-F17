@@ -1,0 +1,42 @@
+<html>
+  <head>
+  <title>HAML</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 15px;
+      }
+        #container{
+            width: 75%;
+            margin: auto;
+            border-style: dashed;
+            border-radius: 5px;
+            border-width: 1px;
+            padding: 10px;
+            background-color: azure;
+        }
+    </style>
+  </head>
+  <body><div id="container">
+    <h1>making HAML</h1>
+      <p>HAML markdown is a bit different from HTML, but once you get the hang, it may be a bit easier. To declare the <code>doctype</code> as html, your HAML file should start with <code>!!! 5</code>.</p><p>Because the devs want tis to be beautiful, there's a hierarchy. the syntax is what really sets this apart. Unlike HTML, HAML only has an openig tag. They are initiated with a <code>%</code> abd indented to show off how they are nested. You can use tabs or spaces, but you must be consistent. </p><p>The "Hello World" of HAML looks liek this</p><pre><code>
+!!! 5
+%body
+  %header
+    %h1 Hello World
+  %div
+    %p Here's some text in a section
+</code></pre><p>Text can be below the element if you like it that way too</p>
+      <pre><code>
+!!! 5
+%body
+    %header
+        %h1 
+        Hello World
+        %div
+            %p 
+            Here's some text in a section
+</code></pre>
+      </div>
+    </body>
+</html>

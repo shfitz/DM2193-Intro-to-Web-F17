@@ -1,0 +1,20 @@
+$cats: awesome
+
+.cats
+  @if $cats == awesome
+    background: #ff7b29
+  @else if $cats == theBest
+    background: #0087cc
+  @else
+    background: #cccc33
+    
+@for $col from 1 to 6
+  .col-#{$col}
+    width: 40px * $col
+
+$heading: 1
+
+@while $heading <= 6
+  h#{$heading}
+    font-size: 2em - ($heading * .25em)
+  $heading: $heading + 1

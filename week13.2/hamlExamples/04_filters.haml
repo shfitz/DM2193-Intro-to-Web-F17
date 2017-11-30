@@ -1,0 +1,21 @@
+!!! 5
+%head
+    %title I love HAML
+    %script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+    / 
+        HAML also has filters that allow you to use things like CSS and Javascript. these are preceeded by a : followed by the name of the filter, with the filtered content underneath
+    :javascript
+        $(document).ready(function(){
+            $('button').on('click', function() {
+                $('p').hide('slow');
+            })
+        });
+    :css
+        .container {
+        margin: 10px auto;
+        width:450px;
+        }
+%body
+    .container
+        %p hello world!
+        %button i'm your button

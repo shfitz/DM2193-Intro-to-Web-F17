@@ -1,0 +1,33 @@
+<html>
+  <head>
+  <title>SASS</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 16px;
+      }
+        code{
+            font-size: 18px;
+            border-style: dotted;
+            border-width: 1px;
+            margin: 3px;
+            color: red;
+            border-color: black;
+        }
+        #container{
+            width: 75%;
+            margin: auto;
+            border-style: dashed;
+            border-radius: 5px;
+            border-width: 1px;
+            padding: 10px;
+            background-color: azure;
+        }
+    </style>
+  </head>
+  <body><div id="container">
+    <h1>SASS</h1>
+      <p>Like HAML, <a href="http://sass-lang.com/">Sass</a> (Syntactically Awesome StyleSheets) is a preprocessed language using Ruby, but it's for CSS. There's a related langage called SCSS (Sassy CSS) that has a more flexible syntax than Sass.</p><p>Like HAML, Sass and SCSS are compiled with Ruby and need to be installed via the command line with <code>gem install sass</code>. SCSS and Sass files need to have the .scss or .sass file extension.</p> <p>To convert these files, you run <code>sass style.sass style.css</code>, similar to HAML. Unlike HAML, Sass allows you to watch for changes in source files, so it will compile automagically for you.<code>sass --watch styles.sass:styles.css</code> will make changes for you automatically based on changes to the source. You can watch a whole folder with <code>sass --watch assets/sass:assets/css</code></p>
+      </div>
+    </body>
+</html>

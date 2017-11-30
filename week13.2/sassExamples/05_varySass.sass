@@ -1,0 +1,16 @@
+$style: dashed
+$size: 1px
+$sans: "Verdana", sans-serif
+
+p
+    font: $sans
+    border:
+        style: $style
+        width: $size
+
+// beow shows using variables as properties and classes
+$type: root
+$offset: left
+
+.#{$type}
+    #{$offset}: 20px

@@ -32,7 +32,7 @@
         <p> include the following in your page : </p><code>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"&gt;&lt;/script&gt;</code> and <pre><code>
 &lt;script&gt;
 window.onload = function(){
-    var logo = document.getElementById("cat");
+    var cat = document.getElementById("cat");
     TweenLite.to(cat, 10, {left:"632px"});
 }
 &lt;/script&gt;    
@@ -46,7 +46,7 @@ window.onload = function(){
         <p>There's a lot more to GSAP. Here's <a href="https://greensock.com/get-started-js">a getting started video</a> that is useful.</p><p>There are a number of things you can do to extend GSAP as well, like <a href="https://greensock.com/draggable">dragging and dropping.</a></p>
         <script>
             function moveCat() {
-                var logo = document.getElementById("cat");
+                var cat = document.getElementById("cat");
                 TweenLite.to(cat, 2, {
                     left: "632px"
                 });

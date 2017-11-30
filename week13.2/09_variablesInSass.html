@@ -1,0 +1,47 @@
+<html>
+  <head>
+  <title>Sass variables</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 16px;
+      }
+        code{
+            font-size: 18px;
+            color: red;
+        }
+        #container{
+            width: 75%;
+            margin: auto;
+            border-style: dashed;
+            border-radius: 5px;
+            border-width: 1px;
+            padding: 10px;
+            background-color: azure;
+        }
+    </style>
+  </head>
+  <body><div id="container">
+    <h1>variables</h1>
+      <p>Holy smokes! Variables in CSS, at last! you can set a variable with <code>$variable-name: variable</code>. So you use a dollar sign, give the variable name, and finally the value to hold.</p>
+      <pre><code>
+$border-style: dashed
+$border-size: 1px
+$sans-serif: "Verdana", sans-serif
+
+p
+    font: $sans-serif
+    border:
+        style:border-style
+        size:border-size
+</code></pre>
+      <p>Variables can be placed pretty much wherever in Sass, but if youre using it to name classes, ids, properties, or in a string, you'll need to use a slightly different syntax : </p><pre><code>
+$type: root
+$offset: left
+
+.#{$root}
+  #{$offset}: 20px
+</code></pre>
+      </div>
+    </body>
+</html>

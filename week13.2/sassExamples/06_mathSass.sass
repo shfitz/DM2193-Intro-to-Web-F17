@@ -1,0 +1,14 @@
+.myStyle
+    width: 40px + 5
+    height: 40px - 5
+    margin-left: 40px * 5
+    margin-right: 40px % 5
+    margin-bottom: (40px / 10) /* division requires () */
+ 
+$grid: 16
+$column: 40px
+$gutter: 20px
+$container: ($column * $grid) + ($gutter * $grid)
+
+div
+    width: $container

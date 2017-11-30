@@ -1,0 +1,34 @@
+<html>
+  <head>
+  <title>HAML</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 15px;
+      }
+        #container{
+            width: 75%;
+            margin: auto;
+            border-style: dashed;
+            border-radius: 5px;
+            border-width: 1px;
+            padding: 10px;
+            background-color: azure;
+        }
+    </style>
+  </head>
+  <body><div id="container">
+    <h1>HAML classes and IDs</h1>
+      <p>you can declare classes and ids like other attributes, but they need to be used a little differently. instead of <code>()</code>, use a <code>.</code> or <code>#</code> right after the element. You can mix and match as needed.</p>
+      <pre><code>
+%p.lede
+%p#content
+%p#content.lede
+      </code></pre><p>If you're applying a class or id t a <code>div</code>, you get to save even more keystrokes.</p><pre><code>
+.container
+.container.sweet
+#root.container
+</code></pre>
+      </div>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+<html>
+  <head>
+  <title>Sass calculations</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 16px;
+      }
+        code{
+            font-size: 18px;
+            color: red;
+        }
+        #container{
+            width: 75%;
+            margin: auto;
+            border-style: dashed;
+            border-radius: 5px;
+            border-width: 1px;
+            padding: 10px;
+            background-color: azure;
+        }
+    </style>
+  </head>
+  <body><div id="container">
+    <h1>What the math?!</h1>
+      <h3>computation</h3>
+ <p>Sass also has the ability to do calculations like addition, subtraction, division, multiplication. When you're using units, the first number should have the value attached. </p><code><pre>
+
+
+width: 40px + 6
+width: 40px - 6
+width: 40px * 6
+width: 40px % 6
+width: (40px / 10) /* division requires () */
+ 
+$grid: 16
+$column: 40px
+$gutter: 20px
+$container: ($column * $grid) + ($gutter * $grid)
+
+width: $container
+</pre></code>
+      
+      <h3>built in math functions</h3>
+      <p>there are a bunch of built in math functions too : <code>percentage() round() floor() ceil() abs()</code></p>
+      <h3>if</h3>
+      <p>wowzers, an if statement! Useful for setting up a debugging system</p><code><pre>
+$cats: awesome
+
+.cats
+  @if $cats == awesome
+    background: #ff7b29
+  @else if $cats == theBest
+    background: #0087cc
+  @else
+    background: #cccc33
+</pre></code>
+      <h3>for loops</h3>
+      <p>Useful fr generating a bunch of related classes or styles at once </p><code><pre>
+@for $col from 1 to 6
+  .col-#{$col}
+    width: 40px * $col
+</pre></code>
+      <h3>while loops</h3>
+      <p>you can also do while loops</p><code><pre>
+$heading: 1
+@while $heading <= 6
+  h#{$heading}
+    font-size: 2em - ($heading * .25em)
+  $heading: $heading + 1
+</pre></code>
+      <h3>imports</h3><p>You can also import a buncg of different stule sheets automatically to save on download time</p><code><pre>
+@import "portfolio"
+@import "images", "layout"
+</pre></code>
+      </div>
+    </body>
+</html>

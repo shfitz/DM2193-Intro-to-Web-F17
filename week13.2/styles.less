@@ -1,0 +1,28 @@
+@codeColor: red;
+@bgColor: azure;
+@genSize: 14px;
+.roundedCorners (@radius: 5px) {
+    border-radius: @radius;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #333333;
+}
+
+#container {
+    width: 75%;
+    margin: auto;
+    .roundedCorners();
+    background-color: @bgColor;
+    padding: @genSize;
+}
+
+code {
+    font-size: @genSize;
+    color: @codeColor;
+    .roundedCorners();
+}
+
+body {
+    font-family: sans-serif;
+    padding: @genSize;
+}

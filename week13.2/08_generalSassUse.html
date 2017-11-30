@@ -1,0 +1,68 @@
+<html>
+  <head>
+  <title>Sass Syntax</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 16px;
+      }
+        code{
+            font-size: 18px;
+            color: red;
+        }
+        #container{
+            width: 75%;
+            margin: auto;
+            border-style: dashed;
+            border-radius: 5px;
+            border-width: 1px;
+            padding: 10px;
+            background-color: azure;
+        }
+    </style>
+  </head>
+  <body><div id="container">
+    <h1>general use</h1>
+      <h3>nesting</h3>
+      <p>You can nest selectors and properties inside of one another in Sass easily. With selectors, it would look like this : </p><pre><code>
+.container
+  border: 1px solid #9799a7
+  ul
+    list-style: none
+  li
+    float: left
+</code></pre><p>nesting properties is probably going to be more useful for you right now. you can do things like list out all the font, margin, padding, etc. properties like this : </p><pre><code>
+div
+  font:
+    family: sans-serif
+    style: italic
+    weight: normal
+  border:
+    style: dotted
+    width: 1px
+    radius: 20px
+</code></pre>
+      <h3>media queries</h3><p>you can nest media queries as well.</p><pre><code>
+.container
+  width: 960px
+  @media screen and (max-width: 960px)
+    width: 100%
+</code></pre><h3>pseudo classes</h3><p>you can add styles to a pseudo class with an <code>&amp;</code></p><pre><code>
+a
+  color: #0087cc
+  text-decoration:none
+  &amp;:hover
+    color: #ff7b29
+    text-decoration:underline
+    </code></pre>
+      <h3>comments</h3><p>like HAML, there are general comments for CSS, and comments for Sass itself</p><pre><code>
+/* CSS comment */
+div
+  background: #333
+// Sass comment
+h1
+  font-family: san-serif
+  </code></pre>
+      </div>
+    </body>
+</html>

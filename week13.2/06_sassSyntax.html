@@ -1,0 +1,68 @@
+<html>
+  <head>
+  <title>Sass Syntax</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 16px;
+      }
+        code{
+            font-size: 18px;
+            border-style: dotted;
+            border-width: 1px;
+            margin: 3px;
+            color: red;
+            border-color: black;
+        }
+        #container{
+            width: 75%;
+            margin: auto;
+            border-style: dashed;
+            border-radius: 5px;
+            border-width: 1px;
+            padding: 10px;
+            background-color: azure;
+        }
+    </style>
+  </head>
+  <body><div id="container">
+    <h1>Sass and SCSS Syntax</h1>
+      <p>Each of these has a unique syntax. SCSS is pretty similar to regular CSS (you can write straight up CSS in there and it'll be ok). Sass, however, is pretty strict and poorly formatted code won't compile. Sass doesn't have any curly brackets or semicolons, just indentation.</p>
+      <h2>SCSS example</h2><code><pre>
+.container {
+    color: #ff7b29;
+    font-weight: bold;
+    p {
+        text-transform: uppercase;
+    }
+}
+</pre></code>
+      <h2>CSS output</h2><code><pre>
+.container {
+  color: #ff7b29;
+  font-weight: bold;
+}
+.container p {
+  text-transform: uppercase;
+}      
+</pre></code>
+      
+      <h2>Sass Example</h2><code><pre>
+.container
+    color: #ff7b29
+    font-weight: bold
+p
+    text-transform: uppercase
+</pre></code>
+      <h2>CSS output</h2><code><pre>
+.container {
+  color: #ff7b29;
+  font-weight: bold;
+}
+p {
+  text-transform: uppercase;
+}      
+</pre></code>
+      </div>
+    </body>
+</html>
