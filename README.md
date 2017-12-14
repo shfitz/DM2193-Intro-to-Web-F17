@@ -75,10 +75,9 @@ If you do not ask questions, I can only assume you understand the material compl
 
 #####Quanitative Grading Overview:
 * Regular Assignments 20%
-* Show & Tell 10%
+* Show & Tell 15%
 * Midterm Project 20%
 * Final Project 25%
-* Self Assessment & Rubric 5%
 * Participation 20%
 
 #### Qualitative Grading Overview:
